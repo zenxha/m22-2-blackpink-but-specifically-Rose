@@ -1,0 +1,18 @@
+<!-- This page is illustrative and contains ideas about HTML formatting -->
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{fragments/layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <title>Error</title>
+</div></head>
+
+<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+<body><div layout:fragment="content" th:remove="tag">
+    <div id="spring_intro" class="alert" style="margin: 30px;">
+        <p>404 Error page</p>
+    </div>
+</div></body>
+
+</html>
