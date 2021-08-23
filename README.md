@@ -2,10 +2,9 @@
 
 ## Team Check 0
 #### Tech Talk 0
-- Github created [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose) 
+- Github created [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose) with HTML, CSS, and Java for the website
 - Slack channel created [here](https://app.slack.com/client/TRDESSQ3T/C02BRKQ8T0T)
 - Each member has their own [laptops with intelliJ installed](https://files.catbox.moe/qhi8gh.jpg)
-- https://i.imgur.com/8sjV8g1.png
 #### Tech Talk 0.1
 - stuff
 #### Tech Talk 0.2
