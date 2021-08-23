@@ -5,6 +5,7 @@
 - Github created [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose) 
 - Slack channel created [here](https://app.slack.com/client/TRDESSQ3T/C02BRKQ8T0T)
 - Each member has their own [laptops with intelliJ installed](https://files.catbox.moe/qhi8gh.jpg)
+- https://i.imgur.com/6ieGbap.png
 #### Tech Talk 0.1
 - stuff
 #### Tech Talk 0.2
