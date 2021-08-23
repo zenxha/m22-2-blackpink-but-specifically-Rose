@@ -1,4 +1,4 @@
-# m22-2-blackpink-but-specifically-Rose
+# m222-blackpink-but-specifically-Rose
 
 ## Team Check 0
 #### Tech Talk 0
