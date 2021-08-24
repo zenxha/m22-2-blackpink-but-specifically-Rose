@@ -11,7 +11,7 @@
 - Scrum leader: Charlie
 #### Tech Talk 0.2 Project Deliverables starting with Collaboration, Design
 - Slack channel created for communication between members and teacher [here](https://app.slack.com/client/TRDESSQ3T/C02BRKQ8T0T)
-- Team [discord server](*) created for further collaboration outside school, with [github bot](*) notifying members of live commits
+- Team [discord server](https://files.catbox.moe/4oxgir.jpeg) created for further collaboration outside school, with [github bot](https://files.catbox.moe/rvvbar.jpeg) notifying members of live commits
 #### Tech Talk 0.3 Sprint Schedule, Scrum Board
 - Scrum Board [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1), with columns for each section of the development process
 - Schedule is monday for planning tickets on scrum board, rest of the week is for completing the tickets created on scrum board
