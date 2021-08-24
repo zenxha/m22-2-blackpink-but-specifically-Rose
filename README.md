@@ -1,7 +1,7 @@
 # m22-2-blackpink-but-specifically-Rose
 ## Journals
 - [Tanmay + Allen](https://docs.google.com/document/d/15Ekpi-FsKLaUle2gp-GgvUfvluW4ak22zdcleXAWpAk/edit?usp=sharing)
-- [Charlie + Komay](*)
+- [Charlie + Komay](https://docs.google.com/document/d/1ocjpNegp6Q31gx7DX-1zUqktbTq_CuCo9r2nHG0IQWY/edit?usp=sharing)
 ## Team Check 0
 #### Tech Talk 0 Tools and Equipment
 - Github created [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose) with HTML, CSS, and Java for the website
