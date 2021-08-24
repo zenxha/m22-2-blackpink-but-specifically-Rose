@@ -18,7 +18,7 @@
 - Scrum Board [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1), with columns for each section of the development process
 - Schedule is monday for planning tickets on scrum board, rest of the week is for completing the tickets created on scrum board
 #### Tech Talk 0.4 Tangible Artifacts, aka Code
-- Each member has done a commit on the project [here](*)
+- Each member has done a commit on the project [here](https://files.catbox.moe/9fnoxf.png)
 - Utlize embeds for easy access to tangible artifacts for teacher
 #### Tech Talk 0.5 Digital Journal
 - Created group google folder [here](https://drive.google.com/drive/folders/1xlv1ts4n4b7GrXMjDANCVuo7VxaM3QAg?usp=sharing) for any documents needed
