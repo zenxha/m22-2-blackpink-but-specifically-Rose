@@ -1,10 +1,7 @@
 # m22-2-blackpink-but-specifically-Rose
 
 ## Team Check 0
-#### Tech Talk 0 Tools and Equipment
-- Github created [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose) with HTML, CSS, and Java for the website
-- Slack channel created [here](https://app.slack.com/client/TRDESSQ3T/C02BRKQ8T0T)
-- Each member has their own [laptops with intelliJ installed](https://files.catbox.moe/qhi8gh.jpg)
+
 #### Tech Talk 0.1 Vision, Student Leadership
 - Project vision: November KPOP appreciation calendar
 - Formed crossover group with Flaming Flamingos, repo is [here](*)
