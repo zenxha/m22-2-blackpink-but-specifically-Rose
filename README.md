@@ -9,7 +9,7 @@
 - Slack channel created [here](https://app.slack.com/client/TRDESSQ3T/C02BRKQ8T0T)
 - Each member has their own [laptops with intelliJ installed](https://files.catbox.moe/qhi8gh.jpg)
 #### Tech Talk 0.1 Vision, Student Leadership
-- Project vision: November KPOP appreciation calendar
+- Project vision: Month improvment calendar placed in November
 - Formed crossover group with Flaming Flamingos, repo is [here](https://github.com/gracele246/flamingflamingos)
 - Scrum leader: Charlie
 #### Tech Talk 0.2 Project Deliverables starting with Collaboration, Design
