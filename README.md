@@ -11,7 +11,7 @@
 #### Tech Talk 0.1 Vision, Student Leadership
 - Project vision: Month improvment calendar placed in November
 - Formed crossover group with Flaming Flamingos, repo is [here](https://github.com/gracele246/flamingflamingos)
-- Scrum leader: Charlie
+- Scrum leader: Allen
 #### Tech Talk 0.2 Project Deliverables starting with Collaboration, Design
 - Slack channel created for communication between members and teacher [here](https://app.slack.com/client/TRDESSQ3T/C02BRKQ8T0T)
 - Team [discord server](https://files.catbox.moe/4oxgir.jpeg) created for further collaboration outside school, with [github bot](https://files.catbox.moe/rvvbar.jpeg) notifying members of live commits
