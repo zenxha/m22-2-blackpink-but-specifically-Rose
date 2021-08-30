@@ -3,6 +3,31 @@
 ## Journals
 - [Tanmay + Allen](https://docs.google.com/document/d/15Ekpi-FsKLaUle2gp-GgvUfvluW4ak22zdcleXAWpAk/edit?usp=sharing)
 - [Charlie + Komay](https://docs.google.com/document/d/1ocjpNegp6Q31gx7DX-1zUqktbTq_CuCo9r2nHG0IQWY/edit?usp=sharing)
+## PBL 1-2 + Unit 2
+#### PBL (Team, 3/3)
+##### Ideation + Design
+- Scrum leader (Allen) created tasks for this week in the [Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#column-15620920)
+- Designer (Komay) created the [Wireframes](https://docs.google.com/presentation/d/18mCshJ3YTV4lI6OJEvFI59Lrd4XrGqgtOw5iQhJmtbs/edit?usp=sharing) for project HTMl pages, worked with Allen
+- Technical lead (Tanmay) created [brainwriting session](https://docs.google.com/document/d/18lFaZaopedXc487wXtfLStosBLSp5eLW73isZIXvl9A/edit?usp=sharing) on google docs, where each member collaborated in formating ideas
+##### Github Assets
+- Navigator (Allen) created the [README](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/README.md) to highlight the ideation process
+- Developer (Komay) created [dropdown menu](*) on the navbar to include the wireframe ideas
+- Developer (Charlie + Tanmay) created [page](*) for Unit 1 minilab and created [page](*) for integration of Greet + Birds
+- Designer (Allen) created 1 minute video on About Us page and runthrough of ideation process
+#### PBL (Individual)
+##### Charlie (0/2)
+- No commits or no ideation documentation
+- Hasn't integrated Greet or added to individual page
+##### Tanmay (1/2)
+- Created ideation documentation for the [Brain Write](https://docs.google.com/document/d/18lFaZaopedXc487wXtfLStosBLSp5eLW73isZIXvl9A/edit?usp=sharing)
+- Hasn't created Greet + Birds integration and individual page work
+##### Komay (1/2)
+- Created ideation documentation for [Wireframes](https://docs.google.com/presentation/d/18mCshJ3YTV4lI6OJEvFI59Lrd4XrGqgtOw5iQhJmtbs/edit?usp=sharing)
+- Integreated individual page [here](*)
+##### Allen (2/2)
+- Collaborated with Komay on wireframes, completed scrum board task of Birds + Greet integration
+- Integreated Greet + Birds indivdual page [here](*)
+
 ## Team Check 0
 #### Tech Talk 0 Tools and Equipment
 - Github created [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose) with HTML, CSS, and Java for the website
