@@ -14,7 +14,7 @@
 - Developer (Komay) created [dropdown menu](*) on the navbar to include the wireframe ideas
 - Developer (Charlie + Tanmay) created [page](*) for Unit 1 minilab and created [page](*) for integration of Greet + Birds
 - Designer (Allen) created 1 minute video on About Us page and runthrough of ideation process
-#### PBL (Individual)
+## PBL (Individual)
 ##### Charlie (0/2)
 - No commits or no ideation documentation
 - Hasn't integrated Greet or added to individual page
@@ -27,7 +27,19 @@
 ##### Allen (2/2)
 - Collaborated with Komay on wireframes, completed scrum board task of Birds + Greet integration
 - Integreated Greet + Birds indivdual page [here](*)
-#### Unit 1+2
+## Unit 1+2
+##### Charlie (5/5)
+- Unit 1 test corrections and notes [here](*), Unit 2 test corrections and notes [here](*)
+- Tools installed, will work on personal laptop
+##### Tanmay (5/5)
+- Unit 1 test corrections and notes [here](*), Unit 2 test corrections and notes [here](*)
+- Tools installed, will work on personal laptop
+##### Komay (5/5)
+- Unit 1 test corrections and notes [here](*), Unit 2 test corrections and notes [here](*)
+- Tools installed, will work on personal laptop
+##### Allen (5/5)
+- Unit 1 test corrections and notes [here](*), Unit 2 test corrections and notes [here](*)
+- Tools installed, will work on personal laptop at school, commit and push to work on desktop at home
 
 ## Team Check 0
 #### Tech Talk 0 Tools and Equipment
