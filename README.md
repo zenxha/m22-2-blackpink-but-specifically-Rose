@@ -27,6 +27,7 @@
 ##### Allen (2/2)
 - Collaborated with Komay on wireframes, completed scrum board task of Birds + Greet integration
 - Integreated Greet + Birds indivdual page [here](*)
+#### Unit 1+2
 
 ## Team Check 0
 #### Tech Talk 0 Tools and Equipment
