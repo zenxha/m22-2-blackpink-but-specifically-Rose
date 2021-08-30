@@ -4,7 +4,7 @@
 - [Tanmay + Allen](https://docs.google.com/document/d/15Ekpi-FsKLaUle2gp-GgvUfvluW4ak22zdcleXAWpAk/edit?usp=sharing)
 - [Charlie + Komay](https://docs.google.com/document/d/1ocjpNegp6Q31gx7DX-1zUqktbTq_CuCo9r2nHG0IQWY/edit?usp=sharing)
 ## PBL 1-2 + Unit 2
-#### PBL (Team, 3/3)
+### PBL (Team, 3/3)
 ##### Ideation + Design
 - Scrum leader (Allen) created tasks for this week in the [Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#column-15620920)
 - Designer (Komay) created the [Wireframes](https://docs.google.com/presentation/d/18mCshJ3YTV4lI6OJEvFI59Lrd4XrGqgtOw5iQhJmtbs/edit?usp=sharing) for project HTMl pages, worked with Allen
@@ -14,7 +14,7 @@
 - Developer (Komay) created [dropdown menu](*) on the navbar to include the wireframe ideas
 - Developer (Charlie + Tanmay) created [page](*) for Unit 1 minilab and created [page](*) for integration of Greet + Birds
 - Designer (Allen) created 1 minute video on About Us page and runthrough of ideation process
-## PBL (Individual)
+### PBL (Individual)
 ##### Charlie (0/2)
 - No commits or no ideation documentation
 - Hasn't integrated Greet or added to individual page
@@ -27,7 +27,7 @@
 ##### Allen (2/2)
 - Collaborated with Komay on wireframes, completed scrum board task of Birds + Greet integration
 - Integreated Greet + Birds indivdual page [here](*)
-## Unit 1+2
+### Unit 1+2
 ##### Charlie (5/5)
 - Unit 1 test corrections and notes [here](*), Unit 2 test corrections and notes [here](*)
 - Tools installed, will work on personal laptop
