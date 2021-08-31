@@ -21,3 +21,24 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/.idea/.gitignore
+/target/classes/templates/error/404.html
+/target/classes/application.properties
+/target/classes/templates/birds.html
+/.idea/compiler.xml
+/.idea/encodings.xml
+/target/classes/templates/fragments/footer.html
+/target/classes/templates/greet.html
+/target/classes/templates/fragments/head.html
+/target/classes/templates/index.html
+/.idea/jarRepositories.xml
+/target/classes/templates/komay.html
+/target/classes/templates/layout.html
+/.idea/misc.xml
+/target/classes/templates/fragments/nav.html
+/target/classes/static/images/ncs_logo.png
+/target/classes/templates/rail.html
+/.idea/runConfigurations.xml
+/target/classes/static/vanta/three.r119.min.js
+/target/classes/static/vanta/vanta.birds.min.js
+/.idea/vcs.xml
