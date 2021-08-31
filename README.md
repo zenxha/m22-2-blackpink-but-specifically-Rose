@@ -5,7 +5,7 @@
 - [Charlie + Komay](https://docs.google.com/document/d/1ocjpNegp6Q31gx7DX-1zUqktbTq_CuCo9r2nHG0IQWY/edit?usp=sharing)
 ## PBL 1-2 + Unit 2
 ### Individual Scores:
-- Charlie: 3/10
+- Charlie: 9/10
 - Komay: 9/10
 - Tanmay: 9/10
 - Allen: 10/10
@@ -33,8 +33,8 @@
 - Collaborated with Komay on [wireframes](https://docs.google.com/presentation/d/18mCshJ3YTV4lI6OJEvFI59Lrd4XrGqgtOw5iQhJmtbs/edit?usp=sharing), led idea documentation for [Brain Write](https://docs.google.com/document/d/18lFaZaopedXc487wXtfLStosBLSp5eLW73isZIXvl9A/edit?usp=sharing), completed scrum board [README ticket](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-67874578) for this week
 - Integreated Greet + Birds indivdual page [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/rail.html)
 ### Unit 1+2
-##### Charlie (0/5)
-- Unit 1 test corrections and notes [here](*), Unit 2 test corrections and notes [here](*)
+##### Charlie (5/5)
+- Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1bhMDy7cRTzBEHNNC9u4IQnlsFv8spDUXTqndsrV5Eh8/edit), Unit 2 test corrections and notes [here](*)
 - Tools installed, will work on personal laptop
 ##### Tanmay (5/5)
 - Unit 1 test corrections and notes [here](*), Unit 2 test corrections and notes [here](*)
