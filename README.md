@@ -30,7 +30,7 @@
 - Worked with Allen on the ideation documentation for [Wireframes](https://docs.google.com/presentation/d/18mCshJ3YTV4lI6OJEvFI59Lrd4XrGqgtOw5iQhJmtbs/edit?usp=sharing)
 - Integreated individual page [here](*)
 ##### Allen (2/2)
-- Collaborated with Komay on wireframes, led idea documentation for [Brain Write](https://docs.google.com/document/d/18lFaZaopedXc487wXtfLStosBLSp5eLW73isZIXvl9A/edit?usp=sharing), completed scrum board [README ticket](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-67874578) for this week
+- Collaborated with Komay on [wireframes](https://docs.google.com/presentation/d/18mCshJ3YTV4lI6OJEvFI59Lrd4XrGqgtOw5iQhJmtbs/edit?usp=sharing), led idea documentation for [Brain Write](https://docs.google.com/document/d/18lFaZaopedXc487wXtfLStosBLSp5eLW73isZIXvl9A/edit?usp=sharing), completed scrum board [README ticket](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-67874578) for this week
 - Integreated Greet + Birds indivdual page [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/rail.html)
 ### Unit 1+2
 ##### Charlie (0/5)
