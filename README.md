@@ -4,32 +4,37 @@
 - [Tanmay + Allen](https://docs.google.com/document/d/15Ekpi-FsKLaUle2gp-GgvUfvluW4ak22zdcleXAWpAk/edit?usp=sharing)
 - [Charlie + Komay](https://docs.google.com/document/d/1ocjpNegp6Q31gx7DX-1zUqktbTq_CuCo9r2nHG0IQWY/edit?usp=sharing)
 ## PBL 1-2 + Unit 2
+### Individual Scores:
+- Charlie: 9/10
+- Komay: 9/10
+- Tanmay: 9/10
+- Allen: 10/10
 ### PBL (Team, 3/3)
 ##### Ideation + Design
 - Scrum leader (Allen) created tasks for this week in the [Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#column-15620920)
-- Designer (Komay) created the [Wireframes](https://docs.google.com/presentation/d/18mCshJ3YTV4lI6OJEvFI59Lrd4XrGqgtOw5iQhJmtbs/edit?usp=sharing) for project HTMl pages, worked with Allen
-- Technical lead (Tanmay) created [brainwriting session](https://docs.google.com/document/d/18lFaZaopedXc487wXtfLStosBLSp5eLW73isZIXvl9A/edit?usp=sharing) on google docs, where each member collaborated in formating ideas
+- Designer (Allen) created the [Wireframes](https://docs.google.com/presentation/d/18mCshJ3YTV4lI6OJEvFI59Lrd4XrGqgtOw5iQhJmtbs/edit?usp=sharing) for project HTMl pages, worked with Komay
+- Technical lead (Allen) created [brainwriting session](https://docs.google.com/document/d/18lFaZaopedXc487wXtfLStosBLSp5eLW73isZIXvl9A/edit?usp=sharing) on google docs, where each member collaborated in formating ideas
 ##### Github Assets
 - Navigator (Allen) created the [README](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/README.md) to highlight the ideation process
 - Developer (Komay) created [dropdown menu](*) on the navbar to include the wireframe ideas
 - Developer (Charlie + Tanmay) created [page](*) for Unit 1 minilab and created [page](*) for integration of Greet + Birds
 - Designer (Allen) created 1 minute video on About Us page for runthrough of ideation process
 ### PBL (Individual)
-##### Charlie (0/2)
-- No commits or no ideation documentation
-- Hasn't integrated Greet or added to individual page
+##### Charlie (1/2)
+- Github commits [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/commits/main)
+- Integration of Greet + Birds on individual page [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/commit/44a1cb98c8f1f2f5940320ba2907ea889d959276)
 ##### Tanmay (1/2)
-- Created ideation documentation for the [Brain Write](https://docs.google.com/document/d/18lFaZaopedXc487wXtfLStosBLSp5eLW73isZIXvl9A/edit?usp=sharing)
-- Hasn't created Greet + Birds integration and individual page work
+- Github commits [here](*)
+- Integration of Greet + Birds on individual page [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/tanmay.html)
 ##### Komay (1/2)
-- Created ideation documentation for [Wireframes](https://docs.google.com/presentation/d/18mCshJ3YTV4lI6OJEvFI59Lrd4XrGqgtOw5iQhJmtbs/edit?usp=sharing)
+- Worked with Allen on the ideation documentation for [Wireframes](https://docs.google.com/presentation/d/18mCshJ3YTV4lI6OJEvFI59Lrd4XrGqgtOw5iQhJmtbs/edit?usp=sharing)
 - Integreated individual page [here](*)
 ##### Allen (2/2)
-- Collaborated with Komay on wireframes, completed scrum board [README ticket](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-67874578) for this week
+- Collaborated with Komay on [wireframes](https://docs.google.com/presentation/d/18mCshJ3YTV4lI6OJEvFI59Lrd4XrGqgtOw5iQhJmtbs/edit?usp=sharing), led idea documentation for [Brain Write](https://docs.google.com/document/d/18lFaZaopedXc487wXtfLStosBLSp5eLW73isZIXvl9A/edit?usp=sharing), completed scrum board [README ticket](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-67874578) for this week
 - Integreated Greet + Birds indivdual page [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/rail.html)
 ### Unit 1+2
 ##### Charlie (5/5)
-- Unit 1 test corrections and notes [here](*), Unit 2 test corrections and notes [here](*)
+- Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1bhMDy7cRTzBEHNNC9u4IQnlsFv8spDUXTqndsrV5Eh8/edit), Unit 2 test corrections and notes [here](*)
 - Tools installed, will work on personal laptop
 ##### Tanmay (5/5)
 - Unit 1 test corrections and notes [here](*), Unit 2 test corrections and notes [here](*)
