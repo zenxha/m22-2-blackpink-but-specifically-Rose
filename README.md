@@ -23,9 +23,9 @@
 ##### Charlie (0/2)
 - Commits [here](*)
 - Hasn't integrated Greet or added to individual page
-##### Tanmay (1/2)
+##### Tanmay (2/2)
 - Commits [here](*)
-- Hasn't created Greet + Birds integration and individual page work
+- Created Greet + Birds integration and individual page work [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/tanmay.html)
 ##### Komay (1/2)
 - Worked with Komay on the ideation documentation for [Wireframes](https://docs.google.com/presentation/d/18mCshJ3YTV4lI6OJEvFI59Lrd4XrGqgtOw5iQhJmtbs/edit?usp=sharing)
 - Integreated individual page [here](*)
