@@ -4,6 +4,11 @@
 - [Tanmay + Allen](https://docs.google.com/document/d/15Ekpi-FsKLaUle2gp-GgvUfvluW4ak22zdcleXAWpAk/edit?usp=sharing)
 - [Charlie + Komay](https://docs.google.com/document/d/1ocjpNegp6Q31gx7DX-1zUqktbTq_CuCo9r2nHG0IQWY/edit?usp=sharing)
 ## PBL 1-2 + Unit 2
+### Individual Scores:
+- Charlie: 3/10
+- Komay: 9/10
+- Tanmay: 9/10
+- Allen: 10/10
 ### PBL (Team, 3/3)
 ##### Ideation + Design
 - Scrum leader (Allen) created tasks for this week in the [Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#column-15620920)
@@ -28,7 +33,7 @@
 - Collaborated with Komay on wireframes, completed scrum board [README ticket](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-67874578) for this week
 - Integreated Greet + Birds indivdual page [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/rail.html)
 ### Unit 1+2
-##### Charlie (5/5)
+##### Charlie (0/5)
 - Unit 1 test corrections and notes [here](*), Unit 2 test corrections and notes [here](*)
 - Tools installed, will work on personal laptop
 ##### Tanmay (5/5)
