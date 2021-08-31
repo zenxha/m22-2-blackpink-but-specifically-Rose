@@ -5,10 +5,10 @@
 - [Charlie + Komay](https://docs.google.com/document/d/1ocjpNegp6Q31gx7DX-1zUqktbTq_CuCo9r2nHG0IQWY/edit?usp=sharing)
 ## PBL 1-2 + Unit 2
 ### Individual Scores:
-- Charlie: 10/10
+- Charlie: 3/10
 - Komay: 9/10
 - Tanmay: 9/10
-- Allen: 3/10
+- Allen: 10/10
 ### PBL (Team, 3/3)
 ##### Ideation + Design
 - Scrum leader (Allen) created tasks for this week in the [Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#column-15620920)
@@ -21,13 +21,13 @@
 - Designer (Allen) created 1 minute video on About Us page for runthrough of ideation process
 ### PBL (Individual)
 ##### Charlie (0/2)
-- Commits [here](*)
-- Hasn't integrated Greet or added to individual page
-##### Tanmay (2/2)
-- Commits [here](*)
-- Created Greet + Birds integration and individual page work [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/tanmay.html)
+- Github commits [here](*)
+- Integration of Greet + Birds on individual page [here](*)
+##### Tanmay (1/2)
+- Github commits [here](*)
+- Integration of Greet + Birds on individual page [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/tanmay.html)
 ##### Komay (1/2)
-- Worked with Komay on the ideation documentation for [Wireframes](https://docs.google.com/presentation/d/18mCshJ3YTV4lI6OJEvFI59Lrd4XrGqgtOw5iQhJmtbs/edit?usp=sharing)
+- Worked with Allen on the ideation documentation for [Wireframes](https://docs.google.com/presentation/d/18mCshJ3YTV4lI6OJEvFI59Lrd4XrGqgtOw5iQhJmtbs/edit?usp=sharing)
 - Integreated individual page [here](*)
 ##### Allen (2/2)
 - Collaborated with Komay on wireframes, led idea documentation for [Brain Write](https://docs.google.com/document/d/18lFaZaopedXc487wXtfLStosBLSp5eLW73isZIXvl9A/edit?usp=sharing), completed scrum board [README ticket](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-67874578) for this week
