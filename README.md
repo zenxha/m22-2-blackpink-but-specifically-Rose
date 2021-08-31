@@ -5,10 +5,10 @@
 - [Charlie + Komay](https://docs.google.com/document/d/1ocjpNegp6Q31gx7DX-1zUqktbTq_CuCo9r2nHG0IQWY/edit?usp=sharing)
 ## PBL 1-2 + Unit 2
 ### Individual Scores:
-- Charlie: 3/10
+- Charlie: 10/10
 - Komay: 9/10
 - Tanmay: 9/10
-- Allen: 10/10
+- Allen: 3/10
 ### PBL (Team, 3/3)
 ##### Ideation + Design
 - Scrum leader (Allen) created tasks for this week in the [Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#column-15620920)
