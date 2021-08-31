@@ -13,7 +13,7 @@
 - Navigator (Allen) created the [README](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/README.md) to highlight the ideation process
 - Developer (Komay) created [dropdown menu](*) on the navbar to include the wireframe ideas
 - Developer (Charlie + Tanmay) created [page](*) for Unit 1 minilab and created [page](*) for integration of Greet + Birds
-- Designer (Allen) created 1 minute video on About Us page and runthrough of ideation process
+- Designer (Allen) created 1 minute video on About Us page for runthrough of ideation process
 ### PBL (Individual)
 ##### Charlie (0/2)
 - No commits or no ideation documentation
