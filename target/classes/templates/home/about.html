@@ -1,7 +1,8 @@
+
 <!DOCTYPE HTML>
 <!DOCTYPE HTML>
 <html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
-      layout:decorate="~{charlie}" lang="en">
+      layout:decorate="~{individual/charlie}" lang="en">
 
 <head><div layout:fragment="metadata" th:remove="tag">
     <!-- Start of head content specific to page -->
@@ -9,7 +10,7 @@
     <!-- End of head content specific to page -->
 </div></head>
 
-<body><div layout:fragment="content" th:remove="tag">
+<body><div layout:fragment="content" th:remove="tag"> 
     <!-- Start of body content specific to page -->
     <div class="contact" style="height: 35vh;">
         <div class="row justify-content-left" style="margin: 2%;">
@@ -18,14 +19,14 @@
                     <div class="col-md-3">
                         <div class="card p-3 py-4 mt-5 mb-5">
                             <div class="text-center"> <img src="https://www.pinkvilla.com/files/dear_eonni_jisoo_blackpink.jpg" width="100" class="rounded-circle">
-                                <h3 class="mt-2">Komay</h3> <span class="mt-1 clearfix">Android Developer</span> <small class="mt-4">I am an android developer working at google Inc at california,USA</small>
+                                <h3 class="mt-2">Komay</h3> <span class="mt-1 clearfix">Rosé</span> <small class="mt-4">I stan blackpink, but i don't have clear skin</small>
                                 <div class="social-buttons mt-5"> <button class="neo-button"><i class="fa fa-facebook fa-1x"></i> </button> <button class="neo-button"><i class="fa fa-linkedin fa-1x"></i></button>  <button class="neo-button"><i class="fa fa-youtube fa-1x"></i> </button> </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="card p-3 py-4 mt-5">
-                                <div class="text-center"> <img src="http://cdn.shopify.com/s/files/1/0281/7815/3547/products/blackpink-jennie-ring-k-pop-fashion-22573949092011_1200x1200.jpg?v=1604386767" width="100" class="rounded-circle">
+                                <div class="text-center"> <img src="https://files.catbox.moe/08q9ok.jpeg" width="100" class="rounded-circle">
                                 <h3 class="mt-2">Allen</h3> <span class="mt-1 clearfix">Graphics Designer</span> <small class="mt-4">I am an Graphics Designer working at google Inc at california,USA</small>
                                 <div class="social-buttons mt-5"> <button class="neo-button"><i class="fa fa-facebook fa-1x"></i> </button> <button class="neo-button"><i class="fa fa-linkedin fa-1x"></i></button>  <button class="neo-button"><i class="fa fa-youtube fa-1x"></i> </button> </div>
                             </div>
@@ -33,7 +34,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="card p-3 py-4 mt-5">
-                            <div class="text-center"> <img src="https://files.catbox.moe/yog9zv.jpeg" width="100" class="rounded-circle">
+                            <div class="text-center"> <img src="http://cdn.shopify.com/s/files/1/0281/7815/3547/products/blackpink-jennie-ring-k-pop-fashion-22573949092011_1200x1200.jpg?v=1604386767" width="100" class="rounded-circle">
                                 <h3 class="mt-2">Charlie</h3> <span class="mt-1 clearfix">Java Architect</span> <small class="mt-4">I am an Java Architect working at google Inc at california,USA</small>
                                 <div class="social-buttons mt-5"> <button class="neo-button"><i class="fa fa-facebook fa-1x"></i> </button> <button class="neo-button"><i class="fa fa-linkedin fa-1x"></i></button> <button class="neo-button"><i class="fa fa-youtube fa-1x"></i> </button> </div>
                             </div>
@@ -43,7 +44,7 @@
                     <div class="col-md-3">
                         <div class="card p-3 py-4 mt-5">
                             <div class="text-center"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkQiD6S6JcgESEV-tvKkHbI5CmINzTaVK06Q&usqp=CAU" width="100" class="rounded-circle">
-                                <h3 class="mt-2">Tanmay</h3> <span class="mt-1 clearfix">Java Architect</span> <small class="mt-4">I am an Java Architect working at google Inc at california,USA</small>
+                                <h3 class="mt-2">Tanmay</h3> <span class="mt-1 clearfix">Lisa</span> <small class="mt-4">I think Lisa is the hottest member. I know I'm wrong.</small>
                                 <div class="social-buttons mt-5"> <button class="neo-button"><i class="fa fa-facebook fa-1x"></i> </button> <button class="neo-button"><i class="fa fa-linkedin fa-1x"></i></button> <button class="neo-button"><i class="fa fa-youtube fa-1x"></i> </button> </div>
                             </div>
                         </div>
@@ -133,4 +134,173 @@
     .fa-twitter {
         color: #55acee
     }
+    <!DOCTYPE HTML>
+      <header>
+      <title>Sushi</title>
+                    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+                                                                                                    <nav style="position: relative">
+                                                                                                                                   <script type="text/javascript" src="home/sushi/venv/Lib/site-packages/werkzeug/debug/shared/jquery.js"></script>
+                                                                                                                                                                                                                                            <h1 class="logo"><a href="/">Sushi</a></h1>
+                                                                                                                                                                                                                                                                                    <ul>
+                                                                                                                                                                                                                                                                                    <audio source src="unravel.mp3" type="audio/mpeg"  controls autoplay></audio>
+                                                                                                                                                                                                                                                                                                                                                           <li><a href="/">Home</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                     <li><a href="/upload">Upload</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                       <li><a href="{{ url_for('browse')}}">Browse</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li><a href="{{ url_for('api') }}">API</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    {% if not session['user'] %}
+    <li><a href="{{ url_for('login_post') }}">Sign in</a></li>
+                                                           <li><a href="{{ url_for('signup') }}">Sign Up</a></li>
+                                                                                                              {% endif %}
+
+    {% if session['user'] %}
+    <li><a href="{{ url_for('logout') }}">Logout</a></li>
+                                                      {% endif %}
+
+
+
+    </ul>
+      </nav>
+        {% block title %} {% endblock %}
+    {% block body %} {% endblock %}
+    {% block content %} {% endblock %}
+    </header>
+
+      {#
+        <!--
+        -->
+        #}
+
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+    * {
+        margin: 0;
+        padding: 0;
+        border: none;
+        outline: none;
+        font-size: 100%;
+        font-family: "Roboto";
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+
+    body,
+    html {
+        height: 100%;
+        background-color: unset;
+    }
+
+    ul,
+    ol {
+        list-style: none;
+    }
+
+    header {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        position: absolute;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    header:before {
+        content: "";
+        z-index: -1;
+        height: 1080px;
+        width: 1920px;
+        position: fixed;
+        animation: unset;
+        background: linear-gradient(rgba(103, 135, 211, .6), rgba(144, 25, 166, .6)), url("https://i.ytimg.com/vi/lTRiuFIWV54/maxresdefault.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    header nav {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    header nav .logo {
+        color: #fff;
+        font-size: 2em;
+        text-transform: uppercase;
+        padding: 20px 20px 10px 20px;
+    }
+
+    header nav .logo a {
+        color: #fff;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header nav li a {
+        color: #fff;
+        display: block;
+        position: relative;
+        padding: 20px 20px 10px;
+    }
+
+    header nav li a:before,
+    header nav li a:after {
+        content: "";
+        bottom: 0;
+        width: 0px;
+        height: 2px;
+        display: block;
+        position: absolute;
+        background-color: #fff;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+
+    header nav li a:before {
+        right: 50%;
+    }
+
+    header nav li a:after {
+        left: 50%;
+    }
+
+    header nav li a:hover:before,
+    header nav li a:hover:after {
+        width: 50%;
+    }
+
+    @keyframes grow {
+        0% {
+            transform: scale(1) rotate(0deg);
+        }
+        50% {
+            transform: scale(1.6) rotate(10deg);
+        }
+    }
+
+    @-webkit-keyframes grow {
+        0% {
+            transform: scale(1) rotate(0deg);
+        }
+        50% {
+            transform: scale(1.6) rotate(10deg);
+        }
+    }
+
+    @media only screen and (max-width: 290px) {
+        header nav ul {
+            width: 100%;
+            text-align: center;
+            flex-direction: column;
+        }
+    }
+    {% block style %}
+    {% endblock %}
+    </style>
 </style>
