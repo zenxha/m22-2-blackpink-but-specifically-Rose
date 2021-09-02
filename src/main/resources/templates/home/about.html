@@ -1,0 +1,137 @@
+
+<!DOCTYPE HTML>
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{charlie}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <!-- Start of head content specific to page -->
+    <title>Greet</title>
+    <!-- End of head content specific to page -->
+</div></head>
+
+<body><div layout:fragment="content" th:remove="tag"> 
+    <!-- Start of body content specific to page -->
+    <div class="contact" style="height: 35vh;">
+        <div class="row justify-content-left" style="margin: 2%;">
+            <div class="container d-flex justify-content-center">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card p-3 py-4 mt-5 mb-5">
+                            <div class="text-center"> <img src="https://www.pinkvilla.com/files/dear_eonni_jisoo_blackpink.jpg" width="100" class="rounded-circle">
+                                <h3 class="mt-2">Komay</h3> <span class="mt-1 clearfix">Android Developer</span> <small class="mt-4">I am an android developer working at google Inc at california,USA</small>
+                                <div class="social-buttons mt-5"> <button class="neo-button"><i class="fa fa-facebook fa-1x"></i> </button> <button class="neo-button"><i class="fa fa-linkedin fa-1x"></i></button>  <button class="neo-button"><i class="fa fa-youtube fa-1x"></i> </button> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card p-3 py-4 mt-5">
+                                <div class="text-center"> <img src="https://files.catbox.moe/08q9ok.jpeg" width="100" class="rounded-circle">
+                                <h3 class="mt-2">Allen</h3> <span class="mt-1 clearfix">Graphics Designer</span> <small class="mt-4">I am an Graphics Designer working at google Inc at california,USA</small>
+                                <div class="social-buttons mt-5"> <button class="neo-button"><i class="fa fa-facebook fa-1x"></i> </button> <button class="neo-button"><i class="fa fa-linkedin fa-1x"></i></button>  <button class="neo-button"><i class="fa fa-youtube fa-1x"></i> </button> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card p-3 py-4 mt-5">
+                            <div class="text-center"> <img src="http://cdn.shopify.com/s/files/1/0281/7815/3547/products/blackpink-jennie-ring-k-pop-fashion-22573949092011_1200x1200.jpg?v=1604386767" width="100" class="rounded-circle">
+                                <h3 class="mt-2">Charlie</h3> <span class="mt-1 clearfix">Java Architect</span> <small class="mt-4">I am an Java Architect working at google Inc at california,USA</small>
+                                <div class="social-buttons mt-5"> <button class="neo-button"><i class="fa fa-facebook fa-1x"></i> </button> <button class="neo-button"><i class="fa fa-linkedin fa-1x"></i></button> <button class="neo-button"><i class="fa fa-youtube fa-1x"></i> </button> </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card p-3 py-4 mt-5">
+                            <div class="text-center"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkQiD6S6JcgESEV-tvKkHbI5CmINzTaVK06Q&usqp=CAU" width="100" class="rounded-circle">
+                                <h3 class="mt-2">Tanmay</h3> <span class="mt-1 clearfix">Java Architect</span> <small class="mt-4">I am an Java Architect working at google Inc at california,USA</small>
+                                <div class="social-buttons mt-5"> <button class="neo-button"><i class="fa fa-facebook fa-1x"></i> </button> <button class="neo-button"><i class="fa fa-linkedin fa-1x"></i></button> <button class="neo-button"><i class="fa fa-youtube fa-1x"></i> </button> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of body content specific to page -->
+</div></body>
+
+</html>
+
+
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Noto Sans', sans-serif
+    }
+
+    html,
+    body {
+        height: 100%
+    }
+
+    body {
+        display: grid;
+        place-items: center;
+        background: #eee
+    }
+
+    .card {
+        border-radius: 20px;
+        background: #eeeeee;
+        box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #ffffff;
+        border: none
+    }
+
+    .card img {
+        border-radius: 50%;
+        background: linear-gradient(145deg, #d6d6d6, #ffffff);
+        box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #ffffff
+    }
+
+    .neo-button {
+        width: 40px;
+        height: 40px;
+        outline: 0 !important;
+        cursor: pointer;
+        color: #fff;
+        font-size: 15px;
+        border: none;
+        margin-right: 10px;
+        border-radius: 50%;
+        background: linear-gradient(145deg, #d6d6d6, #ffffff);
+        box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #ffffff
+    }
+
+    .neo-button:active {
+        border-radius: 50%;
+        background: linear-gradient(145deg, #d6d6d6, #ffffff);
+        box-shadow: inset 20px 20px 60px #cacaca, inset -20px -20px 60px #ffffff
+    }
+
+    .fa-facebook {
+        color: #3b5998
+    }
+
+    .fa-linkedin {
+        color: #0077b5
+    }
+
+    .fa-google {
+        color: #dc4e41
+    }
+
+    .fa-youtube {
+        color: #cd201f
+    }
+
+    .fa-twitter {
+        color: #55acee
+    }
+</style>
