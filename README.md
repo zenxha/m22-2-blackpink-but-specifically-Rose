@@ -11,16 +11,16 @@
 - Allen: 10/10
 ### PBL (Team, 3/3)
 ##### Ideation + Design
-- Scrum leader (Allen) created tasks for this week in the [Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#column-15620943)
+- Scrum leader (Allen) created tasks for this week in the [Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#column-15620920)
 - Designer (Allen) created the [Wireframes](https://docs.google.com/presentation/d/18mCshJ3YTV4lI6OJEvFI59Lrd4XrGqgtOw5iQhJmtbs/edit?usp=sharing) for project HTMl pages, worked with Komay
 - Technical lead (Allen) created [brainwriting session](https://docs.google.com/document/d/18lFaZaopedXc487wXtfLStosBLSp5eLW73isZIXvl9A/edit?usp=sharing) on google docs, where each member collaborated in formating ideas
-  - Developer (Komay) helped visualize how to implement ideas into code. 
-  - (Komay) figures out technicals (databases, navigation, backend) to help run the site
+- Developer (Komay) helped visualize how to implement ideas into code. 
+- (Komay) figures out technicals (databases, navigation, backend) to help run the site
 ##### Github Assets
 - Navigator (Allen) created the [README](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/README.md) to highlight the ideation process
-- Developer (Komay) created [dropdown menu](*) on the navbar to include the wireframe ideas
+- Developer (Komay) created [dropdown menu](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/fragments/nav.html#L33-LL43) on the navbar to include the wireframe ideas
 - Developer (Charlie + Tanmay) created [page](*) for Unit 1 minilab and created [page](*) for integration of Greet + Birds
-- Designer (Allen) created 1 minute video on breakdown of this week's grading
+- Designer (Allen) created 1 minute video on About Us page for runthrough of ideation process
 ### PBL (Individual)
 ##### Charlie (1/2)
 - Github commits [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/commits/main)
@@ -30,7 +30,7 @@
 - Integration of Greet + Birds on individual page [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/tanmay.html)
 ##### Komay (1/2)
 - Worked with Allen on the ideation documentation for [Wireframes](https://docs.google.com/presentation/d/18mCshJ3YTV4lI6OJEvFI59Lrd4XrGqgtOw5iQhJmtbs/edit?usp=sharing)
-- Integreated individual page [here](*)
+- Integreated individual page [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/individual/komay.html)
 ##### Allen (2/2)
 - Collaborated with Komay on [wireframes](https://docs.google.com/presentation/d/18mCshJ3YTV4lI6OJEvFI59Lrd4XrGqgtOw5iQhJmtbs/edit?usp=sharing), led idea documentation for [Brain Write](https://docs.google.com/document/d/18lFaZaopedXc487wXtfLStosBLSp5eLW73isZIXvl9A/edit?usp=sharing), completed scrum board [README ticket](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-67874578) for this week
 - Integreated Greet + Birds indivdual page [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/rail.html)
@@ -42,7 +42,7 @@
 - Unit 1 test corrections and notes [here](*), Unit 2 test corrections and notes [here](*)
 - Tools installed, will work on personal laptop
 ##### Komay (5/5)
-- Unit 1 test corrections and notes [here](*), Unit 2 test corrections and notes [here](*)
+- Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1FlgutB1jUicxb6Hy3dimqNP1uEQ_ItrlEd82Ggjk7PM/edit?usp=sharing), Unit 2 test corrections and notes [here](https://docs.google.com/document/d/1ZMOrKoATTfGu7x3lRZq8wu2nxivJoGpDd2VU0QU6m2Q/edit#)
 - Tools installed, will work on personal laptop
 ##### Allen (5/5)
 - Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1qmipHGyDbaOIvZMoPLF0j-YqNkmCWT2oY8VVVGZWofo/edit?usp=sharing), Unit 2 test corrections and notes [here](*)
