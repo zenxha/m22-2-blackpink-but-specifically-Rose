@@ -45,7 +45,7 @@
 - Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1FlgutB1jUicxb6Hy3dimqNP1uEQ_ItrlEd82Ggjk7PM/edit?usp=sharing), Unit 2 test corrections and notes [here](https://docs.google.com/document/d/1ZMOrKoATTfGu7x3lRZq8wu2nxivJoGpDd2VU0QU6m2Q/edit#)
 - Tools installed, will work on personal laptop
 ##### Allen (5/5)
-- Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1qmipHGyDbaOIvZMoPLF0j-YqNkmCWT2oY8VVVGZWofo/edit?usp=sharing), Unit 2 test corrections and notes [here](*)
+- Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1qmipHGyDbaOIvZMoPLF0j-YqNkmCWT2oY8VVVGZWofo/edit?usp=sharing), Unit 2 test corrections and notes [here](https://docs.google.com/document/d/13AfQWE_NywNshQKJNdOn3ptyKcDdatSWd0hciVHP5Qo/edit?usp=sharing)
 - Tools installed, will work on personal laptop at school, commit and push to work on desktop at home
 
 ## Team Check 0
