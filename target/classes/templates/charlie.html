@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{birds}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <!-- Start of head content specific to page -->
+    <title>Greet</title>
+    <!-- End of head content specific to page -->
+</div></head>
+
+<body><div layout:fragment="content" th:remove="tag">
+    <!-- Start of body content specific to page -->
+    <div class="contact" style="height: 35vh;">
+        <div class="row justify-content-left" style="margin: 2%;">
+            <form action="/charlie" method="GET" id="greetForm">
+                <div>
+                    <label for="greetField" style="color: white">What's your name?</label>
+                    <input name="name" id="greetField">
+                    <button>This is me!</button>
+                    <p style="color: white" th:text="'Lookin Big... Keep it up 👍 ' + ${name} + '!'"></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End of body content specific to page -->
+</div></body>
+
+</html>
