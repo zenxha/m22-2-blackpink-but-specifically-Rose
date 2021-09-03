@@ -6,7 +6,7 @@
 ## PBL 1-2 + Unit 2
 ### Individual Scores:
 - Charlie: 9/10
-- Komay: 9/10
+- Komay: 10/10
 - Tanmay: 9/10
 - Allen: 10/10
 ### PBL (Team, 3/3)
@@ -26,7 +26,7 @@
 ##### Tanmay (2/2)
 - Github commits [here](*)
 - Integration of Greet + Birds on individual page [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/tanmay.html)
-##### Komay (1/2)
+##### Komay (2/2)
 - Worked with Allen on the ideation documentation for [Wireframes](https://docs.google.com/presentation/d/18mCshJ3YTV4lI6OJEvFI59Lrd4XrGqgtOw5iQhJmtbs/edit?usp=sharing)
 - Integreated individual page [here](*)
 ##### Allen (2/2)
