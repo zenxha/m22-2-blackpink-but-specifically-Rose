@@ -11,7 +11,7 @@
 - Allen: 10/10
 ### PBL (Team, 3/3)
 ##### Ideation + Design
-- Scrum leader (Allen) created tasks for this week in the [Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#column-15620920)
+- Scrum leader (Allen) created tasks for this week in the [Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#column-15620943)
 - Designer (Allen) created the [Wireframes](https://docs.google.com/presentation/d/18mCshJ3YTV4lI6OJEvFI59Lrd4XrGqgtOw5iQhJmtbs/edit?usp=sharing) for project HTMl pages, worked with Komay
 - Technical lead (Allen) created [brainwriting session](https://docs.google.com/document/d/18lFaZaopedXc487wXtfLStosBLSp5eLW73isZIXvl9A/edit?usp=sharing) on google docs, where each member collaborated in formating ideas
 - Developer (Komay) helped visualize how to implement ideas into code. 
