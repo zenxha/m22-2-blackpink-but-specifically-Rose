@@ -14,7 +14,7 @@ public class Greet4 {
     public String greeting(@RequestParam(name="name", required=false, defaultValue="Charlie") String name, Model model) {
         // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
         model.addAttribute("name", name); // MODEL is passed to html
-        return "charlie"; // returns HTML VIEW (greeting)
+        return "individual/charlie"; // returns HTML VIEW (greeting)
     }
 
 }

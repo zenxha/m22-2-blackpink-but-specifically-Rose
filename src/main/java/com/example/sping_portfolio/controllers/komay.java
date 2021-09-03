@@ -18,7 +18,7 @@ public class komay {
         // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
         model.addAttribute("name", name); // MODEL is passed to html
 
-        return "komay"; // returns HTML VIEW (greeting)
+        return "individual/komay"; // returns HTML VIEW (greeting)
     }
     @GetMapping("/about")
     public String about(String name, Model model) {
