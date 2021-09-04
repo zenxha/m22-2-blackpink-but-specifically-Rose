@@ -19,7 +19,7 @@
 ##### Github Assets
 - Navigator (Allen) created the [README](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/README.md) to highlight the ideation process
 - Developer (Komay) created [dropdown menu](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/fragments/nav.html#L33-LL43) on the navbar to include the wireframe ideas
-- Developer (Komay) created an [About Us]() page to incorporate our information
+- Developer (Komay) created an [About Us](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/home/about.html) page to incorporate our information
 - Developers (Allen + Komay) created [minilab directory](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/tree/main/src/main/java/com/example/sping_portfolio/minilabs) to include mini-labs for individuals
 - Designer (Allen) created 1 minute video on About Us page for runthrough of ideation process
 ### PBL (Individual)
