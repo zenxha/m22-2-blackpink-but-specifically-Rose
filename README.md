@@ -28,7 +28,7 @@
 ##### Tanmay (1/2)
 - Github commits [here](*)
 - Integration of Greet + Birds on individual page [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/tanmay.html)
-##### Komay (1/2)
+##### Komay (2/2)
 - Worked with Allen on the ideation documentation for [Wireframes](https://docs.google.com/presentation/d/18mCshJ3YTV4lI6OJEvFI59Lrd4XrGqgtOw5iQhJmtbs/edit?usp=sharing)
 - Integreated individual page [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/individual/komay.html)
 ##### Allen (2/2)
