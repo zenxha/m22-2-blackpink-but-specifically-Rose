@@ -5,9 +5,9 @@
 - [Charlie + Komay](https://docs.google.com/document/d/1ocjpNegp6Q31gx7DX-1zUqktbTq_CuCo9r2nHG0IQWY/edit?usp=sharing)
 ## PBL 1-2 + Unit 2
 ### Individual Scores:
-- Charlie: 9/10
-- Komay: 9/10
-- Tanmay: 9/10
+- Charlie: 9.5/10
+- Komay: 10/10
+- Tanmay: 9.5/10
 - Allen: 10/10
 ### PBL (Team, 3/3)
 ##### Ideation + Design
@@ -23,10 +23,10 @@
 - Developers (Allen + Komay) created [minilab directory](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/tree/main/src/main/java/com/example/sping_portfolio/minilabs) to include mini-labs for individuals
 - Designer (Allen) created 1 minute video on About Us page for runthrough of ideation process
 ### PBL (Individual)
-##### Charlie (1/2)
+##### Charlie (1.5/2)
 - Github commits [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/commits/main)
 - Integration of Greet + Birds on individual page [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/commit/44a1cb98c8f1f2f5940320ba2907ea889d959276)
-##### Tanmay (1/2)
+##### Tanmay (1.5/2)
 - Github commits [here](*)
 - Integration of Greet + Birds on individual page [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/tanmay.html)
 ##### Komay (2/2)
