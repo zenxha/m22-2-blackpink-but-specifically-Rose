@@ -5,10 +5,10 @@
 - [Charlie + Komay](https://docs.google.com/document/d/1ocjpNegp6Q31gx7DX-1zUqktbTq_CuCo9r2nHG0IQWY/edit?usp=sharing)
 ## PBL 1-2 + Unit 2
 ### Individual Scores:
-- Charlie: 9.5/10
-- Komay: 10/10
-- Tanmay: 9.5/10
-- Allen: 10/10
+- Charlie: 9.5/10 (Didn't focus as much on the ideation process, and instead focused on the individual aspect of the website)
+- Komay: 10/10 (Was effective with both the ideation process as well as the development process of the website)
+- Tanmay: 9.5/10 (Less focused on the ideation process and more focused on the invidiual aspect of the website)
+- Allen: 10/10 (Led most of the ideation process and worked on organizing and presenting this weeks progress)
 ### PBL (Team, 3/3)
 ##### Ideation + Design
 - Scrum leader (Allen) created tasks for this week in the [Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#column-15620920)
