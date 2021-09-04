@@ -37,7 +37,7 @@
 - [Minilab](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/minilabs/Allen.java) for practicing code from College Board 
 ### Unit 1+2
 ##### Charlie (5/5)
-- Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1bhMDy7cRTzBEHNNC9u4IQnlsFv8spDUXTqndsrV5Eh8/edit), Unit 2 test corrections and notes [here](*)
+- Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1bhMDy7cRTzBEHNNC9u4IQnlsFv8spDUXTqndsrV5Eh8/edit), Unit 2 test corrections and notes [here](https://docs.google.com/document/d/15WlHken8fTO4_87e6NQgcXutv-QVzgutmY9YVEcuzPY/edit)
 - Tools installed, will work on personal laptop
 ##### Tanmay (5/5)
 - Unit 1 test corrections and notes [here](*), Unit 2 test corrections and notes [here](*)
