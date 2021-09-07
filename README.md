@@ -3,6 +3,26 @@
 ## Journals
 - [Tanmay + Allen](https://docs.google.com/document/d/15Ekpi-FsKLaUle2gp-GgvUfvluW4ak22zdcleXAWpAk/edit?usp=sharing)
 - [Charlie + Komay](https://docs.google.com/document/d/1ocjpNegp6Q31gx7DX-1zUqktbTq_CuCo9r2nHG0IQWY/edit?usp=sharing)
+## Prototype Check plus Unit 3
+### Individual Scores:
+- Charlie: 5/10
+- Tanmay: 10/10
+- Komay: 10/10
+- Allen: 10/10
+### PBL (Team, 5/5)
+##### HTML
+- Established a chill vibe website with [cooler colered gradients](*) and [calm backgrounds](*)
+- Changed [navbar to be transparent](*) to emphasize the background
+- add picture example
+##### Thymeleaf
+- Incorporated a grid like design to use as the calendar for the website [here](*)
+- Add picture example
+
+### Indiviudal 
+- Charlie unit 3 notes + correctons not [here](*)
+- Tanmay unit 3 notes + corrections [here](*)
+- Komay Unit 3 notes + corrections [here](*)
+- Allen Unit 3 notes + corrections [here](*)
 ## PBL 1-2 + Unit 2
 ### Individual Scores:
 - Charlie: 9.5/10 (Didn't focus as much on the ideation process, and instead focused on the individual aspect of the website)
