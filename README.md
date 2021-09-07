@@ -4,6 +4,12 @@
 - [Tanmay + Allen](https://docs.google.com/document/d/15Ekpi-FsKLaUle2gp-GgvUfvluW4ak22zdcleXAWpAk/edit?usp=sharing)
 - [Charlie + Komay](https://docs.google.com/document/d/1ocjpNegp6Q31gx7DX-1zUqktbTq_CuCo9r2nHG0IQWY/edit?usp=sharing)
 ## Prototype Check plus Unit 3
+Table for this week's tickets
+Issue | Highlights
+------|-----------
+[Bootstrap](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68306147) | Extened the 3x3 bootstrap design to fit a calendar design
+[Navbar](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68305932) | Made navbar transparent to fit design and emphasize background
+
 ### Individual Scores:
 - Charlie: 5/10
 - Tanmay: 10/10
