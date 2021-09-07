@@ -5,69 +5,95 @@
 </head>
 <body>
     <!-- Begin navigation fragments -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" th:fragment="header">
+    <nav class="navbar" th:fragment="header">
         <a class="navbar-brand" href="/">
             <img src="https://files.catbox.moe/1zang4.png" th:src="@{/images/rose-modified.png}" width="50" height="50" class="d-inline-block align-center" alt="">
-            Rosé
+
         </a>
+        <h1 class="logo"> <a href="/"></a>Rosé</h1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Bootstrap menus -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <!--root menu -->
-                <li class="nav-item active">
-                    <a class="nav-link" href="/about">About Us <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarPBL" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        PBL
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/greet">Greet</a>
-                        <a class="dropdown-item" href="/birds">Birds</a>
-                        <a class="dropdown-item" href="/dne">404 error</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarTPT" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        MINILABS
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/komay" target="_blank" rel="noopener noreferrer">Komay</a>
-                        <a class="dropdown-item" href="/allen" target="_blank" rel="noopener noreferrer">Allen</a>
-                        <a class="dropdown-item" href="/tanmay" target="_blank" rel="noopener noreferrer">Tanmay</a>
-                        <a class="dropdown-item" href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank" rel="noopener noreferrer">Charlie</a>
-                    </div>
-                </li>
-            </ul>
-            <!-- Clock display -->
-            <div>
-                <span id="clock"></span>
-            </div>
-            <!-- Dark mode action -->
-            <div class="custom-control custom-switch">
-                <input type="checkbox" onclick="darkFunction()" class="custom-control-input" id="darkSwitch">
-                <label class="custom-control-label" for="darkSwitch"></label>
-            </div>
-            <!-- Navigation bar JavaScript support -->
-            <script>
-                // Dark Mode Toggle
-                function darkFunction() {
-                    let element = document.body;
-                    element.classList.toggle("dark-mode");
-                }
-                // Clock controller
-                let clockElement = document.getElementById('clock');
-                function clock() {
-                    let date = new Date();
-                    clockElement.textContent = date.toLocaleString();
-                }
-                // Clock refresh frequency
-                setInterval(clock, 1000);
-            </script>
-        </div>
+
+            <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+
+                <!-- <audio source src="unravel.mp3" type="audio/mpeg"  controls autoplay></audio> -->
+                <li><a href="/">Home</a></li>
+                <li><a href="/upload">Upload</a></li>
+                <li><a href="/browse">Browse</a></li>
+                <li><a href="/api">API</a></li>
+
+                <li><a href="/login">Log In</a></li>
+                <li><a href="/register">Sign Up</a></li>
+
+
+
+                <li><a href="{{ url_for('logout') }}">Logout</a></li>
+
+
+
+
+
+    <style>
+        header nav {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        header nav .logo {
+            color: #fff;
+            font-size: 2em;
+            text-transform: uppercase;
+            padding: 20px 20px 10px 20px;
+        }
+
+        header nav .logo a {
+            color: #fff;
+        }
+
+        header nav ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        header nav li a {
+            color: #fff;
+            display: block;
+            position: relative;
+            padding: 20px 20px 10px;
+        }
+
+        header nav li a:before,
+        header nav li a:after {
+            content: "";
+            bottom: 0;
+            width: 0px;
+            height: 2px;
+            display: block;
+            position: absolute;
+            background-color: #fff;
+            -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+        }
+
+        header nav li a:before {
+            right: 50%;
+        }
+
+        header nav li a:after {
+            left: 50%;
+        }
+
+        header nav li a:hover:before,
+        header nav li a:hover:after {
+            width: 50%;
+        }
+    </style>
     </nav>
     <!-- Begin navigation fragments -->
 </body>
