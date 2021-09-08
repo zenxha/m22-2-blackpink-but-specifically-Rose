@@ -1,5 +1,5 @@
 package com.example.sping_portfolio.minilabs;
-
+import java.util.ArrayList;
 public class Student {
 
     private String race;
@@ -13,15 +13,20 @@ public class Student {
     }
 
     public String getColleges() {
-         String colleges = null;
+         ArrayList<String> colleges = new ArrayList<String>();
+
         if(gpaAverage < 3.99) {
-            return "You didn't get in";
+            colleges.add("UCSD");
+
+        } else {
+            colleges.add("Harvard");
         }
-        return("UCSD");
+        return(colleges.toString());
     }
     public static void main(String[] args){
         Student komay = new Student(4.0, 1600, "sex");
-        komay.getColleges();
+        String list = komay.getColleges();
+        System.out.println(list);
     }
 
 }
