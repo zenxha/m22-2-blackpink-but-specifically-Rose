@@ -36,8 +36,19 @@
                 -moz-animation: fadein 2s; /* Firefox */
                 -webkit-animation: fadein 2s; /* Safari and Chrome */
                 -o-animation: fadein 2s; /* Opera */
-                background-color: var(--lblue);
+               /* background-color: var(--lblue); */
                 color: var(--dblue);
+                content: "";
+                z-index: -1;
+                height: 1080px;
+                width: 1920px;
+                position: fixed;
+                animation: unset;
+                background: linear-gradient(rgba(103, 135, 211, .6), rgba(144, 25, 166, .6)), url("https://i.ytimg.com/vi/lTRiuFIWV54/maxresdefault.jpg") no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
             }
 
             .dark-mode {
@@ -103,6 +114,28 @@
             .navbar-custom .navbar-brand,
             .navbar-custom .navbar-text {
                 color: var(--lblue);
+            }
+            header {
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                position: absolute;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            header:before {
+                content: "";
+                z-index: -1;
+                height: 1080px;
+                width: 1920px;
+                position: fixed;
+                animation: unset;
+                background: linear-gradient(rgba(103, 135, 211, .6), rgba(144, 25, 166, .6)), url("{{background}}") no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
             }
 
         </style>
