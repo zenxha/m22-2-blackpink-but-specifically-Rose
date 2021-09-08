@@ -15,6 +15,10 @@ Table for this week's tickets
 - Tanmay: 10/10
 - Komay: 10/10
 - Allen: 10/10
+
+### MiniLabs
+- [Minilab 1](*)
+- [Minilab 2](*)
 ### PBL (Team, 5/5)
 ##### HTML
 - Established a chill vibe website with [cooler colered gradients](*) and [calm backgrounds](*)
