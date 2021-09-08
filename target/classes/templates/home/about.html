@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <!DOCTYPE HTML>
 <html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
-      layout:decorate="~{individual/charlie}" lang="en">
+      layout:decorate="~{index}" lang="en">
 
 <head><div layout:fragment="metadata" th:remove="tag">
     <!-- Start of head content specific to page -->
@@ -134,43 +134,7 @@
     .fa-twitter {
         color: #55acee
     }
-    <!DOCTYPE HTML>
-      <header>
-      <title>Sushi</title>
-                    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
-                                                                                                    <nav style="position: relative">
-                                                                                                                                   <script type="text/javascript" src="home/sushi/venv/Lib/site-packages/werkzeug/debug/shared/jquery.js"></script>
-                                                                                                                                                                                                                                            <h1 class="logo"><a href="/">Sushi</a></h1>
-                                                                                                                                                                                                                                                                                    <ul>
-                                                                                                                                                                                                                                                                                    <audio source src="unravel.mp3" type="audio/mpeg"  controls autoplay></audio>
-                                                                                                                                                                                                                                                                                                                                                           <li><a href="/">Home</a></li>
-                                                                                                                                                                                                                                                                                                                                                                                     <li><a href="/upload">Upload</a></li>
-                                                                                                                                                                                                                                                                                                                                                                                                                       <li><a href="{{ url_for('browse')}}">Browse</a></li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li><a href="{{ url_for('api') }}">API</a></li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    {% if not session['user'] %}
-    <li><a href="{{ url_for('login_post') }}">Sign in</a></li>
-                                                           <li><a href="{{ url_for('signup') }}">Sign Up</a></li>
-                                                                                                              {% endif %}
 
-    {% if session['user'] %}
-    <li><a href="{{ url_for('logout') }}">Logout</a></li>
-                                                      {% endif %}
-
-
-
-    </ul>
-      </nav>
-        {% block title %} {% endblock %}
-    {% block body %} {% endblock %}
-    {% block content %} {% endblock %}
-    </header>
-
-      {#
-        <!--
-        -->
-        #}
-
-    <style>
     @import url('https://fonts.googleapis.com/css?family=Roboto');
 
     * {
@@ -300,7 +264,9 @@
             flex-direction: column;
         }
     }
-    {% block style %}
-    {% endblock %}
-    </style>
+</style>
+
+<style>
+
+
 </style>
