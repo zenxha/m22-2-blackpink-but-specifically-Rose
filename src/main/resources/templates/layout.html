@@ -20,5 +20,127 @@
 </html>
 
 <style>
+    :root{
+        --yellow: #f1d483;
+        --green: #9daf9b;
+        --purple: #a59aaf;
+        --lblue: #6084a3;
+        --dblue: #2b425b;
+        --white: whitesmoke;
+        --black: black;
+        --grey: #363d47;
+        --pink:  #FFC0CB;
+    }
 
+    html, body{
+        margin: 0;
+        height: 100%;
+        animation: fadein 2s;
+        -moz-animation: fadein 2s; /* Firefox */
+        -webkit-animation: fadein 2s; /* Safari and Chrome */
+        -o-animation: fadein 2s; /* Opera */
+        /* background-color: var(--lblue); */
+        color: var(--dblue);
+        content: "";
+        z-index: -1;
+        height: 1080px;
+        width: 1920px;
+        position: fixed;
+        animation: unset;
+        background: linear-gradient(rgba(103, 135, 211, .6), rgba(144, 25, 166, .6)), url("https://i.ytimg.com/vi/lTRiuFIWV54/maxresdefault.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .dark-mode {
+        background-color: var(--white);
+        color: var(--black);
+    }
+
+    a {
+        color: #fff;
+    }
+
+    .fa{
+        font-size: 3em;
+        letter-spacing: 1em;
+        transition: all .2s;
+        color: white;
+    }
+
+    .fa:hover{
+        transform: translateY(10px);
+    }
+
+    .fa-youtube-play:hover{
+        color: #cc0000;
+    }
+
+    .fa-twitter:hover{
+        color: #1da1f2;
+    }
+
+    .fa-github:hover{
+        color: #000000;
+    }
+
+    .btn:link,
+    .btn:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 15px 40px;
+        display: inline-block;
+        border-radius: 100px;
+        transition: all .2s;
+        position: absolute;
+        color: white;
+        font-size: 2.5em;
+    }
+
+    .btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 20px 40px rgba(255, 255, 255, 0.2);
+    }
+
+    .btn:active {
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+    }
+
+    .row{
+        align-self: flex-end;
+        margin: auto;
+    }
+
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-text {
+        color: var(--pink);
+    }
+    articles {
+        color: var(--pink)
+    }
+    header {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        position: absolute;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    header:before {
+        content: "";
+        z-index: -1;
+        height: 1080px;
+        width: 1920px;
+        position: fixed;
+        animation: unset;
+        background: linear-gradient(rgba(103, 135, 211, .6), rgba(144, 25, 166, .6)), url("{{background}}") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 </style>

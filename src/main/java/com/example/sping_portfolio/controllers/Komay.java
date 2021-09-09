@@ -24,5 +24,9 @@ public class Komay {
     public String about(String name, Model model) {
         return "home/about";
     }
+    @GetMapping("/binary")
+    public String binary(String name, Model model) {
+        return "home/binary";
+    }
 }
 
