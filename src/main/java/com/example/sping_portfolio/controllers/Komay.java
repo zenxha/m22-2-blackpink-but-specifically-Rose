@@ -25,7 +25,8 @@ public class Komay {
         return "home/about";
     }
     @GetMapping("/binary")
-    public String binary(String name, Model model) {
+    public String binary(@RequestParam(name="bits", required=false, defaultValue="8") int bits, Model model) {
+        model.addAttribute("bits", bits); // MODEL is passed to html
         return "home/binary";
     }
 }
