@@ -4,10 +4,10 @@
 - [Tanmay + Allen](https://docs.google.com/document/d/15Ekpi-FsKLaUle2gp-GgvUfvluW4ak22zdcleXAWpAk/edit?usp=sharing)
 - [Charlie + Komay](https://docs.google.com/document/d/1ocjpNegp6Q31gx7DX-1zUqktbTq_CuCo9r2nHG0IQWY/edit?usp=sharing)
 ## Contributor Data
-|Name|Github ID|Tasks|Scrumboard|Commits|Profile|)
+|Name|Github ID|Tasks|Scrumboard|Commits|Profile|
 |:----:|:----:|:----:|:----:|:----:|:----:|
 |Allen|#32722440|Integrated this week's minilab into project|[Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3Apurplebears321)|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors)(purplebears321)|[Profile](https://github.com/purplebears321)|
-|Komay|#30739783|[Filtered Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3Azenxha|Integrated this week's minilab into project)|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors)(zenxha - Komay)|[Profile](https://github.com/zenxha)|
+|Komay|#30739783|Integrated this week's minilab into project)|[Filtered Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3Azenxha|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors) (zenxha - Komay)|[Profile](https://github.com/zenxha)|
 
 ## Prototype Check plus Unit 3
 Table for this week's tickets
