@@ -4,9 +4,11 @@
 - [Tanmay + Allen](https://docs.google.com/document/d/15Ekpi-FsKLaUle2gp-GgvUfvluW4ak22zdcleXAWpAk/edit?usp=sharing)
 - [Charlie + Komay](https://docs.google.com/document/d/1ocjpNegp6Q31gx7DX-1zUqktbTq_CuCo9r2nHG0IQWY/edit?usp=sharing)
 ## Contributor Data
-|Name|Github ID|Tasks|Commits|Profile|
-|:----:|:----:|:----:|:----:|:----:|
-|Allen|#32722440|Integrated this week's minilab into project|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors)(purplebears321)|[Profile](https://github.com/purplebears321)|
+|Name|Github ID|Tasks|Scrumboard|Commits|Profile|)
+|:----:|:----:|:----:|:----:|:----:|:----:|
+|Allen|#32722440|a|Integrated this week's minilab into project|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors)(purplebears321)|[Profile](https://github.com/purplebears321)|
+|Komay|#30739783|[Filtered Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3Azenxha|Integrated this week's minilab into project)|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors)(zenxha - Komay)|[Profile](https://github.com/zenxha)|
+
 ## Prototype Check plus Unit 3
 Table for this week's tickets
 |Issue|Highlights|
@@ -15,7 +17,7 @@ Table for this week's tickets
 |[Navbar](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68305932)|Made navbar transparent to fit design and emphasize background|
 
 ### Individual Scores:
-- Charlie: 9/10
+- Charlie: 5/10
 - Tanmay: 10/10
 - Komay: 10/10
 - Allen: 10/10
