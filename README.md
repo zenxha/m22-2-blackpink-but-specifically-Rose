@@ -6,7 +6,7 @@
 ## Contributor Data
 |Name|Github ID|Tasks|Scrumboard|Commits|Profile|)
 |:----:|:----:|:----:|:----:|:----:|:----:|
-|Allen|#32722440|Integrated this week's minilab into project|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors)(purplebears321)|[Profile](https://github.com/purplebears321)|
+|Allen|#32722440|a|Integrated this week's minilab into project|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors)(purplebears321)|[Profile](https://github.com/purplebears321)|
 |Komay|#30739783|[Filtered Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3Azenxha|Integrated this week's minilab into project|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors)(zenxha - Komay)|[Profile](https://github.com/zenxha)|
 
 ## Prototype Check plus Unit 3
