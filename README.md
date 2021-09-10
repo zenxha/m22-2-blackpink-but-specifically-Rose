@@ -35,7 +35,7 @@ Table for this week's tickets
 - Add picture example
 
 ### Indiviudal 
-- Charlie unit 3 notes + correctons not [here](*)
+- Charlie unit 3 notes + correctons [here](*)
 - Tanmay unit 3 notes + corrections [here](*)
 - Komay Unit 3 notes + corrections [here](*)
 - Allen Unit 3 notes + corrections [here](*)
