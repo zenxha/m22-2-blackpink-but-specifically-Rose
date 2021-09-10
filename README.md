@@ -5,7 +5,7 @@
 - [Charlie + Komay](https://docs.google.com/document/d/1ocjpNegp6Q31gx7DX-1zUqktbTq_CuCo9r2nHG0IQWY/edit?usp=sharing)
 ## Contributor Data
 |Name|Github ID|Scrumboard Tasks|Commits|Profile|
-|:----:|:----:|:------:|:----:|:----:|:----:|
+|:----:|:----:|:----:|:----:|:----:|
 |Allen|#32722440|[Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3Apurplebears321)|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors) (purplebears321 - Allen)|[Profile](https://github.com/purplebears321)|
 |Komay|#30739783|[Filtered Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3Azenxha)|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors) (zenxha - Komay)|[Profile](https://github.com/zenxha)|
 
