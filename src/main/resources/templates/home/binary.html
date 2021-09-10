@@ -11,15 +11,15 @@
 <!-- Hack 6: fix all warnings -->
 
 <!-- <head> -->
-<div layout:fragment="metadata" th:with="bits=8" th:remove="tag">
+<div layout:fragment="metadata" th:with="bits=${bits}" th:remove="tag">
   <title>Binary page</title>
   <script>
     const BITS = [[${bits}]];
     const MAX = 2 ** BITS - 1;
     const MSG_ON = "Turn on";
-    const IMAGE_ON = "/images/bulb_on.gif";
+    const IMAGE_ON = "https://www.pinkvilla.com/files/styles/gallery-preview/public/blackpinks_rose_heres_all_you_need_to_know_about_the_secrets_behind_the_singers_flawless_beauty_mainimage_0.jpg?itok=7PZincWq";
     const MSG_OFF = "Turn off";
-    const IMAGE_OFF = "/images/bulb_off.png"
+    const IMAGE_OFF = "https://i1.sndcdn.com/artworks-000611744005-a8bk73-t500x500.jpg"
 
     // return string with current value of each bit
     function getBits() {
@@ -109,7 +109,7 @@
 <!-- </head> -->
 
 <!-- <body> -->
-<div layout:fragment="content" th:with="bits=8" th:remove="tag">
+<div layout:fragment="content" th:with="bits=${bits}" th:remove="tag">
   <h1 class="text-center">Binary Math with Conversions</h1>
   <div class="container">
     <div class="row justify-content-md-center">
