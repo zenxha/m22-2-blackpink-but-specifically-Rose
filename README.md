@@ -16,10 +16,11 @@
 
 ## Prototype Check plus Unit 3
 Table for this week's tickets
-|Issue|Highlights|
-|:----:|:----:|
-|[Bootstrap](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68306147)|Extened the 3x3 bootstrap design to fit a calendar design|
-|[Navbar](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68305932)|Made navbar transparent to fit design and emphasize background|
+|Issues|Contributers|Highlights|
+|:----:|:----:|:----:|
+|[Bootstrap](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68306147)|Komay + Tanmay|Extened the 3x3 bootstrap design to fit a calendar design|
+|[Navbar](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68305932)|Allen + Komay|Made navbar transparent to fit design and emphasize background|
+|[Integreate minilab](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68467859)|Charlie + Allen + Komay|Worked on and incorporated minilab onto project minilab directory|
 
 ### Individual Scores:
 - Charlie: 5/10
