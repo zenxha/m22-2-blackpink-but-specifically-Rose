@@ -40,7 +40,7 @@ Ticket Table
 
 ### Indiviudal 
 - Charlie unit 3 notes + correctons [here](*)
-- Tanmay unit 3 notes + corrections [here](*)
+- Tanmay unit 3 notes + corrections [here](https://docs.google.com/document/d/1JpQkPNjjU_RejBVbravWwHAlm1iokGMbBIGKfjAYnOU/edit?usp=sharing)
 - Komay Unit 3 notes + corrections [here](*)
 - Allen Unit 3 notes + corrections [here](https://docs.google.com/document/d/1SMYELtFlgUEiLRagR4VBNXnKGBHqvdqEVEFtWgovhWI/edit?usp=sharing)
 ## PBL 1-2 + Unit 2
