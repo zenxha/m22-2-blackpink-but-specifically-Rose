@@ -21,6 +21,7 @@ Ticket Table
 |[Bootstrap](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68306147)|Komay + Tanmay|Used bootstrap grid to implement an About Us page|
 |[Navbar](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68305932)|Allen + Komay|Made navbar transparent to fit design and emphasize background|
 |[Integreate minilab](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68467859)|Charlie + Allen + Komay|Worked on and incorporated minilab onto project minilab directory|
+|[Establish a vibe](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68465039)|Komay|Created background with gradient in layouts to apply to all pages|
 
 ### Individual Scores:
 - Charlie: 10/10
