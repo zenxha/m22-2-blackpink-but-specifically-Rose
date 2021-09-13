@@ -15,7 +15,7 @@
 |Tanmay|#44328801|[Filtered Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3Atmarwah)|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors) (TMarwah - Tanmay)|[Profile](https://github.com/TMarwah)|
 
 ## Prototype Check plus Unit 3
-Table for this week's tickets
+Ticket Table
 |Issues|Contributers|Highlights|
 |:----:|:----:|:----:|
 |[Bootstrap](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68306147)|Komay + Tanmay|Extened the 3x3 bootstrap design to fit a calendar design|
@@ -28,23 +28,20 @@ Table for this week's tickets
 - Komay: 10/10
 - Allen: 10/10
 
-### MiniLabs
-- [Minilab 1](*)
-- [Minilab 2](*)
 ### PBL (Team, 5/5)
-##### HTML
-- Established a chill vibe website with [cooler colered gradients](*) and [calm backgrounds](*)
-- Changed [navbar to be transparent](*) to emphasize the background
-- add picture example
+##### HTML/Pair Design
+- Established a chill vibe website with [cooler colered gradients](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/592dd794e4e850acfe11bd41778b344edb471363/src/main/resources/templates/fragments/head.html#L33-L53) and [calm backgrounds](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/dee0dc44124e31b2cd021bda5943d139229b341c/src/main/resources/templates/fragments/nav.html#L10)
+- Changed [navbar to be transparent](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/2c0176e6aa7228860772a77a8e453ebcce3fc010/src/main/resources/templates/fragments/nav.html#L39-L69) to emphasize the background
+
 ##### Thymeleaf
-- Incorporated a grid like design to use as the calendar for the website [here](*)
-- Add picture example
+- Incorporated a grid like design from bootstrap to organize a prototype about us page [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/home/about.html)
+
 
 ### Indiviudal 
-- Charlie unit 3 notes + correctons not [here](*)
+- Charlie unit 3 notes + correctons [here](*)
 - Tanmay unit 3 notes + corrections [here](*)
 - Komay Unit 3 notes + corrections [here](*)
-- Allen Unit 3 notes + corrections [here](*)
+- Allen Unit 3 notes + corrections [here](https://docs.google.com/document/d/1SMYELtFlgUEiLRagR4VBNXnKGBHqvdqEVEFtWgovhWI/edit?usp=sharing)
 ## PBL 1-2 + Unit 2
 ### Individual Scores:
 - Charlie: 9.5/10 (Didn't focus as much on the ideation process, and instead focused on the individual aspect of the website)
