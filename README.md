@@ -21,6 +21,7 @@ Ticket Table
 |[Bootstrap](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68306147)|Komay + Tanmay|Used bootstrap grid to implement an About Us page|
 |[Navbar](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68305932)|Allen + Komay|Made navbar transparent to fit design and emphasize background|
 |[Integreate minilab](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68467859)|Charlie + Allen + Komay|Worked on and incorporated minilab onto project minilab directory|
+|[Establish a vibe](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68465039)|Komay|Created background with gradient in layouts to apply to all pages|
 
 ### Individual Scores:
 - Charlie: 10/10
@@ -35,11 +36,12 @@ Ticket Table
 
 ##### Thymeleaf
 - Incorporated a grid like design from bootstrap to organize a prototype about us page [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/home/about.html)
-
+- Altered 3x3 grid pattern on bootstrap to a 2x4 grid pattern for icon + description for members, used [bootstrap cards](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/9e155381673a69ed0d61ae9769fda4a0406b70c5/src/main/resources/templates/home/about.html#L21-L48) for the member + description
+- Demonstrated dynamic table changing with the lightbulb minilab [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/214ea8fcafd6783060544bade4b19a4a9bd684b2/src/main/resources/templates/home/binary.html#L16-L19)
 
 ### Indiviudal 
 - Charlie unit 3 notes + correctons [here](*)
-- Tanmay unit 3 notes + corrections [here](*)
+- Tanmay unit 3 notes + corrections [here](https://docs.google.com/document/d/1JpQkPNjjU_RejBVbravWwHAlm1iokGMbBIGKfjAYnOU/edit?usp=sharing)
 - Komay Unit 3 notes + corrections [here](*)
 - Allen Unit 3 notes + corrections [here](https://docs.google.com/document/d/1SMYELtFlgUEiLRagR4VBNXnKGBHqvdqEVEFtWgovhWI/edit?usp=sharing)
 ## PBL 1-2 + Unit 2
