@@ -23,7 +23,7 @@ Ticket Table
 |[Integreate minilab](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68467859)|Charlie + Allen + Komay|Worked on and incorporated minilab onto project minilab directory|
 
 ### Individual Scores:
-- Charlie: 5/10
+- Charlie: 10/10
 - Tanmay: 10/10
 - Komay: 10/10
 - Allen: 10/10
