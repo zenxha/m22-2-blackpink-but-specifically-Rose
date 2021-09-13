@@ -35,7 +35,8 @@ Ticket Table
 
 ##### Thymeleaf
 - Incorporated a grid like design from bootstrap to organize a prototype about us page [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/home/about.html)
-
+- Altered 3x3 grid pattern on bootstrap to a 2x4 grid pattern for icon + description for members, used [bootstrap cards](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/9e155381673a69ed0d61ae9769fda4a0406b70c5/src/main/resources/templates/home/about.html#L21-L48) for the member + description
+- Demonstrated dynamic table changing with the lightbulb minilab [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/214ea8fcafd6783060544bade4b19a4a9bd684b2/src/main/resources/templates/home/binary.html#L16-L19)
 
 ### Indiviudal 
 - Charlie unit 3 notes + correctons [here](*)
