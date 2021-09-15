@@ -13,6 +13,14 @@
 |Komay|Zenxha|[Filtered Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3Azenxha)|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors) (zenxha - Komay)|[Profile](https://github.com/zenxha)|
 |Charlie|1855387|[Filtered Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3A1855387)|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors) (1855387 - Charlie)|[Profile](https://github.com/1855387)|
 |Tanmay|TMarwah|[Filtered Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3Atmarwah)|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors) (TMarwah - Tanmay)|[Profile](https://github.com/TMarwah)|
+## Prototype Sprint End + Unit 4 
+|Issues|Contributers|Highlights|
+|:----:|:----:|:----:|
+|[README](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68851971)|Allen| |
+|[Journal](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68681532)|All members| |
+|[Calendar](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68681282)|Komay + Allen| |
+|[Background](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68681261)|Komay| |
+|[Create Group Notes](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68852054)|Charlie| |
 
 ## Prototype Check plus Unit 3
 Ticket Table
