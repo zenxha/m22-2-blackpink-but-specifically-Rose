@@ -30,8 +30,17 @@
 ### Individual Technicals
 - Allen
   -  Test
-
-
+- Komay
+  - Test  
+- Charlie
+  - Tickets
+- Tanmay
+  - Tickets
+ ### Unit 4 + Journals
+ - Allen [test + corrections]() and [journal]()
+ - Tanmay [test + corrections]() and [journal]()
+ - Charlie [test + corrections]() and [journal]()
+ - Komay [test + corrections]() and [journal]()
 ## Prototype Check plus Unit 3
 Ticket Table
 |Issues|Contributers|Highlights|
