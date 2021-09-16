@@ -156,7 +156,7 @@
 
           <tr>
             <th:block th:each="i: ${#numbers.sequence(0, bits-1)}">
-              <td><img class="img-responsive py-3" th:id="'bulb' + ${i}" src="" th:src="@{'/images/bulb_off.png'}" alt="" width="40" height="Auto">
+              <td><img class="img-responsive py-3" th:id="'bulb' + ${i}" src="" th:src="@{'https://www.pinkvilla.com/files/styles/gallery-preview/public/blackpinks_rose_heres_all_you_need_to_know_about_the_secrets_behind_the_singers_flawless_beauty_mainimage_0.jpg?itok=7PZincWq'}" alt="" width="40" height="Auto">
                 <button type="button" th:id="'butt' + ${i}" th:onclick="'javascript:toggleBit(' + ${i} + ')'">Turn on</button>
               </td>
             </th:block>
