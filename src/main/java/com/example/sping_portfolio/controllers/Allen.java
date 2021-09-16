@@ -16,7 +16,7 @@ public class Allen {
         model.addAttribute("name", name); // MODEL is passed to html
         return "rail"; // returns HTML VIEW (greeting)
     }
-        @GetMapping("/image")
+    @GetMapping("/image")
     public String image(Model model)  {
         //String web_server = "http://localhost:8080/";
         String web_server = "https://csa.nighthawkcodingsociety.com";
