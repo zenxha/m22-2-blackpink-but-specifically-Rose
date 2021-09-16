@@ -44,7 +44,7 @@ public class Allen {
         String web_server = "https://csa.nighthawkcodingsociety.com";
         List<ImageInfo> lii = new ArrayList<>();
 
-        String file0 = "/images/Mona_Lisa.png";
+        String file0 = "https://variety.com/wp-content/uploads/2021/07/Rick-Astley-Never-Gonna-Give-You-Up.png?w=1024";
         lii.add(new ImageInfo(file0, web_server+file0, 12));
         String str = lii.get(0).grayscale();
 //        String str = lii.get(0).grayscale();
