@@ -22,15 +22,15 @@ public class Allen {
         String web_server = "https://csa.nighthawkcodingsociety.com";
         List<ImageInfo> lii = new ArrayList<>();
 
-        String file0 = "/images/Mona_Lisa.png";
+        String file0 = "https://variety.com/wp-content/uploads/2021/07/Rick-Astley-Never-Gonna-Give-You-Up.png?w=1024";
         lii.add(new ImageInfo(file0, web_server+file0, 12));
         lii.get(0).read_image();
 
-        String file1 = "/images/bulb_on.gif";
+        String file1 = "https://images2.minutemediacdn.com/image/upload/c_crop,h_1349,w_2400,x_0,y_138/v1628703164/shape/mentalfloss/649273-youtube-rick_astley.jpg?itok=8JRk0Avu";
         lii.add(new ImageInfo(file1, web_server+file1, 2));
         lii.get(1).read_image();
 
-        String file2 = "/images/bulb_off.png";
+        String file2 = "https://www.nme.com/wp-content/uploads/2021/07/RickAstley2021.jpg";
         lii.add(new ImageInfo(file2, web_server+file2, 7));
         lii.get(2).read_image();
 
