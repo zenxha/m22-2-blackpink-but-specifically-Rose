@@ -44,7 +44,7 @@
  - Allen 5/5 [test + corrections](https://docs.google.com/document/d/1IPLBCsXWbw8gsO4cQi4_6UReTBswGYEmgEYRD5cBDT4/edit?usp=sharing) and [journal](https://docs.google.com/document/d/15Ekpi-FsKLaUle2gp-GgvUfvluW4ak22zdcleXAWpAk/edit?usp=sharing)
  - Tanmay [test + corrections]() and [journal]()
  - Charlie [test + corrections]() and [journal]()
- - Komay [test + corrections]() and [journal]()
+ - Komay [test + corrections](https://docs.google.com/document/d/1sqiTeB5bO6_4iwiqYYHEXP62h4G8OZ9g5hTEuHQfBMM/edit#bookmark=id.dxjbxixvepzf) and [journal]()
 ## Prototype Check plus Unit 3
 Ticket Table
 |Issues|Contributers|Highlights|
