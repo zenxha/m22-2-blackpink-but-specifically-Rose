@@ -19,7 +19,7 @@
 - Tanmay
 - Komay
 - Allen
-### Team Technicals (Team planning on individual tickets)
+### Team Tickets (Team planning on individual tickets)
 |Issues|Contributers|Highlights|
 |:----:|:----:|:----:|
 |[README](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68851971)|Allen| |
@@ -29,7 +29,8 @@
 |[Create Group Notes](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68852054)|Charlie| |
 ### Individual Technicals
 - Allen
-  -  Test
+  -  Worked on [java class with DeMorgans Law](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/minilabs/DeMorgans.java) to practice and, or, and not Boolean statements
+    - Themed around rating people's chances of being in a relationship based on height and fitness sing Boolean statements
 - Komay
   - Test  
 - Charlie
