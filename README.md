@@ -38,7 +38,7 @@
 - Tanmay
   - Tickets
  ### Unit 4 + Journals
- - Allen [test + corrections]() and [journal]()
+ - Allen [test + corrections](https://docs.google.com/document/d/1IPLBCsXWbw8gsO4cQi4_6UReTBswGYEmgEYRD5cBDT4/edit?usp=sharing) and [journal](https://docs.google.com/document/d/15Ekpi-FsKLaUle2gp-GgvUfvluW4ak22zdcleXAWpAk/edit?usp=sharing)
  - Tanmay [test + corrections]() and [journal]()
  - Charlie [test + corrections]() and [journal]()
  - Komay [test + corrections]() and [journal]()
