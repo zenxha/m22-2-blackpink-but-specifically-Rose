@@ -15,7 +15,7 @@
 |Tanmay|TMarwah|[Filtered Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3Atmarwah)|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors) (TMarwah - Tanmay)|[Profile](https://github.com/TMarwah)|
 ## Prototype Sprint End + Unit 4 
 ### Individual Scores
-- Charlie
+- Charlie 9.5/10
 - Tanmay
 - Komay
 - Allen 10/10
@@ -37,14 +37,16 @@
   - Worked on [java class with DeMorgans Law](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/minilabs/DeMorgans.java) to practice and, or, and not Boolean statements
   - Got the thymeleaf template to [work](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/layout.html)
 - Charlie
-  - Tickets
+  - Worked on [java class with DeMorgans Law](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/minilabs/DeMorgans.java) to practice and, or, and not Boolean statements
+  - 
+  -  
 - Tanmay
   - Tickets
  ### Unit 4 + Journals
  - Allen 5/5 [test + corrections](https://docs.google.com/document/d/1IPLBCsXWbw8gsO4cQi4_6UReTBswGYEmgEYRD5cBDT4/edit?usp=sharing) and [journal](https://docs.google.com/document/d/15Ekpi-FsKLaUle2gp-GgvUfvluW4ak22zdcleXAWpAk/edit?usp=sharing)
  - Tanmay [test + corrections]() and [journal]()
- - Charlie [test + corrections]() and [journal]()
- - Komay [test + corrections](https://docs.google.com/document/d/1sqiTeB5bO6_4iwiqYYHEXP62h4G8OZ9g5hTEuHQfBMM/edit#bookmark=id.dxjbxixvepzf) and [journal]()
+ - Charlie [test + corrections](https://docs.google.com/document/d/1hhK23gJJAdeliAFYcl4wJgzQk80aKE5GFxbH__XJhzA/edit#) and [journal](https://docs.google.com/document/d/1ocjpNegp6Q31gx7DX-1zUqktbTq_CuCo9r2nHG0IQWY/edit?usp=sharing)
+ - Komay [test + corrections]() and [journal]()
 ## Prototype Check plus Unit 3
 Ticket Table
 |Issues|Contributers|Highlights|
