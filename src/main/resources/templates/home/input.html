@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+
+
+<!-- Hack 1: variable bits and variables for IMAGE_ON/IMAGE_OFF should come from backend Model -->
+<!-- Hack 2: have input to allow user to customize bits, 8 or 24 are key for remainder -->
+<!-- Hack 3: add a character display to text when 8 bits, determine if printable or not printable -->
+<!-- Hack 4: add a color code and display color when 24 bits, think about display on this one -->
+<!-- Hack 5: do your own thing -->
+<!-- Hack 6: fix all warnings -->
+
+<!-- <head> -->
+<div layout:fragment="metadata" th:with="bits=${bits}" th:remove="tag">
+    <title>Binary page</title>
+    <script>
+    </script>
+</div>
+<!-- </head> -->
+
+<!-- <body> -->
+<div layout:fragment="content"  th:remove="tag">
+    <div class="container">
+<form action="/upload" method="GET" id="sign-up" enctype="multipart/form-data">
+    <div class="form-group">
+        <h1>Draft review</h1>
+        <fieldset>
+            <!-- made these fields required -->
+
+            <legend><span class="number">1</span> Your basic info</legend>
+            <label for="name">Name:</label>
+            <input class="form-control" type="text" id="name" name="username" required placeholder="Ben Dover" autofocus>
+            <label for="email">Email:</label>
+            <input class="form-control" type="email" id="email" name="email" required placeholder="hughjaas@email.com" autofocus>
+            <label for="content">Leave your review here</label>
+            <input name="content" id="content" required placeholder="Write your review here...
+Ex: I like the sweetness of the teriyaki sauce..." form="sign-up" style="margin: 0px 0px 30px; height: 138px; width: 346px;"></input>
+            <!--upload part-->
+
+
+            <label>Select image</label>
+
+            <input type="file" class="custom-file-input" name="img" id="image" form="sign-up" accept="image/*" mimetype="image/*" required>
+
+            <br>
+            <br>
+            <label>Satisfaction Level</label>
+            <input type="radio" id="love" value="love" name="satisfaction" required><label for="love" class="light">Loved it</label><br/>
+            <input type="radio" id="meh" value="meh" name="satisfaction"><label for="meh" class="light">Meh...</label><br/>
+            <input type="radio" id="hate" value="hate" name="satisfaction"><label for="hate" class="light">Hated it</label><br/>
+
+            <!-- this is an example of the pattern attribute:  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" this could be used to force the user to use the proper format -->
+            <!-- same for minlength and maxlength: minlength="8" maxlength="20" we're using JS to do this.-->
+
+            <div class="error">
+                <!-- if the user does not fill out the required elements or has something wrong we can tell the user with this information.-->
+            </div>
+        </fieldset>
+        </div>
+        <button type="submit">Post</button>
+
+
+</form></div>
+</div>
+<!-- </body> -->
+</html>

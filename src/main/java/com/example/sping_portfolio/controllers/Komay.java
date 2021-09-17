@@ -29,5 +29,10 @@ public class Komay {
         model.addAttribute("bits", bits); // MODEL is passed to html
         return "home/binary";
     }
+    @GetMapping("/input")
+    public String input() {
+        // model.addAttribute("date", date); // MODEL is passed to html
+        return "home/input";
+    }
 }
 
