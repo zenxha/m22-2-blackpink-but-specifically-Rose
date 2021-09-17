@@ -19,17 +19,19 @@
 - Tanmay
 - Komay
 - Allen
-### Team Technicals (Team planning on individual tickets)
+### Team Tickets (Team planning and assignments)
 |Issues|Contributers|Highlights|
 |:----:|:----:|:----:|
-|[README](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68851971)|Allen| |
-|[Journal](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68681532)|All members| |
-|[Calendar](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68681282)|Komay + Allen| |
-|[Background](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68681261)|Komay| |
-|[Create Group Notes](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68852054)|Charlie| |
+|[README](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68851971)|Allen|Created an extended README to store weekly process and allow for easy reflectoin for the future|
+|[Journal](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68681532)|All members|Keeps an updated list of what we've done so we can show learning and understand what to improve on|
+|[Calendar](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68681282)|Komay + Allen|With the main focus being a calendar, researching designs and ways to implement user input is key to finishing our project|
+|[Background](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68681261)|Komay|Establishing our unique vibe is also key to having our project stand out|
+|[Create Group Notes](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68852054)|Charlie|Creating group notes lets us collaborate and discuss ideas to efficently learn material|
+|[create themed DeMorgan's Law minilab](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-69012119)|Allen|demonstrates knowledge of DeMorgans and expands our range of ideas to incorporate|
 ### Individual Technicals
-- Allen
-  -  Test
+- Allen 2/2
+  -  Worked on [java class with DeMorgans Law](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/minilabs/DeMorgans.java) to practice and, or, and not Boolean statements
+    - Themed around rating people's chances of being in a relationship based on height and fitness sing Boolean statements
 - Komay
   - Test  
 - Charlie
@@ -37,7 +39,7 @@
 - Tanmay
   - Tickets
  ### Unit 4 + Journals
- - Allen [test + corrections]() and [journal]()
+ - Allen 5/5 [test + corrections](https://docs.google.com/document/d/1IPLBCsXWbw8gsO4cQi4_6UReTBswGYEmgEYRD5cBDT4/edit?usp=sharing) and [journal](https://docs.google.com/document/d/15Ekpi-FsKLaUle2gp-GgvUfvluW4ak22zdcleXAWpAk/edit?usp=sharing)
  - Tanmay [test + corrections]() and [journal]()
  - Charlie [test + corrections]() and [journal]()
  - Komay [test + corrections]() and [journal]()
