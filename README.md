@@ -18,8 +18,8 @@
 - Charlie
 - Tanmay
 - Komay
-- Allen
-### Team Tickets (Team planning and assignments)
+- Allen 10/10
+### Team Tickets:Team planning(1/1) and assignments(2/2)
 |Issues|Contributers|Highlights|
 |:----:|:----:|:----:|
 |[README](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68851971)|Allen|Created an extended README to store weekly process and allow for easy reflectoin for the future|
@@ -30,7 +30,7 @@
 |[Create themed DeMorgan's Law minilab](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-69012119)|Allen|Demonstrates knowledge of DeMorgans and expands our range of ideas to incorporate|
 |[Binary Page](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/home/binary.html#L118) |Komay| Takes user input on amount of columns to bits (columns) to render on the page.
 ### Individual Technicals
-- Allen 2/2
+- Allen (2/2)
   -  Worked on [java class with DeMorgans Law](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/minilabs/DeMorgans.java) to practice and, or, and not Boolean statements
     - Themed around rating people's chances of being in a relationship based on height and fitness sing Boolean statements
 - Komay
