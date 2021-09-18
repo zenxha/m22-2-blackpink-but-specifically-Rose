@@ -16,7 +16,7 @@
 ## Prototype Sprint End + Unit 4 
 ### [Video Overview](https://youtu.be/Vm8A72i6XSs)
 ### Individual Scores
-- Charlie 9/10
+- Charlie 9.5/10
 - Tanmay 10/10
 - Komay 10/10
 - Allen 10/10
@@ -40,8 +40,10 @@
   - Worked on [dynamic binary table](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/home/binary.html#L118) to practice passing in variables and making dynamicly changing tables
   - Got the thymeleaf template to [work](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/layout.html)
  
-- Charlie (1/2)
-  - Worked on [java class with DeMorgans Law](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/minilabs/DeMorgans.java) to practice and, or, and not Boolean statements
+- Charlie (1.5/2)
+  - Worked on [java class with DeMorgans Law](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/minilabs/Charliedemorgan.java) to practice and, or, and not Boolean statements
+  - Added idea for the calendar to have the ability to log exercise time for each day as shown [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/issues/2)
+  - Next process is to implement the template etc onto the site and getting the prototyped features to work on the real thing
 - Tanmay (2/2)
   - Worked on [java class with DeMorgans Law](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/minilabs/tanmaydemorgan.java) to practice and, or, and not Boolean statements
   - Personal theme is a hunger relation between "eating" and "being hungry
