@@ -15,9 +15,9 @@
 |Tanmay|TMarwah|[Filtered Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3Atmarwah)|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors) (TMarwah - Tanmay)|[Profile](https://github.com/TMarwah)|
 ## Prototype Sprint End + Unit 4 
 ### Individual Scores
-- Charlie 9.5/10
-- Tanmay
-- Komay
+- Charlie 9/10
+- Tanmay 10/10
+- Komay 10/10
 - Allen 10/10
 ### Team Tickets:Team planning(1/1) and assignments(2/2)
 |Issues|Contributers|Highlights|
