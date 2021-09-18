@@ -42,7 +42,8 @@
 - Charlie (1/2)
   - Worked on [java class with DeMorgans Law](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/minilabs/DeMorgans.java) to practice and, or, and not Boolean statements
 - Tanmay (2/2)
-  - Worked on [java class with DeMorgans Law](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/minilabs/DeMorgans.java) to practice and, or, and not Boolean statements
+  - Worked on [java class with DeMorgans Law](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/minilabs/tanmaydemorgan.java) to practice and, or, and not Boolean statements
+  - Personal theme is a hunger relation between "eating" and "being hungry
   - Researched bootstrap calendar formatting and did personal experiments, next steps are to implement sample on site
  ### Unit 4 + Journals
  - Allen 5/5 [test + corrections](https://docs.google.com/document/d/1IPLBCsXWbw8gsO4cQi4_6UReTBswGYEmgEYRD5cBDT4/edit?usp=sharing) and [journal](https://docs.google.com/document/d/15Ekpi-FsKLaUle2gp-GgvUfvluW4ak22zdcleXAWpAk/edit?usp=sharing)
