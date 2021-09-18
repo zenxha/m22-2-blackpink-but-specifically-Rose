@@ -34,16 +34,14 @@
   -  Worked on [java class with DeMorgans Law](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/minilabs/DeMorgans.java) to practice and, or, and not Boolean statements
     - Themed around rating people's chances of being in a relationship based on height and fitness sing Boolean statements
   - Worked with Komay on incorporating a [dynamic table for the binary page](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/home/binary.html#L118) to extend the bits  
-- Komay
+- Komay (2/2)
   - Worked on [java class with DeMorgans Law](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/minilabs/DeMorgans.java) to practice and, or, and not Boolean statements
   - Worked on [dynamic binary table](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/home/binary.html#L118) to practice passing in variables and making dynamicly changing tables
   - Got the thymeleaf template to [work](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/layout.html)
  
-- Charlie
+- Charlie (1/2)
   - Worked on [java class with DeMorgans Law](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/minilabs/DeMorgans.java) to practice and, or, and not Boolean statements
-  - 
-  -  
-- Tanmay
+- Tanmay (2/2)
   - Worked on [java class with DeMorgans Law](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/minilabs/DeMorgans.java) to practice and, or, and not Boolean statements
   - Researched bootstrap calendar formatting and did personal experiments, next steps are to implement sample on site
  ### Unit 4 + Journals
