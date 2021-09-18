@@ -28,14 +28,17 @@
 |[Background](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68681261)|Komay|Establishing our unique vibe is also key to having our project stand out|
 |[Create Group Notes](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-68852054)|Charlie|Creating group notes lets us collaborate and discuss ideas to efficently learn material|
 |[Create themed DeMorgan's Law minilab](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-69012119)|Allen|Demonstrates knowledge of DeMorgans and expands our range of ideas to incorporate|
-|[Binary Page](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/home/binary.html#L118) |Komay| Takes user input on amount of columns to bits (columns) to render on the page.
+|[Binary Page](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/home/binary.html#L118) |Komay + Allen| Takes user input on amount of columns to bits (columns) to render on the page.
 ### Individual Technicals
 - Allen (2/2)
   -  Worked on [java class with DeMorgans Law](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/minilabs/DeMorgans.java) to practice and, or, and not Boolean statements
     - Themed around rating people's chances of being in a relationship based on height and fitness sing Boolean statements
+  - Worked with Komay on incorporating a [dynamic table for the binary page](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/home/binary.html#L118) to extend the bits  
 - Komay
   - Worked on [java class with DeMorgans Law](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/minilabs/DeMorgans.java) to practice and, or, and not Boolean statements
+  - Worked on [dynamic binary table](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/home/binary.html#L118) to practice passing in variables and making dynamicly changing tables
   - Got the thymeleaf template to [work](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/layout.html)
+ 
 - Charlie
   - Worked on [java class with DeMorgans Law](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/minilabs/DeMorgans.java) to practice and, or, and not Boolean statements
   - 
