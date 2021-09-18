@@ -41,10 +41,11 @@
   - 
   -  
 - Tanmay
-  - Tickets
+  - Worked on [java class with DeMorgans Law](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/minilabs/DeMorgans.java) to practice and, or, and not Boolean statements
+  - Researched bootstrap calendar formatting and did personal experiments, next steps are to implement sample on site
  ### Unit 4 + Journals
  - Allen 5/5 [test + corrections](https://docs.google.com/document/d/1IPLBCsXWbw8gsO4cQi4_6UReTBswGYEmgEYRD5cBDT4/edit?usp=sharing) and [journal](https://docs.google.com/document/d/15Ekpi-FsKLaUle2gp-GgvUfvluW4ak22zdcleXAWpAk/edit?usp=sharing)
- - Tanmay [test + corrections]() and [journal]()
+ - Tanmay 5/5 [test + corrections](https://docs.google.com/document/d/1aXilsQMg9h5Ko4u1tEAgz7BmUEARP33ioBFpujR82Yw/edit?usp=sharing) and [journal](https://docs.google.com/document/d/15Ekpi-FsKLaUle2gp-GgvUfvluW4ak22zdcleXAWpAk/edit?usp=sharing)
  - Charlie [test + corrections](https://docs.google.com/document/d/1hhK23gJJAdeliAFYcl4wJgzQk80aKE5GFxbH__XJhzA/edit#) and [journal](https://docs.google.com/document/d/1ocjpNegp6Q31gx7DX-1zUqktbTq_CuCo9r2nHG0IQWY/edit?usp=sharing)
  - Komay [test + corrections]() and [journal]()
 ## Prototype Check plus Unit 3
