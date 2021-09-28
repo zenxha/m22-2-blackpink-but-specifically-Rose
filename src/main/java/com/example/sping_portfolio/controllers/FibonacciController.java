@@ -33,7 +33,7 @@ public class FibonacciController {
         //MODEL attributes are passed back html
         model.addAttribute("fibList", fibInit(nth));
 
-        return "algorithm/fib"; //HTML render fibonacci results
+        return "home/fib"; //HTML render fibonacci results
 
     }
 
