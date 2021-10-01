@@ -14,7 +14,7 @@ public class ExpRecurse extends _Exponential {
     @Override
     protected void init() {
         //setup for recursion
-        super.name = "Method 2";
+        super.name = "Recursion";
         long limit = super.size + 1;
         long[] f = new long[]{0, 2};
         initRecurse(limit,f);       // recursion is redirected
