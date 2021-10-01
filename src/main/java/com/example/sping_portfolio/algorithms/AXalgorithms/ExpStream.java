@@ -15,12 +15,12 @@ public class ExpStream extends _Exponential {
     */
     @Override
     protected void init() {
-        super.name = "Method 3";
+        super.name = "Stream";
         // Stream iterates using lambda "->" syntax unil ".limit" is reached
         // Streams and Lambda have been added to more recent versions of Java, this will NOT be on AP Test
         // Streams are prevalent in Big Data, in this example it seems to perform the worst
-        Stream.iterate(new long[]{0, 1}, f -> new long[]{f[1], f[1] + f[1]})
-                .limit(super.size)
+        Stream.iterate(new long[]{0, 2}, f -> new long[]{f[1], f[1] * 2})
+                .limit(super.size + 1)
                 .forEach(f -> super.setData(f[0]) );
     }
 

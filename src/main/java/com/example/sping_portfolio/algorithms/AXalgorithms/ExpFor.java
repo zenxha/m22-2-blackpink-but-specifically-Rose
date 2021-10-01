@@ -12,10 +12,10 @@ public class ExpFor extends _Exponential {
      */
     @Override
     protected void init() {
-        super.name = "Method 1";
-        long limit = super.size;
+        super.name = "For Loop";
+        long limit = super.size + 1;
         // for loops are likely the most common iteration structure, all the looping facts are in one line
-        for (long[] f = new long[]{0, 1}; limit-- > 0; f = new long[]{f[1], f[1] + f[1]})
+        for (long[] f = new long[]{0, 2}; limit-- > 0; f = new long[]{f[1], f[1] * 2})
             super.setData(f[0]);
     }
 
