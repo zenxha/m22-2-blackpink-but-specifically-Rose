@@ -15,8 +15,8 @@ public class ExpRecurse extends _Exponential {
     protected void init() {
         //setup for recursion
         super.name = "Method 2";
-        long limit = super.size;
-        long[] f = new long[]{0, 1};
+        long limit = super.size + 1;
+        long[] f = new long[]{0, 2};
         initRecurse(limit,f);       // recursion is redirected
     }
 
@@ -28,7 +28,7 @@ public class ExpRecurse extends _Exponential {
         if (limit == 0) return;                                 //exit condition
         super.setData(f[0]);
         // observe this syntax and function, many think of recursion as another way to do iteration
-        initRecurse(--limit, new long[]{f[1], f[1] + f[1]});
+        initRecurse(--limit, new long[]{f[1], f[1] * 2});
     }
 
     /*
