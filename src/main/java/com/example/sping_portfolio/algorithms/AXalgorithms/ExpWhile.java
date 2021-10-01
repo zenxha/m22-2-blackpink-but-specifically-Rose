@@ -13,13 +13,13 @@ public class ExpWhile extends _Exponential {
     */
     @Override
     protected void init() {
-        super.name = "Method 4";
+        super.name = "While";
         // longer and more error prone "while" syntax is often best performer in this small scale test
-        long limit = super.size;
-        long[] f = new long[]{0, 1};
+        long limit = super.size + 1;
+        long[] f = new long[]{0, 2};
         while (limit-- > 0) {
             super.setData(f[0]);
-            f = new long[]{f[1], f[1] + f[1]};
+            f = new long[]{f[1], f[1] * 2};
         }
     }
 
