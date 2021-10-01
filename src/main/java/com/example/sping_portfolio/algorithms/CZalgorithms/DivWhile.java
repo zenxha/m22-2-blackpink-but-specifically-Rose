@@ -16,7 +16,7 @@ public class DivWhile extends _Division {
     @Override
     protected void init() {
         super.name = "Method 4";
-        // longer and more error prone "while" syntCZ is often best performer in this small scale test
+        // longer and more error prone "while" syntCZ is often best performer in this small scale test ??
         long limit = super.size;
         long[] f = new long[]{0, 1};
         while (limit-- > 0) {

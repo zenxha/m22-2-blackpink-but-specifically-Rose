@@ -20,7 +20,7 @@ public class DivRecurse extends _Division {
         super.name = "Method 2";
         long limit = super.size;
         long[] f = new long[]{0, 1};
-        initRecurse(limit,f);       // recursion is redirected
+        initRecurse(limit,f);       // recursion is redirected hello
     }
 
     /*

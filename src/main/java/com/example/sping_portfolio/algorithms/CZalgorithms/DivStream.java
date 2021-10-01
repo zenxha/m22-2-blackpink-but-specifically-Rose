@@ -13,7 +13,7 @@ public class DivStream extends _Division {
     }
 
     /*
-    Abstract Polymorphic "init()" method using Stream and Lambda expressions
+    Abstract Polymorphic "init()" method using Stream and Lambda expressions hello
     */
     @Override
     protected void init() {
