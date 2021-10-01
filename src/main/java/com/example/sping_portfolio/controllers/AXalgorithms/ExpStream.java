@@ -1,12 +1,12 @@
-package com.example.sping_portfolio.controllers.algorithms;
+package com.example.sping_portfolio.controllers.AXalgorithms;
 
 import java.util.stream.Stream;
 
-public class FibStream extends _Fibonacci {
-    public FibStream() {
+public class ExpStream extends _Exponential {
+    public ExpStream() {
         super();
     }
-    public FibStream(int nth) {
+    public ExpStream(int nth) {
         super(nth);
     }
 
@@ -15,11 +15,11 @@ public class FibStream extends _Fibonacci {
     */
     @Override
     protected void init() {
-        super.name = "Stream";
+        super.name = "Method 3";
         // Stream iterates using lambda "->" syntax unil ".limit" is reached
         // Streams and Lambda have been added to more recent versions of Java, this will NOT be on AP Test
         // Streams are prevalent in Big Data, in this example it seems to perform the worst
-        Stream.iterate(new long[]{0, 1}, f -> new long[]{f[1], f[0] + f[1]})
+        Stream.iterate(new long[]{0, 1}, f -> new long[]{f[1], f[1] + f[1]})
                 .limit(super.size)
                 .forEach(f -> super.setData(f[0]) );
     }
@@ -28,7 +28,7 @@ public class FibStream extends _Fibonacci {
     Class method "main" with purpose of testing FibStream
      */
     public static void main(String[] args) {
-        _Fibonacci fibonacci = new FibStream();
+        _Exponential fibonacci = new ExpStream();
         fibonacci.print();
     }
 }

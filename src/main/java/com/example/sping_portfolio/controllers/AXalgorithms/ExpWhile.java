@@ -1,10 +1,10 @@
-package com.example.sping_portfolio.controllers.algorithms;
+package com.example.sping_portfolio.controllers.AXalgorithms;
 
-public class FibWhile extends _Fibonacci {
-    public FibWhile() {
+public class ExpWhile extends _Exponential {
+    public ExpWhile() {
         super();
     }
-    public FibWhile(int nth) {
+    public ExpWhile(int nth) {
         super(nth);
     }
 
@@ -13,13 +13,13 @@ public class FibWhile extends _Fibonacci {
     */
     @Override
     protected void init() {
-        super.name = "While";
+        super.name = "Method 4";
         // longer and more error prone "while" syntax is often best performer in this small scale test
         long limit = super.size;
         long[] f = new long[]{0, 1};
         while (limit-- > 0) {
             super.setData(f[0]);
-            f = new long[]{f[1], f[0] + f[1]};
+            f = new long[]{f[1], f[1] + f[1]};
         }
     }
 
@@ -27,7 +27,7 @@ public class FibWhile extends _Fibonacci {
     Class method "main" with purpose of testing FibWhile
      */
     public static void main(String[] args) {
-        _Fibonacci fibonacci = new FibWhile();
+        _Exponential fibonacci = new ExpWhile();
         fibonacci.print();
     }
 }

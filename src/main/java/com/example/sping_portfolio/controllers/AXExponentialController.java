@@ -1,6 +1,6 @@
 package com.example.sping_portfolio.controllers;
 
-import com.example.sping_portfolio.controllers.algorithms.*;
+import com.example.sping_portfolio.controllers.AXalgorithms.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 
@@ -11,21 +11,21 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
-public class FibonacciController {
+public class AXExponentialController {
 
-    public List<_Fibonacci> fibInit(int nth) {
+    public List<_Exponential> fibInit(int nth) {
         //Fibonacci objects created with different initializers
-        List<_Fibonacci> fibList = new ArrayList<>();
-        fibList.add(new FibFor(nth));
-        fibList.add(new FibWhile(nth));
-        fibList.add(new FibRecurse(nth));
-        fibList.add(new FibStream(nth));
+        List<_Exponential> fibList = new ArrayList<>();
+        fibList.add(new ExpFor(nth));
+        fibList.add(new ExpWhile(nth));
+        fibList.add(new ExpRecurse(nth));
+        fibList.add(new ExpStream(nth));
 
         return fibList;
     }
 
     // GET request,, parameters are passed within the URI
-    @GetMapping("/fib")
+    @GetMapping("/expo")
     public String fib(@RequestParam(name="fibseq", required=false,  defaultValue="2") String fibseq, Model model) {
         //nth is fibonacci request
         int nth = Integer.parseInt(fibseq);
@@ -33,7 +33,7 @@ public class FibonacciController {
         //MODEL attributes are passed back html
         model.addAttribute("fibList", fibInit(nth));
 
-        return "home/fib"; //HTML render fibonacci results
+        return "home/expo"; //HTML render fibonacci results
 
     }
 
@@ -41,8 +41,8 @@ public class FibonacciController {
     public static void main(String[] args) {
         int nth = 20; //!!!make dynamic using consoleUI inputInt!!! 92 is max for long
 
-        List<_Fibonacci> fibList = new FibonacciController().fibInit(nth);
-        for (_Fibonacci fibonacci : fibList)
+        List<_Exponential> fibList = new AXExponentialController().fibInit(nth);
+        for (_Exponential fibonacci : fibList)
             fibonacci.print();  //Console output fibonacci results
     }
 }

@@ -1,10 +1,10 @@
-package com.example.sping_portfolio.controllers.algorithms;
+package com.example.sping_portfolio.controllers.AXalgorithms;
 
-public class FibRecurse extends _Fibonacci {
-    public FibRecurse() {
+public class ExpRecurse extends _Exponential {
+    public ExpRecurse() {
         super();
     }
-    public FibRecurse(int nth) {
+    public ExpRecurse(int nth) {
         super(nth);
     }
 
@@ -14,7 +14,7 @@ public class FibRecurse extends _Fibonacci {
     @Override
     protected void init() {
         //setup for recursion
-        super.name = "Recursion";
+        super.name = "Method 2";
         long limit = super.size;
         long[] f = new long[]{0, 1};
         initRecurse(limit,f);       // recursion is redirected
@@ -28,14 +28,14 @@ public class FibRecurse extends _Fibonacci {
         if (limit == 0) return;                                 //exit condition
         super.setData(f[0]);
         // observe this syntax and function, many think of recursion as another way to do iteration
-        initRecurse(--limit, new long[]{f[1], f[0] + f[1]});
+        initRecurse(--limit, new long[]{f[1], f[1] + f[1]});
     }
 
     /*
     Class method "main" with purpose of testing FibRecurse
      */
     public static void main(String[] args) {
-        _Fibonacci fibonacci = new FibRecurse();  // "FibRecurse" is used as initializer for the "_Fibonacci fibonacci"  object
+        _Exponential fibonacci = new ExpRecurse();  // "FibRecurse" is used as initializer for the "_Fibonacci fibonacci"  object
         fibonacci.print();
     }
 }
