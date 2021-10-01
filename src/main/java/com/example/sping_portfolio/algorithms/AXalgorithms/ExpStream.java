@@ -1,4 +1,4 @@
-package com.example.sping_portfolio.controllers.AXalgorithms;
+package com.example.sping_portfolio.algorithms.AXalgorithms;
 
 import java.util.stream.Stream;
 

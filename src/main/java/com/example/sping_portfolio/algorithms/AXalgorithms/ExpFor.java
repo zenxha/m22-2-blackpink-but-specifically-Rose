@@ -1,4 +1,4 @@
-package com.example.sping_portfolio.controllers.AXalgorithms;
+package com.example.sping_portfolio.algorithms.AXalgorithms;
 
 public class ExpFor extends _Exponential {
     // zero and one argument constructors, both defer to super

@@ -1,6 +1,6 @@
 package com.example.sping_portfolio.controllers;
 
-import com.example.sping_portfolio.controllers.AXalgorithms.*;
+import com.example.sping_portfolio.algorithms.AXalgorithms.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 
