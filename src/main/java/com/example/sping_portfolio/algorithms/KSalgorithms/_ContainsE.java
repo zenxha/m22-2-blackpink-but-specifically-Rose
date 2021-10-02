@@ -1,4 +1,4 @@
-package com.example.sping_portfolio.algorithms.AXalgorithms;
+package com.example.sping_portfolio.algorithms.KSalgorithms;
 
 import com.example.sping_portfolio.controllers.consoleUI.ConsoleMethods;
 
@@ -16,31 +16,15 @@ import lombok.Getter;
  */
 @Getter  // this will enable standard Getters on attributes in Class in form "getName" where "name" is attribute
 public abstract class _ContainsE {
-    int size;
+    String word;
+    private String yesOrNo;
     String name;
-    int hashID;
     Duration timeElapsed;
-    ArrayList<Long> list;
-    HashMap<Integer, Object> hash;
 
-    /*
-     Zero parameter constructor uses Telescoping technique to allow setting of the required value nth
-     @param: none
-     */
-    public _ContainsE() {
-        this( 20);
-    }
 
-    /*
-     Construct the nth fibonacci number
-     @param: nth number, the value is constrained to 92 because of overflow in a long
-     */
-    public _ContainsE(int nth) {
-        this.size = nth;
-        this.list = new ArrayList<>();
-        this.hashID = 0;
-        this.hash = new HashMap<>();
-        //initialize fibonacci and time algorithm
+    public _ContainsE(String word) {
+        this.word = word;
+        //initialize  time algorithm
         Instant start = Instant.now();  // time capture -- start
         this.init();
         Instant end = Instant.now();    // time capture -- end
@@ -56,9 +40,10 @@ public abstract class _ContainsE {
     /*
      Number is added to Fibonacci sequence, current state of "list" is added to hash for hashID "num"
      */
-    public void setData(long num) {
-        list.add(num);
-        hash.put(this.hashID++, list.clone());
+    public void setData(String results) {
+        yesOrNo = results;
+        // hash.put(this.hashID++, list.clone());
+
     }
 
     /*
@@ -71,29 +56,20 @@ public abstract class _ContainsE {
     /*
      Custom Getter to return last element in Fibonacci sequence
      */
-    public long getNth() {
-        return list.get(size - 1);
-    }
 
-    /*
-     Custom Getter to return last Fibonacci sequence in HashMap
-     */
-    public Object getNthSeq(int i) {
-        return hash.get(i);
-    }
-
-    /*
-     Console/Terminal supported print method
-     */
+//
+//    public long getNth() {
+//        return list.get(size - 1);
+//    }
 
 
     /*
     Tester class method.  This calls "main" class of each of the extended classes in the package
      */
     public static void main(String[] args) {
-        ExpFor.main(null);
-        ExpRecurse.main(null);
-        ExpStream.main(null);
-        ExpWhile.main(null);
+        ContainsEFor.main(null);
+        // ExpRecurse.main(null);
+//        ExpStream.main(null);
+//        ExpWhile.main(null);
     }
 }
