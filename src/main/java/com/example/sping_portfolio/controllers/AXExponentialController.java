@@ -27,7 +27,7 @@ public class AXExponentialController {
 
     // GET request,, parameters are passed within the URI
     @GetMapping("/expo")
-    public String fib(@RequestParam(name="fibseq", required=false,  defaultValue="2") String fibseq, Model model) {
+    public String fib(@RequestParam(name="fibseq", required=false,  defaultValue="0") String fibseq, Model model) {
         //nth is fibonacci request
         int nth = Integer.parseInt(fibseq);
 
