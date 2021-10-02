@@ -1,10 +1,13 @@
-package com.example.sping_portfolio.controllers.AXalgorithms;
+package com.example.sping_portfolio.algorithms.CZalgorithms;
 
-public class ExpRecurse extends _Exponential {
-    public ExpRecurse() {
+
+import com.example.sping_portfolio.algorithms.CZalgorithms._Division;
+
+public class DivRecurse extends _Division {
+    public DivRecurse() {
         super();
     }
-    public ExpRecurse(int nth) {
+    public DivRecurse(int nth) {
         super(nth);
     }
 
@@ -17,7 +20,7 @@ public class ExpRecurse extends _Exponential {
         super.name = "Method 2";
         long limit = super.size;
         long[] f = new long[]{0, 1};
-        initRecurse(limit,f);       // recursion is redirected
+        initRecurse(limit,f);       // recursion is redirected hello
     }
 
     /*
@@ -27,7 +30,7 @@ public class ExpRecurse extends _Exponential {
     private void initRecurse(long limit, long[] f) {
         if (limit == 0) return;                                 //exit condition
         super.setData(f[0]);
-        // observe this syntax and function, many think of recursion as another way to do iteration
+        // observe this syntCZ and function, many think of recursion as another way to do iteration
         initRecurse(--limit, new long[]{f[1], f[1] + f[1]});
     }
 
@@ -35,7 +38,8 @@ public class ExpRecurse extends _Exponential {
     Class method "main" with purpose of testing FibRecurse
      */
     public static void main(String[] args) {
-        _Exponential fibonacci = new ExpRecurse();  // "FibRecurse" is used as initializer for the "_Fibonacci fibonacci"  object
+        _Division fibonacci = new com.example.sping_portfolio.algorithms.CZalgorithms.DivRecurse();  // "FibRecurse" is used as initializer for the "_Fibonacci fibonacci"  object
         fibonacci.print();
     }
 }
+

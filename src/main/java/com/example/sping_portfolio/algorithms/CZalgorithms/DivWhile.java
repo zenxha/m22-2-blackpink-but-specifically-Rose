@@ -1,10 +1,12 @@
-package com.example.sping_portfolio.controllers.AXalgorithms;
+package com.example.sping_portfolio.algorithms.CZalgorithms;
 
-public class ExpWhile extends _Exponential {
-    public ExpWhile() {
+import com.example.sping_portfolio.algorithms.CZalgorithms._Division;
+
+public class DivWhile extends _Division {
+    public DivWhile() {
         super();
     }
-    public ExpWhile(int nth) {
+    public DivWhile(int nth) {
         super(nth);
     }
 
@@ -14,7 +16,7 @@ public class ExpWhile extends _Exponential {
     @Override
     protected void init() {
         super.name = "Method 4";
-        // longer and more error prone "while" syntax is often best performer in this small scale test
+        // longer and more error prone "while" syntCZ is often best performer in this small scale test ??
         long limit = super.size;
         long[] f = new long[]{0, 1};
         while (limit-- > 0) {
@@ -27,7 +29,7 @@ public class ExpWhile extends _Exponential {
     Class method "main" with purpose of testing FibWhile
      */
     public static void main(String[] args) {
-        _Exponential fibonacci = new ExpWhile();
+        _Division fibonacci = new com.example.sping_portfolio.algorithms.CZalgorithms.DivWhile();
         fibonacci.print();
     }
 }

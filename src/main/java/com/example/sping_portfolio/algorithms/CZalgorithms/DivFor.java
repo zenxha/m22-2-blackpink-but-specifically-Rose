@@ -1,9 +1,9 @@
-package com.example.sping_portfolio.controllers.AXalgorithms;
+package com.example.sping_portfolio.algorithms.CZalgorithms;
 
-public class ExpFor extends _Exponential {
+public class DivFor extends _Division {
     // zero and one argument constructors, both defer to super
-    public ExpFor() { super(); }
-    public ExpFor(int nth) {
+    public DivFor() { super(); }
+    public DivFor(int nth) {
         super(nth);
     }
 
@@ -23,7 +23,8 @@ public class ExpFor extends _Exponential {
     Class method "main" with purpose of testing FibFor
      */
     public static void main(String[] args) {
-        _Exponential fibonacci = new ExpFor(); // "FibFor" is used as initializer for the "_Fibonacci fibonacci"  object
+        _Division fibonacci = new DivFor(); // "FibFor" is used as initializer for the "_Fibonacci fibonacci"  object
         fibonacci.print();
     }
 }
+

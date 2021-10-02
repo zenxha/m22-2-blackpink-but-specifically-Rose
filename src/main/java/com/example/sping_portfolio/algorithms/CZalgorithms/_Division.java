@@ -1,5 +1,9 @@
-package com.example.sping_portfolio.controllers.AXalgorithms;
+package com.example.sping_portfolio.algorithms.CZalgorithms;
 
+import com.example.sping_portfolio.algorithms.AXalgorithms.ExpFor;
+import com.example.sping_portfolio.algorithms.AXalgorithms.ExpRecurse;
+import com.example.sping_portfolio.algorithms.AXalgorithms.ExpStream;
+import com.example.sping_portfolio.algorithms.AXalgorithms.ExpWhile;
 import com.example.sping_portfolio.controllers.consoleUI.ConsoleMethods;
 
 import java.time.Duration;
@@ -15,7 +19,7 @@ import lombok.Getter;
  The "_" in name is used to push this "Parent" Class to top of package file listing.
  */
 @Getter  // this will enable standard Getters on attributes in Class in form "getName" where "name" is attribute
-public abstract class _Exponential {
+public abstract class _Division {
     int size;
     String name;
     int hashID;
@@ -27,7 +31,7 @@ public abstract class _Exponential {
      Zero parameter constructor uses Telescoping technique to allow setting of the required value nth
      @param: none
      */
-    public _Exponential() {
+    public _Division() {
         this( 20);
     }
 
@@ -35,7 +39,7 @@ public abstract class _Exponential {
      Construct the nth fibonacci number
      @param: nth number, the value is constrained to 92 because of overflow in a long
      */
-    public _Exponential(int nth) {
+    public _Division(int nth) {
         this.size = nth;
         this.list = new ArrayList<>();
         this.hashID = 0;
@@ -106,3 +110,4 @@ public abstract class _Exponential {
         ExpWhile.main(null);
     }
 }
+
