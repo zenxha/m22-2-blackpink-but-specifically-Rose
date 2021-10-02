@@ -20,7 +20,7 @@ public class AXExponentialController {
         fibList.add(new ExpWhile(nth));
         fibList.add(new ExpRecurse(nth));
         fibList.add(new ExpStream(nth));
-
+        System.out.println(fibList);
         return fibList;
     }
 
