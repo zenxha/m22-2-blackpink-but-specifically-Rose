@@ -1,9 +1,5 @@
 package com.example.sping_portfolio.algorithms.TMalgorithms;
 
-import com.example.sping_portfolio.algorithms.AXalgorithms.ExpFor;
-import com.example.sping_portfolio.algorithms.AXalgorithms.ExpRecurse;
-import com.example.sping_portfolio.algorithms.AXalgorithms.ExpStream;
-import com.example.sping_portfolio.algorithms.AXalgorithms.ExpWhile;
 import com.example.sping_portfolio.controllers.consoleUI.ConsoleMethods;
 
 import java.time.Duration;
