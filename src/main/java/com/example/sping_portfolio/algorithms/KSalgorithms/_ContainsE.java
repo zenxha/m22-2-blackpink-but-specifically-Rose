@@ -31,6 +31,10 @@ public abstract class _ContainsE {
         this.timeElapsed = Duration.between(start, end);
     }
 
+    public _ContainsE() {
+        this("hi");
+    }
+
     /*
      Method is abstract as init() requires extender to define their own Fibonacci algorithm
      Method is protected as it is only authorized to someone who extends the class
