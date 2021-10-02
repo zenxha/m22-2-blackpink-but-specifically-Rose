@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <div layout:fragment="metadata" th:remove="tag">
+        <title>Expo Algo</title>
+    </div>
+</head>
+
+<body>
+<div layout:fragment="content" th:remove="tag">
+    `<div class="container">
+
+    <div class="center-block" style="margin: 2% 3% 3%;">
+        <!-- Title -->
+        <div class="col-12" style="text-align: center; color: white;">
+            <h1><strong>String.contains('E') in 4 ways</strong></h1>
+        </div>
+
+        <!-- Form and Action -->
+        <div class="jumbotron text-center row" style = "background-image: linear-gradient(to right, rgba(255,0,255,1), rgba(255,0,255,0))">
+            <!-- Input -->
+            <div class="col-md-6">
+                <h3>Type a value?</h3>
+                <img class="img-responsive py-3" th:src="@{/images/fibonacci_spiral.svg}" alt="" width="50%" height="Auto">
+                <form id="fibForm" action="/check" method="GET" >
+                    <input name="word" id="word" type="text"  >
+                    <button>Go!</button>
+                </form>
+            </div>
+            <!-- Output/Result -->
+            <div class="col-md-6">
+                <h3>Outputs</h3>
+                <p th:text="${word}"></p>
+                <table class="mx-auto">
+                    <tr>
+                        <th scope="col">Method</th>
+                        <th scope="col">Contains the letter E?</th>
+                    </tr>
+                    <tr th:each="check : ${checkList}">
+                        <td th:text="${check.getName()}"></td>
+                        <td th:text="${check.getList()}"></td>
+<!--                       <td th:text="${fib.getTimeElapsed()}"></td> -->
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="col-12" style="text-align: left; ">
+
+        </div>
+    </div>
+</div>
+    <style>
+        table, td, th {
+            border: 1px solid var(--dblue);
+        }
+        td, th {
+            text-align:left;
+        }
+    </style>
+</div>`
+</body>
+
+</html>

@@ -16,7 +16,7 @@ public class ContainsEFor extends _ContainsE {
         for(int i = 0; i < super.word.length(); i++) {
             if(super.word.charAt(i) == 'E') {
                 super.setData("yes");
-            }
+            } else super.setData("no");
         }
     }
     public static void main(String[] args) {

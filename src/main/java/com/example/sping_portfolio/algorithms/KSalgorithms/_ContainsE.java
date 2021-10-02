@@ -20,15 +20,17 @@ public abstract class _ContainsE {
     private String yesOrNo;
     String name;
     Duration timeElapsed;
-
+    ArrayList<String> list;
 
     public _ContainsE(String word) {
         this.word = word;
+        this.list = new ArrayList<>();
         //initialize  time algorithm
         Instant start = Instant.now();  // time capture -- start
         this.init();
         Instant end = Instant.now();    // time capture -- end
         this.timeElapsed = Duration.between(start, end);
+
     }
 
     public _ContainsE() {
@@ -45,7 +47,7 @@ public abstract class _ContainsE {
      Number is added to Fibonacci sequence, current state of "list" is added to hash for hashID "num"
      */
     public void setData(String results) {
-        yesOrNo = results;
+        list.add(results);
         // hash.put(this.hashID++, list.clone());
 
     }
@@ -72,7 +74,7 @@ public abstract class _ContainsE {
      */
     public static void main(String[] args) {
         ContainsEFor.main(null);
-        // ExpRecurse.main(null);
+        ContainsEBuiltIn.main(null);
 //        ExpStream.main(null);
 //        ExpWhile.main(null);
     }

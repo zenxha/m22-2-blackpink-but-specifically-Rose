@@ -17,20 +17,20 @@ public class KSAlgoController {
         //Fibonacci objects created with different initializers
         List<_ContainsE> theList = new ArrayList<>();
         theList.add(new ContainsEFor(word));
-
+        theList.add(new ContainsEBuiltIn(word));
         System.out.println(theList);
         return theList;
     }
 
     // GET request,, parameters are passed within the URI
     @GetMapping("/check")
-    public String fib(@RequestParam(name="word", required=false,  defaultValue="2") String word, Model model) {
+    public String fib(@RequestParam(name="word", required=false,  defaultValue="mort") String word, Model model) {
 
 
         //MODEL attributes are passed back html
-        model.addAttribute("fibList", checkInit(word));
-
-        return "home/expo"; //HTML render fibonacci results
+        model.addAttribute("checkList", checkInit(word));
+        model.addAttribute("word", word);
+        return "algo/check"; //HTML render fibonacci results
 
     }
 

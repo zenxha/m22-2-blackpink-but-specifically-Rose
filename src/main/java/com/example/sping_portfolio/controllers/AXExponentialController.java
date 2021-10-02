@@ -7,6 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,7 +21,7 @@ public class AXExponentialController {
         fibList.add(new ExpWhile(nth));
         fibList.add(new ExpRecurse(nth));
         fibList.add(new ExpStream(nth));
-        System.out.println(fibList);
+        System.out.println(fibList + " ");
         return fibList;
     }
 
@@ -32,8 +33,8 @@ public class AXExponentialController {
 
         //MODEL attributes are passed back html
         model.addAttribute("fibList", fibInit(nth));
-
-        return "home/expo"; //HTML render fibonacci results
+        // System.out.println(fibInit(nth).get(0));
+        return "algo/expo"; //HTML render fibonacci results
 
     }
 
@@ -42,6 +43,7 @@ public class AXExponentialController {
         int nth = 20; //!!!make dynamic using consoleUI inputInt!!! 92 is max for long
 
         List<_Exponential> fibList = new AXExponentialController().fibInit(nth);
+
         for (_Exponential fibonacci : fibList)
             fibonacci.print();  //Console output fibonacci results
     }
