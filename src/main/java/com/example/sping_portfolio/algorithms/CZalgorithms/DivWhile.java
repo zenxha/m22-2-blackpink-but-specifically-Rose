@@ -18,7 +18,7 @@ public class DivWhile extends _Division {
         super.name = "DivWhile";
         // longer and more error prone "while" syntCZ is often best performer in this small scale test ??
         long limit = super.size;
-        long[] f = new long[]{0, 1};
+        long[] f = new long[]{0, 100000};
         while (limit-- > 0) {
             super.setData(f[0]);
             f = new long[]{f[1], f[1]/2};

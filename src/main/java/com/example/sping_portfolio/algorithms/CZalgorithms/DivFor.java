@@ -16,7 +16,7 @@ public class DivFor extends _Division {
         long x = (long) 2.0;
         long limit = super.size;
         // for loops are likely the most common iteration structure, all the looping facts are in one line
-        for (long[] f = new long[]{0, 1}; limit-- > 0; f = new long[]{f[1], f[1]/x})
+        for (long[] f = new long[]{0, 100000}; limit-- > 0; f = new long[]{f[1], f[1]/x})
             super.setData(f[0]);
     }
 

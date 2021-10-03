@@ -3,6 +3,8 @@ package com.example.sping_portfolio.algorithms.CZalgorithms;
 
 import com.example.sping_portfolio.algorithms.CZalgorithms._Division;
 
+import java.util.Arrays;
+
 public class DivRecurse extends _Division {
     public DivRecurse() {
         super();
@@ -19,7 +21,7 @@ public class DivRecurse extends _Division {
         //setup for recursion
         super.name = "DivRecurse";
         long limit = super.size;
-        long[] f = new long[]{0, 1};
+        long[] f = new long[]{0, 100000};
         initRecurse(limit,f);       // recursion is redirected hello
     }
 
