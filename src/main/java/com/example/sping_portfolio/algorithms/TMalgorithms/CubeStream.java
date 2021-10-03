@@ -12,7 +12,7 @@ public class CubeStream extends _Cube{
         super(nth);
     }
 
-    //polymorh init for streams cubing
+    //polymorph init for streams cubing
     @Override
     protected void init() {
         super.name = "Cubing with Streams";
@@ -24,9 +24,7 @@ public class CubeStream extends _Cube{
                 .forEach(f -> super.setData(f[0]) );
     }
 
-    /*
-    Class method "main" with purpose of testing FibStream
-     */
+   //fibstream test method
     public static void main(String[] args) {
         _Cube fibonacci = new CubeStream();
         fibonacci.print();

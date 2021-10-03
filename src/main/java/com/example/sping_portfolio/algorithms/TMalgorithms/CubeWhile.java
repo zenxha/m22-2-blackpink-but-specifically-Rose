@@ -1,9 +1,6 @@
 package com.example.sping_portfolio.algorithms.TMalgorithms;
 
-import com.example.sping_portfolio.algorithms.AXalgorithms.ExpWhile;
-import com.example.sping_portfolio.algorithms.AXalgorithms._Exponential;
-import com.example.sping_portfolio.algorithms.CZalgorithms._Division;
-
+import java.lang.Math;
 public class CubeWhile extends _Cube{
     public CubeWhile() {
         super();
@@ -18,12 +15,12 @@ public class CubeWhile extends _Cube{
     @Override
     protected void init() {
         super.name = "While Cube";
-        // longer and more error prone "while" syntax is often best performer in this small scale test
+        // this longer while loop ensures the limit does not get reached, performs best
         long limit = super.size + 1;
         long[] f = new long[]{0, 2};
         while (limit-- > 0) {
             super.setData(f[0]);
-            f = new long[]{f[1], f[1] * 2};
+            f = new long[]{f[1], (long) Math.pow(f[1],3)};
         }
     }
 
