@@ -17,11 +17,11 @@ public class DivStream extends _Division {
     */
     @Override
     protected void init() {
-        super.name = "Method 3";
+        super.name = "DivStream";
         // Stream iterates using lambda "->" syntCZ unil ".limit" is reached
         // Streams and Lambda have been added to more recent versions of Java, this will NOT be on AP Test
         // Streams are prevalent in Big Data, in this example it seems to perform the worst
-        Stream.iterate(new long[]{0, 1}, f -> new long[]{f[1], f[1] + f[1]})
+        Stream.iterate(new long[]{0, 100000}, f -> new long[]{f[1], f[1]/2})
                 .limit(super.size)
                 .forEach(f -> super.setData(f[0]) );
     }

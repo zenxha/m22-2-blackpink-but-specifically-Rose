@@ -1,6 +1,6 @@
 package com.example.sping_portfolio.controllers;
 
-import com.example.sping_portfolio.algorithms.AXalgorithms.*;
+import com.example.sping_portfolio.algorithms.CZalgorithms.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 
@@ -12,21 +12,21 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
-public class AXExponentialController {
+public class CZDivController {
 
-    public List<_Exponential> fibInit(int nth) {
+    public List<_Division> fibInit(int nth) {
         //Fibonacci objects created with different initializers
-        List<_Exponential> fibList = new ArrayList<>();
-        fibList.add(new ExpFor(nth));
-        fibList.add(new ExpWhile(nth));
-        fibList.add(new ExpRecurse(nth));
-        fibList.add(new ExpStream(nth));
+        List<_Division> fibList = new ArrayList<>();
+        fibList.add(new DivFor(nth));
+        fibList.add(new DivWhile(nth));
+        fibList.add(new DivRecurse(nth));
+        fibList.add(new DivStream(nth));
         System.out.println(fibList + " ");
         return fibList;
     }
 
     // GET request,, parameters are passed within the URI
-    @GetMapping("/expo")
+    @GetMapping("/div")
     public String fib(@RequestParam(name="fibseq", required=false,  defaultValue="0") String fibseq, Model model) {
         //nth is fibonacci request
         int nth = Integer.parseInt(fibseq);
@@ -34,17 +34,18 @@ public class AXExponentialController {
         //MODEL attributes are passed back html
         model.addAttribute("fibList", fibInit(nth));
         // System.out.println(fibInit(nth).get(0));
-        return "algo/expo"; //HTML render fibonacci results
+        return "home/div"; //HTML render fibonacci results
 
     }
 
     // Console UI is run out of the same Controller
     public static void main(String[] args) {
-        int nth = 20; //!!!make dynamic using consoleUI inputInt!!! 92 is max for long
+        int nth = 50; //!!!make dynamic using consoleUI inputInt!!! 92 is max for long
 
-        List<_Exponential> fibList = new AXExponentialController().fibInit(nth);
+        List<_Division> fibList = new CZDivController().fibInit(nth);
 
-        for (_Exponential fibonacci : fibList)
+        for (_Division fibonacci : fibList)
             fibonacci.print();  //Console output fibonacci results
     }
 }
+
