@@ -1,5 +1,9 @@
 package com.example.sping_portfolio.algorithms.TMalgorithms;
 
+import com.example.sping_portfolio.algorithms.CZalgorithms.DivFor;
+import com.example.sping_portfolio.algorithms.CZalgorithms.DivRecurse;
+import com.example.sping_portfolio.algorithms.CZalgorithms.DivStream;
+import com.example.sping_portfolio.algorithms.CZalgorithms.DivWhile;
 import com.example.sping_portfolio.controllers.consoleUI.ConsoleMethods;
 
 import java.time.Duration;
@@ -8,8 +12,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 import lombok.Getter;
+
 @Getter
-public abstract class _Numsort {
+public abstract class _Cube {
     int size;
     String name;
     int hashID;
@@ -21,7 +26,7 @@ public abstract class _Numsort {
      Zero parameter constructor uses Telescoping technique to allow setting of the required value nth
      @param: none
      */
-    public _Numsort() {
+    public _Cube() {
         this( 20);
     }
 
@@ -29,7 +34,7 @@ public abstract class _Numsort {
      Construct the nth fibonacci number
      @param: nth number, the value is constrained to 92 because of overflow in a long
      */
-    public _Numsort(int nth) {
+    public _Cube(int nth) {
         this.size = nth;
         this.list = new ArrayList<>();
         this.hashID = 0;
@@ -94,9 +99,9 @@ public abstract class _Numsort {
     Tester class method.  This calls "main" class of each of the extended classes in the package
      */
     public static void main(String[] args) {
-        NumBubble.main(null);
-        NumInsert.main(null);
-        NumSelect.main(null);
-        NumMerge.main(null);
+        CubeFor.main(null);
+        CubeRecurse.main(null);
+        CubeStream.main(null);
+        CubeWhile.main(null);
     }
 }
