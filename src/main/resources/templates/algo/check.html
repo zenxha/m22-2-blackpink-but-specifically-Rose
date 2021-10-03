@@ -25,7 +25,7 @@
         <div class="jumbotron text-center row" style = "background-image: linear-gradient(to right, rgba(255,0,255,1), rgba(255,0,255,0))">
             <!-- Input -->
             <div class="col-md-6">
-                <h3>Type a value?</h3>
+                <h3>Insert word</h3>
                 <img class="img-responsive py-3" th:src="@{/images/fibonacci_spiral.svg}" alt="" width="50%" height="Auto">
                 <form id="fibForm" action="/check" method="GET" >
                     <input name="word" id="word" type="text"  >
@@ -40,11 +40,13 @@
                     <tr>
                         <th scope="col">Method</th>
                         <th scope="col">Contains the letter E?</th>
+                        <th scope="col">Time</th>
                     </tr>
                     <tr th:each="check : ${checkList}">
                         <td th:text="${check.getName()}"></td>
-                        <td th:text="${check.getList()}"></td>
-<!--                       <td th:text="${fib.getTimeElapsed()}"></td> -->
+
+                        <td th:text="${check.getYesOrNo()}"></td>
+                       <td th:text="${check.getTimeElapsed()}"></td>
                     </tr>
                 </table>
             </div>

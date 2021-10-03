@@ -29,7 +29,7 @@ public class Komay {
     @GetMapping("/binary")
     public String binary(@RequestParam(name="bits", required=false, defaultValue="8") int bits, Model model) {
         model.addAttribute("bits", bits); // MODEL is passed to html
-        return "home/binary";
+        return "algos/binary";
     }
     @GetMapping("/input")
     public String input() {

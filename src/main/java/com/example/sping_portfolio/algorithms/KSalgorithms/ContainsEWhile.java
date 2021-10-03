@@ -3,23 +3,25 @@ package com.example.sping_portfolio.algorithms.KSalgorithms;
 
 import com.example.sping_portfolio.algorithms.KSalgorithms._ContainsE;
 
-public class ContainsEFor extends _ContainsE {
-    public ContainsEFor() {super();}
-    public ContainsEFor(String word) {
+public class ContainsEWhile extends _ContainsE {
+    public ContainsEWhile() {super();}
+    public ContainsEWhile(String word) {
         super(word);
     }
 
     @Override
     protected void init() {
-        super.name = "For Loop";
-        for(int i = 0; i < super.word.length(); i++) {
+        super.name = "While Loop";
+        int i = 0;
+        while(i < super.word.length()) {
             if(super.word.charAt(i) == 'E') {
                 super.setData("yes");
             } else super.setData("no");
+            i++;
         }
     }
     public static void main(String[] args) {
-        _ContainsE con = new ContainsEFor(); // "FibFor" is used as initializer for the "_Fibonacci fibonacci"  object
-       // con.print();
+        _ContainsE con = new ContainsEWhile(); // "FibFor" is used as initializer for the "_Fibonacci fibonacci"  object
+        // con.print();
     }
 }

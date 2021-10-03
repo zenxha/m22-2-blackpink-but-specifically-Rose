@@ -6,6 +6,7 @@ import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Locale;
 
 import lombok.Getter;
 
@@ -17,13 +18,13 @@ import lombok.Getter;
 @Getter  // this will enable standard Getters on attributes in Class in form "getName" where "name" is attribute
 public abstract class _ContainsE {
     String word;
-    private String yesOrNo;
+    String yesOrNo;
     String name;
     Duration timeElapsed;
     ArrayList<String> list;
 
     public _ContainsE(String word) {
-        this.word = word;
+        this.word = word.toUpperCase(Locale.ROOT);
         this.list = new ArrayList<>();
         //initialize  time algorithm
         Instant start = Instant.now();  // time capture -- start
@@ -48,6 +49,7 @@ public abstract class _ContainsE {
      */
     public void setData(String results) {
         list.add(results);
+        yesOrNo = results;
         // hash.put(this.hashID++, list.clone());
 
     }
@@ -59,23 +61,11 @@ public abstract class _ContainsE {
         return timeElapsed.getNano();
     }
 
-    /*
-     Custom Getter to return last element in Fibonacci sequence
-     */
-
-//
-//    public long getNth() {
-//        return list.get(size - 1);
-//    }
-
-
-    /*
-    Tester class method.  This calls "main" class of each of the extended classes in the package
-     */
     public static void main(String[] args) {
         ContainsEFor.main(null);
         ContainsEBuiltIn.main(null);
-//        ExpStream.main(null);
+        ContainsEWhile.main(null);
+        ContainsERecursive.main(null);
 //        ExpWhile.main(null);
     }
 }
