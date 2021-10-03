@@ -1,9 +1,9 @@
 package com.example.sping_portfolio.algorithms.CZalgorithms;
 
-import com.example.sping_portfolio.algorithms.AXalgorithms.ExpFor;
-import com.example.sping_portfolio.algorithms.AXalgorithms.ExpRecurse;
-import com.example.sping_portfolio.algorithms.AXalgorithms.ExpStream;
-import com.example.sping_portfolio.algorithms.AXalgorithms.ExpWhile;
+import com.example.sping_portfolio.algorithms.CZalgorithms.DivFor;
+import com.example.sping_portfolio.algorithms.CZalgorithms.DivRecurse;
+import com.example.sping_portfolio.algorithms.CZalgorithms.DivStream;
+import com.example.sping_portfolio.algorithms.CZalgorithms.DivWhile;
 import com.example.sping_portfolio.controllers.consoleUI.ConsoleMethods;
 
 import java.time.Duration;
@@ -32,7 +32,7 @@ public abstract class _Division {
      @param: none
      */
     public _Division() {
-        this( 20);
+        this( 50);
     }
 
     /*
@@ -104,10 +104,10 @@ public abstract class _Division {
     Tester class method.  This calls "main" class of each of the extended classes in the package
      */
     public static void main(String[] args) {
-        ExpFor.main(null);
-        ExpRecurse.main(null);
-        ExpStream.main(null);
-        ExpWhile.main(null);
+        DivFor.main(null);
+        DivRecurse.main(null);
+        DivStream.main(null);
+        DivWhile.main(null);
     }
 }
 

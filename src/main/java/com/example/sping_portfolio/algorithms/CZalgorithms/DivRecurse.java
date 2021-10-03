@@ -17,7 +17,7 @@ public class DivRecurse extends _Division {
     @Override
     protected void init() {
         //setup for recursion
-        super.name = "Method 2";
+        super.name = "DivRecurse";
         long limit = super.size;
         long[] f = new long[]{0, 1};
         initRecurse(limit,f);       // recursion is redirected hello
@@ -31,7 +31,7 @@ public class DivRecurse extends _Division {
         if (limit == 0) return;                                 //exit condition
         super.setData(f[0]);
         // observe this syntCZ and function, many think of recursion as another way to do iteration
-        initRecurse(--limit, new long[]{f[1], f[1] + f[1]});
+        initRecurse(--limit, new long[]{f[1], f[1]/2});
     }
 
     /*
