@@ -24,7 +24,7 @@ public class ContainsERecursive extends _ContainsE {
         return count + countChr(str.substring(1));
     }
     public static void main(String[] args) {
-        _ContainsE con = new ContainsERecursive(); // "FibFor" is used as initializer for the "_Fibonacci fibonacci"  object
+        _ContainsE con = new ContainsERecursive();
         // con.print();
     }
 }

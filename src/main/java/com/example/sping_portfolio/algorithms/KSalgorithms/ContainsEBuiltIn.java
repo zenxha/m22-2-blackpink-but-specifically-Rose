@@ -19,7 +19,7 @@ public class ContainsEBuiltIn extends _ContainsE {
         } else super.setData("no");
     }
     public static void main(String[] args) {
-        _ContainsE con = new ContainsEBuiltIn(); // "FibFor" is used as initializer for the "_Fibonacci fibonacci"  object
+        _ContainsE con = new ContainsEBuiltIn();
         // con.print();
     }
 }

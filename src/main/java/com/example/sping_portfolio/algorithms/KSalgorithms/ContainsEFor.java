@@ -19,7 +19,6 @@ public class ContainsEFor extends _ContainsE {
         }
     }
     public static void main(String[] args) {
-        _ContainsE con = new ContainsEFor(); // "FibFor" is used as initializer for the "_Fibonacci fibonacci"  object
-       // con.print();
+        _ContainsE con = new ContainsEFor();
     }
 }

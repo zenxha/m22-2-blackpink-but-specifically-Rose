@@ -21,7 +21,7 @@ public class ContainsEWhile extends _ContainsE {
         }
     }
     public static void main(String[] args) {
-        _ContainsE con = new ContainsEWhile(); // "FibFor" is used as initializer for the "_Fibonacci fibonacci"  object
+        _ContainsE con = new ContainsEWhile();
         // con.print();
     }
 }

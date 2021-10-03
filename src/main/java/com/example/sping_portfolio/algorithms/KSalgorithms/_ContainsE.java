@@ -10,11 +10,7 @@ import java.util.Locale;
 
 import lombok.Getter;
 
-/*
- _Fibonacci class contains generalized logic to capture and analyze a Fibonacci sequence.
- _Fibonacci is an "abstract" class, meaning it can't be initialized directly
- The "_" in name is used to push this "Parent" Class to top of package file listing.
- */
+
 @Getter  // this will enable standard Getters on attributes in Class in form "getName" where "name" is attribute
 public abstract class _ContainsE {
     String word;
@@ -38,15 +34,9 @@ public abstract class _ContainsE {
         this("hi");
     }
 
-    /*
-     Method is abstract as init() requires extender to define their own Fibonacci algorithm
-     Method is protected as it is only authorized to someone who extends the class
-     */
     protected abstract void init();
 
-    /*
-     Number is added to Fibonacci sequence, current state of "list" is added to hash for hashID "num"
-     */
+
     public void setData(String results) {
         list.add(results);
         yesOrNo = results;
@@ -54,9 +44,7 @@ public abstract class _ContainsE {
 
     }
 
-    /*
-     Custom Getter for timeElapsed in init process, timeElapsed.getNano() is part of Duration class
-     */
+
     public int getTimeElapsed() {
         return timeElapsed.getNano();
     }
