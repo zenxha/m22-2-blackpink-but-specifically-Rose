@@ -1,10 +1,13 @@
-package com.example.sping_portfolio.model;
+package com.example.sping_portfolio.model.starters;
 
 import lombok.Getter;
 import org.apache.tomcat.util.codec.binary.Base64;
+import org.apache.tomcat.util.codec.binary.StringUtils;
 
 import java.awt.image.DataBufferByte;
+import java.awt.image.WritableRaster;
 import java.io.*;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.awt.Color;
 import java.awt.image.BufferedImage;
