@@ -22,7 +22,7 @@
 - Implemented more images into static [images directory](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/tree/main/src/main/resources/static/images)
 - Extended list of base images in [Grascale Controller](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/3134d552c2f135a0e2d081cc207b3f3265abbc10/src/main/java/com/example/sping_portfolio/controllers/GrascaleController.java#L11-L60)
 - Extened list of rendered grayscalle images inside of the [Grascale Controller](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/3134d552c2f135a0e2d081cc207b3f3265abbc10/src/main/java/com/example/sping_portfolio/controllers/GrascaleController.java#L62-L110)
-### Model Improvements (Group Focus)
+### Model Improvements (Charlie and Tanmay Focus)
 - Added modified image reading functionality into the [image info java file](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/2caaf6731ddeb3b28f1ec930ac01108a261897c0/src/main/java/com/example/sping_portfolio/model/starters/ImageInfo.java#L32-L40)
 - Formatted grayscale to account for [image width and height](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/2caaf6731ddeb3b28f1ec930ac01108a261897c0/src/main/java/com/example/sping_portfolio/model/starters/ImageInfo.java#L186-L209)
 ### Unit 7 CB Notes + Corrections
