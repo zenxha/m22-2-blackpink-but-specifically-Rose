@@ -14,6 +14,7 @@
 |Charlie|1855387|[Filtered Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3A1855387)|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors) (1855387 - Charlie)|[Profile](https://github.com/1855387)|
 |Tanmay|TMarwah|[Filtered Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3Atmarwah)|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors) (TMarwah - Tanmay)|[Profile](https://github.com/TMarwah)|
 ## Modeling Checkpoint plus unit 7
+### [Video Overview](https://www.youtube.com/watch?v=pXoBqpgow-w&ab_channel=Purplebears)
 ### View/Frontend (Allen and KomayFocus)
 - Application of [grayscale java algorithm](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/model/starters/ImageInfo.java) onto image files in project directory
 - Implementation of front end static images into [image directory](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/tree/main/src/main/resources/static/images) for front end display
@@ -22,12 +23,11 @@
 - Implemented more images into static [images directory](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/tree/main/src/main/resources/static/images)
 - Extended list of base images in [Grascale Controller](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/3134d552c2f135a0e2d081cc207b3f3265abbc10/src/main/java/com/example/sping_portfolio/controllers/GrascaleController.java#L11-L60)
 - Extened list of rendered grayscalle images inside of the [Grascale Controller](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/3134d552c2f135a0e2d081cc207b3f3265abbc10/src/main/java/com/example/sping_portfolio/controllers/GrascaleController.java#L62-L110)
-### Model Improvements (Charlie and Tanmay Focus)
+### Model Improvements (Group Focus)
 - Added modified image reading functionality into the [image info java file](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/2caaf6731ddeb3b28f1ec930ac01108a261897c0/src/main/java/com/example/sping_portfolio/model/starters/ImageInfo.java#L32-L40)
 - Formatted grayscale to account for [image width and height](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/2caaf6731ddeb3b28f1ec930ac01108a261897c0/src/main/java/com/example/sping_portfolio/model/starters/ImageInfo.java#L186-L209)
 ### Unit 7 CB Notes + Corrections
 - AX [Notes + Corrections](https://docs.google.com/document/d/1_FkS5WxLDy_kw7tUPnYpyBUMKkbFX1KdbYXJkDU0cb4/edit?usp=sharing) and [Journal](https://docs.google.com/document/d/15Ekpi-FsKLaUle2gp-GgvUfvluW4ak22zdcleXAWpAk/edit?usp=sharing)
-- TM [Notes + Corrections](https://docs.google.com/document/d/1ne8Wh47SmeIZK2se2ud6Q5LQOelfYILlZt1a8MyqCRo/edit?usp=sharing) and [Journal](https://docs.google.com/document/d/15Ekpi-FsKLaUle2gp-GgvUfvluW4ak22zdcleXAWpAk/edit?usp=sharing)
 ## Prototype Sprint End + Unit 4 
 ### [Video Overview](https://youtu.be/Vm8A72i6XSs)
 ### Individual Scores
