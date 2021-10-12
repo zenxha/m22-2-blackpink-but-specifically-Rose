@@ -18,8 +18,11 @@
 - Application of [grayscale java algorithm](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/model/starters/ImageInfo.java) onto image files in project directory
 - Implementation of front end static images into [image directory](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/tree/main/src/main/resources/static/images) for front end display
 - Front end seperate html files [image and image/grayscale](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/tree/main/src/main/resources/templates/starters) to display original image rgb values as well as grayscale alternative display
-### Control Improvements
-### Model Improvements
+### Control Improvements (Allen Focus)
+- Implemented more images into static [images directory](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/tree/main/src/main/resources/static/images)
+- Extended list of base images in [Grascale Controller](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/3134d552c2f135a0e2d081cc207b3f3265abbc10/src/main/java/com/example/sping_portfolio/controllers/GrascaleController.java#L11-L60)
+- Extened list of rendered grayscalle images inside of the [Grascale Controller](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/3134d552c2f135a0e2d081cc207b3f3265abbc10/src/main/java/com/example/sping_portfolio/controllers/GrascaleController.java#L62-L110)
+### Model Improvements (Group Focus)
 ### Unit 7 CB Notes + Corrections
 ## Prototype Sprint End + Unit 4 
 ### [Video Overview](https://youtu.be/Vm8A72i6XSs)
