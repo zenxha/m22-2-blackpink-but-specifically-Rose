@@ -18,7 +18,10 @@ public class KSAlgoController {
         List<_ContainsE> theList = new ArrayList<>();
         theList.add(new ContainsEFor(word));
         theList.add(new ContainsEBuiltIn(word));
+        theList.add(new ContainsEWhile(word));
+        theList.add(new ContainsERecursive(word));
         System.out.println(theList);
+        System.out.println(theList.get(0).getTimeElapsed());
         return theList;
     }
 

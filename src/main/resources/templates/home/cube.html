@@ -7,7 +7,7 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <div layout:fragment="metadata" th:remove="tag">
-        <title>Has E Algorithm</title>
+        <title>Cubing Algorithm 4 Ways</title>
     </div>
 </head>
 
@@ -18,35 +18,31 @@
     <div class="center-block" style="margin: 2% 3% 3%;">
         <!-- Title -->
         <div class="col-12" style="text-align: center; color: white;">
-            <h1><strong>String.contains('E') in 4 ways</strong></h1>
+            <h1><strong>Algorithm in 4 ways</strong></h1>
         </div>
 
         <!-- Form and Action -->
-        <div class="jumbotron text-center row" style = "background-image: linear-gradient(to right, rgba(255,0,100,1), rgba(255,0,255,0))">
+        <div class="jumbotron text-center row" style = "background-image: linear-gradient(to right, rgba(13, 17, 198, 0.69), rgba(213, 15, 61, 0.6))">
             <!-- Input -->
-            <div class="col-md-6">
-                <h3>Insert word</h3>
+            <div class="col-md-6" style = "color: white">
+                <h3>Type List Length!</h3>
                 <img class="img-responsive py-3" th:src="@{/images/fibonacci_spiral.svg}" alt="" width="50%" height="Auto">
-                <form id="fibForm" action="/check" method="GET" >
-                    <input name="word" id="word" type="text"  >
+                <form id="fibForm" action="/cube" method="GET" >
+                    <input name="fibseq" id="fibseq" type="number" min="2" max="20" >
                     <button>Go!</button>
                 </form>
             </div>
             <!-- Output/Result -->
-            <div class="col-md-6">
+            <div class="col-md-6" style = "color: white">
                 <h3>Outputs</h3>
-                <p th:text="${word}"></p>
                 <table class="mx-auto">
                     <tr>
                         <th scope="col">Method</th>
-                        <th scope="col">Contains the letter E?</th>
-                        <th scope="col">Time</th>
+                        <th scope="col">Cubic List</th>
                     </tr>
-                    <tr th:each="check : ${checkList}">
-                        <td th:text="${check.getName()}"></td>
-
-                        <td th:text="${check.getYesOrNo()}"></td>
-                       <td th:text="${check.getTimeElapsed()}"></td>
+                    <tr th:each="fib : ${fibList}">
+                        <td th:text="${fib.getName()}"></td>
+                        <td th:text="${fib.getList()}"></td>
                     </tr>
                 </table>
             </div>

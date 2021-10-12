@@ -13,6 +13,14 @@
 |Komay|Zenxha|[Filtered Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3Azenxha)|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors) (zenxha - Komay)|[Profile](https://github.com/zenxha)|
 |Charlie|1855387|[Filtered Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3A1855387)|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors) (1855387 - Charlie)|[Profile](https://github.com/1855387)|
 |Tanmay|TMarwah|[Filtered Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3Atmarwah)|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors) (TMarwah - Tanmay)|[Profile](https://github.com/TMarwah)|
+## Modeling Checkpoint plus unit 7
+### View/Frontend (Allen Focus)
+- Application of [grayscale java algorithm](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/model/starters/ImageInfo.java) onto image files in project directory
+- Implementation of front end static images into [image directory](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/tree/main/src/main/resources/static/images) for front end display
+- Front end seperate html files [image and image/grayscale](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/tree/main/src/main/resources/templates/starters) to display original image rgb values as well as grayscale alternative display
+### Control Improvements
+### Model Improvements
+### Unit 7 CB Notes + Corrections
 ## Prototype Sprint End + Unit 4 
 ### [Video Overview](https://youtu.be/Vm8A72i6XSs)
 ### Individual Scores
