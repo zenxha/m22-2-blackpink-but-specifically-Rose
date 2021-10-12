@@ -14,6 +14,7 @@
 |Charlie|1855387|[Filtered Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3A1855387)|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors) (1855387 - Charlie)|[Profile](https://github.com/1855387)|
 |Tanmay|TMarwah|[Filtered Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3Atmarwah)|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors) (TMarwah - Tanmay)|[Profile](https://github.com/TMarwah)|
 ## Modeling Checkpoint plus unit 7
+### [Video Overview](https://www.youtube.com/watch?v=pXoBqpgow-w&ab_channel=Purplebears)
 ### View/Frontend (Allen and KomayFocus)
 - Application of [grayscale java algorithm](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/model/starters/ImageInfo.java) onto image files in project directory
 - Implementation of front end static images into [image directory](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/tree/main/src/main/resources/static/images) for front end display
