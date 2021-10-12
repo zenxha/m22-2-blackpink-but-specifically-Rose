@@ -7,11 +7,7 @@
 <head>
   <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
   <div layout:fragment="metadata" th:remove="tag">
-<<<<<<< HEAD
-    <title>Expo Algo</title>
-=======
     <title>Div Algo</title>
->>>>>>> origin/main
   </div>
 </head>
 
@@ -22,18 +18,6 @@
   <div class="center-block" style="margin: 2% 3% 3%;">
     <!-- Title -->
     <div class="col-12" style="text-align: center; color: white;">
-<<<<<<< HEAD
-      <h1><strong>Exponential Algorithm in 4 ways</strong></h1>
-    </div>
-
-    <!-- Form and Action -->
-    <div class="jumbotron text-center row" style = "background-image: linear-gradient(to right, rgba(255,0,255,1), rgba(255,0,255,0))">
-      <!-- Input -->
-      <div class="col-md-6">
-        <h3>Type a value?</h3>
-        <img class="img-responsive py-3" th:src="@{/images/fibonacci_spiral.svg}" alt="" width="50%" height="Auto">
-        <form id="fibForm" action="/expo" method="GET" >
-=======
       <h1><strong>Halving Algorithm in 4 ways</strong></h1>
     </div>
 
@@ -44,26 +28,17 @@
         <h3>Type List Length!</h3>
         <img class="img-responsive py-3" th:src="@{/images/fibonacci_spiral.svg}" alt="" width="50%" height="Auto">
         <form id="fibForm" action="/div" method="GET" >
->>>>>>> origin/main
           <input name="fibseq" id="fibseq" type="number" min="2" max="20" >
           <button>Go!</button>
         </form>
       </div>
       <!-- Output/Result -->
-<<<<<<< HEAD
-      <div class="col-md-6">
-=======
       <div class="col-md-6" style = "color: white">
->>>>>>> origin/main
         <h3>Outputs</h3>
         <table class="mx-auto">
           <tr>
             <th scope="col">Method</th>
-<<<<<<< HEAD
-            <th scope="col">Squared List</th>
-=======
             <th scope="col">List of Halves</th>
->>>>>>> origin/main
           </tr>
           <tr th:each="fib : ${fibList}">
             <td th:text="${fib.getName()}"></td>
