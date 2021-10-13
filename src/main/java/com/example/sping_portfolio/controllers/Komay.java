@@ -40,6 +40,11 @@ public class Komay {
         // model.addAttribute("date", date); // MODEL is passed to html
         return "home/input";
     }
+    @GetMapping("/song")
+    public String song() {
+        // model.addAttribute("date", date); // MODEL is passed to html
+        return "home/song";
+    }
 
 }
 
