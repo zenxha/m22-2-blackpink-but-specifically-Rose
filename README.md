@@ -13,7 +13,7 @@
 |Komay|Zenxha|[Filtered Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3Azenxha)|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors) (zenxha - Komay)|[Profile](https://github.com/zenxha)|
 |Charlie|1855387|[Filtered Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3A1855387)|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors) (1855387 - Charlie)|[Profile](https://github.com/1855387)|
 |Tanmay|TMarwah|[Filtered Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3Atmarwah)|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors) (TMarwah - Tanmay)|[Profile](https://github.com/TMarwah)|
-## Modeling Checkpoint plus unit 7
+## WEEK 7 Modeling Checkpoint plus unit 7
 ### [Video Overview](https://www.youtube.com/watch?v=pXoBqpgow-w&ab_channel=Purplebears)
 ### View/Frontend (Allen and KomayFocus)
 - Application of [grayscale java algorithm](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/model/starters/ImageInfo.java) onto image files in project directory
@@ -28,7 +28,7 @@
 - Formatted grayscale to account for [image width and height](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/2caaf6731ddeb3b28f1ec930ac01108a261897c0/src/main/java/com/example/sping_portfolio/model/starters/ImageInfo.java#L186-L209)
 ### Unit 7 CB Notes + Corrections
 - AX [Notes + Corrections](https://docs.google.com/document/d/1_FkS5WxLDy_kw7tUPnYpyBUMKkbFX1KdbYXJkDU0cb4/edit?usp=sharing) and [Journal](https://docs.google.com/document/d/15Ekpi-FsKLaUle2gp-GgvUfvluW4ak22zdcleXAWpAk/edit?usp=sharing)
-## Prototype Sprint End + Unit 4 
+## WEEK 4 Prototype Sprint End + Unit 4 
 ### [Video Overview](https://youtu.be/Vm8A72i6XSs)
 ### Individual Scores
 - Charlie 9.5/10
@@ -68,7 +68,7 @@
  - Tanmay 5/5 [notes + corrections](https://docs.google.com/document/d/1aXilsQMg9h5Ko4u1tEAgz7BmUEARP33ioBFpujR82Yw/edit?usp=sharing) and [journal](https://docs.google.com/document/d/15Ekpi-FsKLaUle2gp-GgvUfvluW4ak22zdcleXAWpAk/edit?usp=sharing)
  - Charlie 5/5 [notes + corrections](https://docs.google.com/document/d/1hhK23gJJAdeliAFYcl4wJgzQk80aKE5GFxbH__XJhzA/edit#) and [journal](https://docs.google.com/document/d/1ocjpNegp6Q31gx7DX-1zUqktbTq_CuCo9r2nHG0IQWY/edit?usp=sharing)
  - Komay 5/5 [notes + corrections](https://docs.google.com/document/d/1hhK23gJJAdeliAFYcl4wJgzQk80aKE5GFxbH__XJhzA/edit#) and [journal](https://docs.google.com/document/d/1ocjpNegp6Q31gx7DX-1zUqktbTq_CuCo9r2nHG0IQWY/edit?usp=sharing)
-## Prototype Check plus Unit 3
+## WEEK 3 Prototype Check plus Unit 3
 Ticket Table
 |Issues|Contributers|Highlights|
 |:----:|:----:|:----:|
@@ -98,7 +98,7 @@ Ticket Table
 - Tanmay unit 3 notes + corrections [here](https://docs.google.com/document/d/1JpQkPNjjU_RejBVbravWwHAlm1iokGMbBIGKfjAYnOU/edit?usp=sharing)
 - Komay Unit 3 notes + corrections [here](*)
 - Allen Unit 3 notes + corrections [here](https://docs.google.com/document/d/1SMYELtFlgUEiLRagR4VBNXnKGBHqvdqEVEFtWgovhWI/edit?usp=sharing)
-## PBL 1-2 + Unit 2
+## WEEK 2 PBL 1-2 + Unit 2
 ### Individual Scores:
 - Charlie: 9.5/10 (Didn't focus as much on the ideation process, and instead focused on the individual aspect of the website)
 - Komay: 10/10 (Was effective with both the ideation process as well as the development process of the website)
@@ -133,7 +133,7 @@ Ticket Table
 - Collaborated with Komay on [wireframes](https://docs.google.com/presentation/d/18mCshJ3YTV4lI6OJEvFI59Lrd4XrGqgtOw5iQhJmtbs/edit?usp=sharing), led idea documentation for [Brain Write](https://docs.google.com/document/d/18lFaZaopedXc487wXtfLStosBLSp5eLW73isZIXvl9A/edit?usp=sharing), completed scrum board [README ticket](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-67874578) for this week
 - Integreated Greet + Birds indivdual page [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/resources/templates/rail.html)
 - [Minilab](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/blob/main/src/main/java/com/example/sping_portfolio/minilabs/Allen.java) for practicing code from College Board 
-### Unit 1+2
+### WEEK 1 Unit 1+2
 ##### Charlie (5/5)
 - Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1bhMDy7cRTzBEHNNC9u4IQnlsFv8spDUXTqndsrV5Eh8/edit), Unit 2 test corrections and notes [here](https://docs.google.com/document/d/15WlHken8fTO4_87e6NQgcXutv-QVzgutmY9YVEcuzPY/edit)
 - Tools installed, will work on personal laptop
@@ -147,7 +147,7 @@ Ticket Table
 - Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1qmipHGyDbaOIvZMoPLF0j-YqNkmCWT2oY8VVVGZWofo/edit?usp=sharing), Unit 2 test corrections and notes [here](https://docs.google.com/document/d/13AfQWE_NywNshQKJNdOn3ptyKcDdatSWd0hciVHP5Qo/edit?usp=sharing)
 - Tools installed, will work on personal laptop at school, commit and push to work on desktop at home
 
-## Team Check 0
+## WEEK 0 Team Check 0
 #### Tech Talk 0 Tools and Equipment
 - Github created [here](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose) with HTML, CSS, and Java for the website
 - Slack channel created [here](https://app.slack.com/client/TRDESSQ3T/C02BRKQ8T0T)
