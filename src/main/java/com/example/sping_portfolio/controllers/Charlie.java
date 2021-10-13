@@ -16,9 +16,4 @@ public class Charlie {
         model.addAttribute("name", name); // MODEL is passed to html
         return "individual/charlie"; // returns HTML VIEW (greeting)
     }
-    @GetMapping("/song1")
-    public String song() {
-        // model.addAttribute("date", date); // MODEL is passed to html
-        return "home/song";
-    }
 }
