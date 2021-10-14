@@ -7,6 +7,8 @@ import com.example.sping_portfolio.model.starters.ImageInfo;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.ArrayList;
@@ -45,10 +47,18 @@ public class Komay {
         // model.addAttribute("date", date); // MODEL is passed to html
         return "home/song";
     }
-    @GetMapping("admin")
-    public String admin() {
-        // model.addAttribute("date", date); // MODEL is passed to html
-        return "home/admin";
+    @RequestMapping(value="admin", method={RequestMethod.GET, RequestMethod.POST})
+    public String admin(@RequestParam(name="password", required=true, defaultValue ="") String password) {
+        // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
+        System.out.println(password);
+        if(password.equals("monka")) {
+            return "home/song";
+        } else {
+            return "home/admin";
+        }
+
+
+
     }
 
 }
