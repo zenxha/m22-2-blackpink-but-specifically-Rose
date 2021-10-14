@@ -45,6 +45,11 @@ public class Komay {
         // model.addAttribute("date", date); // MODEL is passed to html
         return "home/song";
     }
+    @GetMapping("admin")
+    public String admin() {
+        // model.addAttribute("date", date); // MODEL is passed to html
+        return "home/admin";
+    }
 
 }
 
