@@ -42,36 +42,25 @@ public class Komay {
         // model.addAttribute("date", date); // MODEL is passed to html
         return "home/input";
     }
-
     @GetMapping("/song")
     public String song() {
         // model.addAttribute("date", date); // MODEL is passed to html
         return "home/song";
     }
-
-    @RequestMapping(value = "admin", method = {RequestMethod.GET, RequestMethod.POST})
-    public String admin(@RequestParam(name = "password", required = true, defaultValue = "") String password) {
+    @RequestMapping(value="admin", method={RequestMethod.GET, RequestMethod.POST})
+    public String admin(@RequestParam(name="password", required=true, defaultValue ="") String password) {
         // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
         System.out.println(password);
-        if (password.equals("monka")) {
+        if(password.equals("monka")) {
             return "home/song";
         } else {
             return "home/admin";
         }
 
+
+
     }
 
-    @GetMapping("/notes")
-    public String notes() {
-        // model.addAttribute("date", date); // MODEL is passed to html
-        return "home/notes";
-    }
-
-    @GetMapping("/songinput")
-    public String songinput() {
-        // model.addAttribute("date", date); // MODEL is passed to html
-        return "home/songinput";
-    }
 }
 
 
