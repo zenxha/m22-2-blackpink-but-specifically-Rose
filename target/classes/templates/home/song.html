@@ -6,7 +6,7 @@
 
 <head><div layout:fragment="metadata" th:remove="tag">
     <!-- Start of head content specific to page -->
-    <title th:text="${song.getTrackName()}}"></title>
+    <title >Song</title>
     <!-- End of head content specific to page -->
 </div></head>
 
@@ -16,79 +16,16 @@
         <div class="jumbotron">
             <div class="row">
                 <div class="col">
-<<<<<<< HEAD
-                    <h1 class="display-4">Romance</h1>
-                    <p class="lead">YOASOBI</p>
-                    <hr class="my-4">
-                    <p>ある日突然にそれは<br>
-                        訪れた出来事<br>
-                        始まりは一通の手紙<br>
-                        送り主は遥か昔を生きる君<br>
-                        そんな不可思議な出会い<br>
-                        僕の時代には今<br>
-                        こんなものがあって<br>
-                        こんな暮らしをしているよ<br>
-                        文字に込めて伝え合ううちに<br>
-                        いつしか芽生えたロマンス<br><br>
-                        決して出会うことの出来ない僕ら<br>
-                        それぞれの世界から<br>
-                        綴る言葉<br>
-                        募る想い<br>
-                        姿さえも<br>
-                        知らないまま<br><br>
-                        どんな時も君の言葉を<br>
-                        待ち焦がれているんだ<br>
-                        生きる時代は違うけど<br>
-                        何度でも時間を越えて<br>
-                        君と君と伝え合う想い<br>
-                        願いが叶うなら<br>
-                        一目でいいから<br>
-                        会いたいな<br>
-                        好きだから<br><br>
-                        不意に思い出したのは<br>
-                        君が生きる時代の明日<br>
-                        起こること<br>
-                        悲しいこと<br>
-                        伝えなくちゃ<br>
-                        どうか奇跡よ起きて<br>
-                        過ぎていく時と<br>
-                        変わる季節<br>
-                        あれから途絶えた手紙<br>
-                        もう届かない言葉だけが胸を締めつける<br>
-                        遥か彼方100年先を<br>
-                        君が見てみたいと願った未来を今<br>
-                        僕はまだ歩いているよ<br>
-                        苦しい想いを胸に抱いたまま<br>
-                        そんな僕に届いた手紙<br>
-                        見覚えのある待ち焦がれていた文字<br>
-                        それは君があの日を越えて<br>
-                        僕に書いた最後の恋文<br>
-                        君が君の時代を生きた証を<br>
-                        八千代越えても握りしめて<br>
-                        僕が僕の時代に見るその全てを<br>
-                        いつか伝えに行くよ</p>
-                    <p class="lead">
-                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-=======
                     <h1 class="display-4" th:utext="${song.getTrackName()}"></h1>
                     <p class="lead" th:utext="${song.getArtist()}"></p>
                     <hr class="my-4">
                     <p th:utext="${song.getLyrics()}"></p>
                     <p class="lead">
                         <a class="btn btn-primary btn-lg" href="song" role="button">Reload</a>
->>>>>>> origin/main
                     </p>
                 </div>
                 <div class="col">
                     <h1 class="display-4">Song Data</h1>
-<<<<<<< HEAD
-                    <div class="social-buttons mt-5"> <button class="neo-button"><a href="#"></a><i class="fa fa-google a-1x"></i> </button> <button class="neo-button"><i class="fa fa-spotify fa-1x"></i></button>  <button class="neo-button"><i class="fa fa-youtube fa-1x"></i> </button> </div>
-                    <hr class="my-4">
-                    <!-- 16:9 aspect ratio -->
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://youtube.com/embed/wJQ9ig_d8yY"></iframe>
-                    </div>
-=======
                     <div class="social-buttons mt-5"> <button class="neo-button"><a href="https://google.com"></a><i class="fa fa-google a-1x"></i> </button> <button class="neo-button"><i class="fa fa-spotify fa-1x"></i></button>  <button class="neo-button"><i class="fa fa-youtube fa-1x"></i> </button> </div>
                     <hr class="my-4">
                     <!-- 16:9 aspect ratio -->
@@ -100,7 +37,6 @@
                         <iframe th:attr="src=${song.getSpotifyEmbed()}" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                     </div>
 
->>>>>>> origin/main
                 </div>
             </div>
 
