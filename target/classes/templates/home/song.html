@@ -16,6 +16,7 @@
         <div class="jumbotron">
             <div class="row">
                 <div class="col">
+<<<<<<< HEAD
                     <h1 class="display-4">Romance</h1>
                     <p class="lead">YOASOBI</p>
                     <hr class="my-4">
@@ -68,16 +69,38 @@
                         いつか伝えに行くよ</p>
                     <p class="lead">
                         <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+=======
+                    <h1 class="display-4" th:utext="${song.getTrackName()}"></h1>
+                    <p class="lead" th:utext="${song.getArtist()}"></p>
+                    <hr class="my-4">
+                    <p th:utext="${song.getLyrics()}"></p>
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg" href="song" role="button">Reload</a>
+>>>>>>> origin/main
                     </p>
                 </div>
                 <div class="col">
                     <h1 class="display-4">Song Data</h1>
+<<<<<<< HEAD
                     <div class="social-buttons mt-5"> <button class="neo-button"><a href="#"></a><i class="fa fa-google a-1x"></i> </button> <button class="neo-button"><i class="fa fa-spotify fa-1x"></i></button>  <button class="neo-button"><i class="fa fa-youtube fa-1x"></i> </button> </div>
                     <hr class="my-4">
                     <!-- 16:9 aspect ratio -->
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://youtube.com/embed/wJQ9ig_d8yY"></iframe>
                     </div>
+=======
+                    <div class="social-buttons mt-5"> <button class="neo-button"><a href="https://google.com"></a><i class="fa fa-google a-1x"></i> </button> <button class="neo-button"><i class="fa fa-spotify fa-1x"></i></button>  <button class="neo-button"><i class="fa fa-youtube fa-1x"></i> </button> </div>
+                    <hr class="my-4">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src=""  th:attr="src=${song.getYoutubeEmbed()}"></iframe>
+                    </div>
+                    <hr class="my-4">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe th:attr="src=${song.getSpotifyEmbed()}" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                    </div>
+
+>>>>>>> origin/main
                 </div>
             </div>
 
