@@ -52,7 +52,7 @@ public class Komay {
         // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
         System.out.println(password);
         if(password.equals("monka")) {
-            return "home/song";
+            return "home/songinput";
         } else {
             return "home/admin";
         }
