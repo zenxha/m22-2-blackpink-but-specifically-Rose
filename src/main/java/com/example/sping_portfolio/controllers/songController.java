@@ -137,9 +137,206 @@ public class songController {
                 "Boy, you write your name, I can do the same\n" +
                 "Ooh, I love the taste, oh-la-la-la-la-la\n" +
                 "All on my tongue, I want it", new ArrayList<>(Arrays.asList("748mdHapucXQri7IAO8yFK", "0EVVKs6DQLo")));
-
+        Song theFeels = new Song("The Feels", "TWICE", "\n" +
+                "Boy, I, boy, I, boy, I know\n" +
+                "I know you got the feels\n" +
+                "Boy, I, boy, I, boy, I know\n" +
+                "Uh, I'm so curious\n" +
+                "'Bout you, boy, wanna keep it cool\n" +
+                "But I know every time you move, got me frozen\n" +
+                "I get so shy, it's obvious (yeah-ya)\n" +
+                "Catching feels like butterflies\n" +
+                "If I say what's on my mind\n" +
+                "Would I hit bulls-eye? (Woo)\n" +
+                "Shoot, I'm ready, aim and fire (fire)\n" +
+                "Baby, I (whoa-oh, ow!) Feel like cupid's alive\n" +
+                "Alive tonight ('night), yeah, tonight\n" +
+                "If your heart beats the same way, let me know (you let me know)\n" +
+                "'Cause I'm boom-boom-boom from head to toe, and I (yeah, head to toe)\n" +
+                "I know, love, it is such a funny thing\n" +
+                "A mystery allure, gotta get to know you more\n" +
+                "'Cause I, I can feel a real connection\n" +
+                "A supernatural attraction-ah\n" +
+                "I got the feels for you, yeah, yeah, yeah, yeah\n" +
+                "You have stolen my heart, oh, yeah\n" +
+                "Never let it go, oh, oh, no\n" +
+                "Never let it go, oh, oh, oh\n" +
+                "Lightning straight to my heart, oh, yeah\n" +
+                "I got all the feels for sure\n" +
+                "Yeah, I got all the feels for ya, oh\n" +
+                "Boy, I, boy, I, boy, I know\n" +
+                "I know I got the feels\n" +
+                "Boy, I, boy, I, boy, I know\n" +
+                "I know you feel it too (uh, uh)\n" +
+                "Sway in the moonlight, dance in the dark\n" +
+                "I know that I caught your eye (your eye)\n" +
+                "Are we on the same vibe? (Same vibe)\n" +
+                "I wonder what's on your mind\n" +
+                "'Cause you got me good and I wanna be ya boo\n" +
+                "If it's dumb, well, I wanna be a fool (fool, fool, fool)\n" +
+                "Underneath the neon lights, baby\n" +
+                "Electricity tonight, baby\n" +
+                "I know love it is such a funny thing\n" +
+                "A mystery allure, gotta get to know you more\n" +
+                "'Cause I, I can feel a real connection\n" +
+                "A supernatural attraction-ah\n" +
+                "I got the feels for you, yeah, yeah, yeah, yeah\n" +
+                "You have stolen my heart, oh, yeah (oh, yeah)\n" +
+                "Never let it go, oh, oh, no\n" +
+                "Never let it go, oh, oh, oh\n" +
+                "Lightning straight to my heart, oh, yeah\n" +
+                "I got all the feels for sure\n" +
+                "Yeah, I got all the feels for ya, oh\n" +
+                "Boy, I, boy, I, boy, I know\n" +
+                "I know I get the feels\n" +
+                "Boy, I, boy, I, boy, I know\n" +
+                "I know you feel it too\n" +
+                "Boy, I, boy, I, boy, I know\n" +
+                "I know I get the feels\n" +
+                "Boy, I, boy, I, boy, I know\n" +
+                "I know you feel it too (feel it too)\n" +
+                "You got my attention, so what's your intention?\n" +
+                "Yeah, tell me, baby, what's the deal?\n" +
+                "Oh, one look and I know it, baby, my eyes reveal\n" +
+                "That you, you, you give me the feels, oh, yeah\n" +
+                "You have stolen my heart, oh, yeah\n" +
+                "Never let it go, oh, oh, no (no-no)\n" +
+                "Never let it go, oh, oh, oh (no-no)\n" +
+                "Lightning straight to my heart, oh, yeah\n" +
+                "I got all the feels for sure\n" +
+                "Yeah, I got all the feels for ya, oh\n" +
+                "Boy, I, boy, I, boy, I know (the feels)\n" +
+                "I know I got the feels (boy, I)\n" +
+                "Boy, I, boy, I, boy, I know (yeah, yeah, yeah)\n" +
+                "I know you feel it too (yeah, you are)\n" +
+                "Boy, I, boy, I, boy, I know (boy, I)\n" +
+                "I know I got the feels (one more)\n" +
+                "Boy, I, boy, I, boy, I know\n" +
+                "I know you feel it too (yeah)", new ArrayList<>(Arrays.asList("1XyzcGhmO7iUamSS94XfqY", "f5_wn8mexmM")));
+        Song regentsPark = new Song("Regent's Park", "Bruno Major", "\n" +
+                "I must have sent four hundred poems on the way you used to smile at me\n" +
+                "I used to write them for you daily but my thumbs are running dry lately\n" +
+                "No one wants to hear a song about the bitch that broke my heart\n" +
+                "I should've listened to my mama, she saw through you from the start\n" +
+                "But now we're here in Regent's Park amongst the flowers and I wish it would rain\n" +
+                "'Cause in the sun, you look so lovely that I'm falling for you over again\n" +
+                "Since I have nothing left to say that will make you change your mind\n" +
+                "I'll say goodbye on a beautiful spring day\n" +
+                "There was a place not too dissimilar to this one where I first saw your face\n" +
+                "You look like home, sat all alone, I should've found somebody cheaper to chase\n" +
+                "Tragically, nobody told me how expensive you could be\n" +
+                "I lost more than money, dear, you knocked the swagger out of me\n" +
+                "But now we're here in Regent's Park amongst the flowers and I wish it would rain\n" +
+                "'Cause in the sun, you look so lovely that I'm falling for you over again\n" +
+                "Since I have nothing left to say that will make you change your mind\n" +
+                "Make you change your mind\n" +
+                "I'll say goodbye on a beautiful spring day", new ArrayList<>(Arrays.asList("2lU8zMzPhEEDuiUUcUIZAL", "sSvAFjpLaGA")));
+        Song friday = new Song("Friday (feat.Jang Yi-jeong", "IU", "\n" +
+                "월요일엔 아마 바쁘지 않을까\n" +
+                "화요일도 성급해 보이지 안 그래\n" +
+                "수요일은 뭔가 어정쩡한 느낌\n" +
+                "목요일은 그냥 내가 왠지 싫어\n" +
+                "우~ 이번 주 금요일\n" +
+                "우~ 금요일에 시간 어때요\n" +
+                "\n" +
+                "주말까지 기다리긴 힘들어\n" +
+                "시간아 달려라 시계를 더 보채고 싶지만 (mind control)\n" +
+                "\n" +
+                "일분 일초가 달콤해\n" +
+                "이 남자 도대체 뭐야\n" +
+                "사랑에 빠지지 않곤 못 배기겠어\n" +
+                "온 종일 내 맘은 저기 시계바늘 위에 올라타\n" +
+                "한 칸씩 그대에게 더 가까이\n" +
+                "\n" +
+                "우~ 이번 주 금요일\n" +
+                "우~ 금요일에 시간 어때요\n" +
+                "딱히 보고 싶은 영화는 없지만\n" +
+                "딱히 먹고 싶은 메뉴는 없지만\n" +
+                "\n" +
+                "주말까지 기다리긴 힘들어\n" +
+                "시간아 달려라 시계를 더 보채고 싶지만 (mind control)\n" +
+                "\n" +
+                "일분 일초가 달콤해\n" +
+                "이 남자 도대체 뭐야\n" +
+                "사랑에 빠지지 않곤 못 배기겠어\n" +
+                "온 종일 내 맘은 저기 시계바늘 위에 올라타\n" +
+                "한 칸씩 그대에게 더 가까이\n" +
+                "\n" +
+                "나 뭔가에 홀린 것 같아\n" +
+                "이 여잔 도대체 뭐야\n" +
+                "사랑해주지 않고는 못 배기겠어\n" +
+                "돌아오는 이번 주 금요일에 만나요\n" +
+                "그 날 내 맘을 더 가져가줘요\n" +
+                "\n" +
+                "더 가까이 더 가까이 와요 더 가까이", new ArrayList<>(Arrays.asList("0GsRx0gPft6RmijIwMsKmG", "EiVmQZwJhsA")));
+        Song animalSpirits = new Song("Animal Spirits", "Vulfpeck", "Oh woah, yeah\n" +
+                "Oh woah, yeah\n" +
+                "Oh woah, yeah, yeah, ooh, yeah, yeah\n" +
+                "This is a true love story song\n" +
+                "A triumph and a glory song\n" +
+                "With only one small caveat\n" +
+                "This one hasn't happened yet\n" +
+                "It's not the strongest narrative\n" +
+                "But details aren't imperative\n" +
+                "What matters is the way it ends\n" +
+                "They've got sixteen mutual friends\n" +
+                "And she's got\n" +
+                "Animals spirits\n" +
+                "And he's got\n" +
+                "Heartfelt lyrics\n" +
+                "Put them together and you can hear it\n" +
+                "It's the song everyone knows\n" +
+                "And she's got\n" +
+                "Animal spirits\n" +
+                "And he's got\n" +
+                "Heartfelt lyrics\n" +
+                "Put them together and you can hear it\n" +
+                "It's the way the story goes\n" +
+                "Now everyone seems unaware\n" +
+                "That these two are a destined pair\n" +
+                "But I checked out their astral chart\n" +
+                "This one is a work of art\n" +
+                "Now I know she reads astrology\n" +
+                "And he can't stand astrology\n" +
+                "But he's quick with an apology\n" +
+                "When he wisecracks the zodiac\n" +
+                "And she's got\n" +
+                "Animal spirits\n" +
+                "And he's got\n" +
+                "Heartfelt lyrics\n" +
+                "Put them together and you can hear it\n" +
+                "It's the song everyone knows\n" +
+                "And she's got\n" +
+                "Animal spirits\n" +
+                "And he's got\n" +
+                "Heartfelt lyrics\n" +
+                "Put them together and you can hear it\n" +
+                "It's the way the story goes\n" +
+                "Oh, woah, woah\n" +
+                "And when the rising action rises\n" +
+                "There is only one thing left\n" +
+                "And that's the climax\n" +
+                "Twitter on your telly\n" +
+                "Ramen in you belly\n" +
+                "Economics\n" +
+                "Put it in my pocket\n" +
+                "Milty, Marx and Maynard\n" +
+                "Aries penny saver\n" +
+                "Set a market order because I'm pretty sure I got this\n" +
+                "Boulder, Colorado\n" +
+                "Take a break at Yaddo\n" +
+                "Economics\n" +
+                "Put it in my pocket\n" +
+                "Milty, Marx and Maynard\n" +
+                "Fairmount and Brainard\n" +
+                "I can stay\n" +
+                "You can stay, L.A.", new ArrayList<>(Arrays.asList("1SHA4IJyiyNobDOrQzFFXy", "qTUnDV3MgVQ")));
         lis.add(romance);
         lis.add(kissMeMore);
+        lis.add(theFeels);
+        lis.add(regentsPark);
+        lis.add(friday);
+        lis.add(animalSpirits);
 
 
 
