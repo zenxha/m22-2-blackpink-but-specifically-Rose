@@ -8,20 +8,18 @@
         <version>2.4.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.nighthawk</groupId>
-    <artifactId>csa</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>serving-web-content</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>csa</name>
+    <name>p2-chickens</name>
     <description>CSA project for Spring Boot</description>
     <properties>
         <java.version>11</java.version>
         <!-- Thymeleaf 3 -->
         <org.thymeleaf-version>3.0.12.RELEASE</org.thymeleaf-version>
-        <org.thymeleaf.extras.springsecurity4-version>3.0.2.RELEASE</org.thymeleaf.extras.springsecurity4-version>
+        <org.thymeleaf.extras.springsecurity4-version>3.0.4.RELEASE</org.thymeleaf.extras.springsecurity4-version>
         <nz.net.ultraq.thymeleaflayout-version>2.3.0</nz.net.ultraq.thymeleaflayout-version>
         <thymeleaf-extras-java8time-version>3.0.1.RELEASE</thymeleaf-extras-java8time-version>
-        <maven.compiler.source>15</maven.compiler.source>
-        <maven.compiler.target>15</maven.compiler.target>
     </properties>
     <dependencies>
         <!-- Spring -->
@@ -97,6 +95,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <version>1.18.20</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -127,6 +126,22 @@
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.6</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.4</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -137,5 +152,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
