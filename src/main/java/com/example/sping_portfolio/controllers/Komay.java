@@ -43,12 +43,6 @@ public class Komay {
         return "home/input";
     }
 
-    @GetMapping("/song")
-    public String song() {
-        // model.addAttribute("date", date); // MODEL is passed to html
-        return "home/song";
-    }
-
     @RequestMapping(value = "admin", method = {RequestMethod.GET, RequestMethod.POST})
     public String admin(@RequestParam(name = "password", required = true, defaultValue = "") String password) {
         // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
