@@ -18,7 +18,7 @@
                     <label for="greetField" style="color:white">Type a greeting name?</label>
                     <input name="name" id="greetField">
                     <button>Greetings!</button>
-                    <p style="color:white" th:text="'Greetings, ' + ${name} + '!'"></p>
+                    <p style="color:white" th:utext="'Greetings, ' + ${name} + '!'"></p>
                 </div>
             </form>
         </div>
