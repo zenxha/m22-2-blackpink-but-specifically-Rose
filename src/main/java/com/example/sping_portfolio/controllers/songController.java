@@ -1,18 +1,23 @@
 package com.example.sping_portfolio.controllers;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 import org.springframework.stereotype.Controller;
 import com.example.sping_portfolio.algorithms.Song;
-import com.example.sping_portfolio.model.starters.ImageInfo;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.*;
+
 @Controller
 public class songController {
     @GetMapping("/song")
-    public String song(Model model) {
+    public String song(Model model) throws IOException, ParseException {
         //String web_server = "http://localhost:8080/";
 
         ArrayList<Song> lis = new ArrayList<>();
@@ -337,11 +342,19 @@ public class songController {
         lis.add(regentsPark);
         lis.add(friday);
         lis.add(animalSpirits);
+        JSONParser parser = new JSONParser();
+        Object obj = parser.parse(new FileReader("songs.json"));
 
+        JSONObject jsonObject = (JSONObject) obj;
 
+        for(Iterator iterator = jsonObject.keySet().iterator(); iterator.hasNext();) {
+            String key = (String) iterator.next();
 
+            // Song song = new Song();
+            System.out.println(jsonObject.get(key));
+        }
+        ;
         model.addAttribute("song", lis.get((int) Math.floor(Math.random() * lis.size())));
-
         return "home/song";
 
     }
