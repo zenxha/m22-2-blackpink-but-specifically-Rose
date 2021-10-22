@@ -21,10 +21,10 @@ public class DivFor extends _Division {
     }
 
     /*
-    Class method "main" with purpose of testing FibFor
+    Class method "main" with purpose of testing DivFor
      */
     public static void main(String[] args) {
-        _Division fibonacci = new DivFor(); // "FibFor" is used as initializer for the "_Fibonacci fibonacci"  object
+        _Division fibonacci = new DivFor(); // "DivFor" is used as initializer for the "_Division fibonacci"  object
         fibonacci.print();
     }
 }

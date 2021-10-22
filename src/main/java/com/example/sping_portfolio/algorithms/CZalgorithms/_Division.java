@@ -13,11 +13,7 @@ import java.util.HashMap;
 
 import lombok.Getter;
 
-/*
- _Fibonacci class contains generalized logic to capture and analyze a Fibonacci sequence.
- _Fibonacci is an "abstract" class, meaning it can't be initialized directly
- The "_" in name is used to push this "Parent" Class to top of package file listing.
- */
+
 @Getter  // this will enable standard Getters on attributes in Class in form "getName" where "name" is attribute
 public abstract class _Division {
     int size;
@@ -27,24 +23,18 @@ public abstract class _Division {
     ArrayList<Long> list;
     HashMap<Integer, Object> hash;
 
-    /*
-     Zero parameter constructor uses Telescoping technique to allow setting of the required value nth
-     @param: none
-     */
+
     public _Division() {
         this( 50);
     }
 
-    /*
-     Construct the nth fibonacci number
-     @param: nth number, the value is constrained to 92 because of overflow in a long
-     */
+
     public _Division(int nth) {
         this.size = nth;
         this.list = new ArrayList<>();
         this.hashID = 0;
         this.hash = new HashMap<>();
-        //initialize fibonacci and time algorithm
+
         Instant start = Instant.now();  // time capture -- start
         this.init();
         Instant end = Instant.now();    // time capture -- end
@@ -72,23 +62,17 @@ public abstract class _Division {
         return timeElapsed.getNano();
     }
 
-    /*
-     Custom Getter to return last element in Fibonacci sequence
-     */
+
     public long getNth() {
         return list.get(size - 1);
     }
 
-    /*
-     Custom Getter to return last Fibonacci sequence in HashMap
-     */
+
     public Object getNthSeq(int i) {
         return hash.get(i);
     }
 
-    /*
-     Console/Terminal supported print method
-     */
+
     public void print() {
         ConsoleMethods.println("Init method = " + this.name);
         ConsoleMethods.println("Init time = " + this.getTimeElapsed());
@@ -100,9 +84,7 @@ public abstract class _Division {
         }
     }
 
-    /*
-    Tester class method.  This calls "main" class of each of the extended classes in the package
-     */
+
     public static void main(String[] args) {
         DivFor.main(null);
         DivRecurse.main(null);
