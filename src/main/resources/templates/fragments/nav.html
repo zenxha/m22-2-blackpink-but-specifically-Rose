@@ -2,15 +2,16 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>...</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
     <!-- Begin navigation fragments -->
     <nav class="navbar" th:fragment="header">
         <a class="navbar-brand" href="/">
-            <img src="https://files.catbox.moe/1zang4.png" th:src="@{/images/rose-modified.png}" width="50" height="50" class="d-inline-block align-center" alt="">
+            <img src="https://files.catbox.moe/1zang4.png" th:src="@{/images/rose-modified.png}" width="75" height="75" class="d-inline-block align-center" alt="">
 
         </a>
-        <a class="logo" href="/" ><h1>Rosé</h1>
+        <a class="logo" href="/" ><h1>Rosé</h1></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,67 +29,10 @@
                 <li><a href="/api">API</a></li>
 
 
-
-
-    <style>
-        header nav {
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: space-around;
-        }
-
-        header nav .logo {
-            color: #fff;
-            font-size: 2em;
-            text-transform: uppercase;
-            padding: 20px 20px 10px 20px;
-        }
-
-        header nav .logo a {
-            color: #fff;
-        }
-
-        header nav ul {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        header nav li a {
-            color: #fff;
-            display: block;
-            position: relative;
-            padding: 20px 20px 10px;
-        }
-
-        header nav li a:before,
-        header nav li a:after {
-            content: "";
-            bottom: 0;
-            width: 0px;
-            height: 2px;
-            display: block;
-            position: absolute;
-            background-color: #fff;
-            -webkit-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;
-        }
-
-        header nav li a:before {
-            right: 50%;
-        }
-
-        header nav li a:after {
-            left: 50%;
-        }
-
-        header nav li a:hover:before,
-        header nav li a:hover:after {
-            width: 50%;
-        }
-    </style>
     </nav>
+
+
+
     <!-- Begin navigation fragments -->
 </body>
 </html>

@@ -13,6 +13,8 @@
 
     <title>Song Input</title>
 
+
+
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
     <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
 
@@ -280,48 +282,6 @@
            background-color: #2c6ed5;
        }
 
-       input[type="date" i] {
-           padding: 14px;
-       }
-
-       .table-condensed td, .table-condensed th {
-           font-size: 14px;
-           font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
-           font-weight: 400;
-       }
-
-       .daterangepicker td {
-           width: 40px;
-           height: 30px;
-       }
-
-       .daterangepicker {
-           border: none;
-           -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-           -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-           box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-           display: none;
-           border: 1px solid #e0e0e0;
-           margin-top: 5px;
-       }
-
-       .daterangepicker::after, .daterangepicker::before {
-           display: none;
-       }
-
-       .daterangepicker thead tr th {
-           padding: 10px 0;
-       }
-
-       .daterangepicker .table-condensed th select {
-           border: 1px solid #ccc;
-           -webkit-border-radius: 3px;
-           -moz-border-radius: 3px;
-           border-radius: 3px;
-           font-size: 14px;
-           padding: 5px;
-           outline: none;
-       }
 
        /* ==========================================================================
           #FORM
@@ -546,7 +506,9 @@
     <link href="css/main.css" rel="stylesheet" media="all">
     <meta name="robots" content="noindex, follow">
 </head>
-<body>
+
+<body><div layout:fragment="content" th:remove="tag">
+
 <div class="page-wrapper bg-gra-01 p-t-180 p-b-100 font-poppins">
     <div class="wrapper wrapper--w780">
         <div class="card card-3">
@@ -577,7 +539,7 @@
             </div>
         </div>
     </div>
-</div>
+</div></body>
 
 <script src="vendor/jquery/jquery.min.js"></script>
 
@@ -596,5 +558,5 @@
     gtag('config', 'UA-23581568-13');
 </script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"69ffa85b1f2b04e3","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.9.0","si":100}'></script>
-</body>
+
 </html>
