@@ -15,6 +15,8 @@
 |Tanmay|TMarwah|[Filtered Scrum Board](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1?card_filter_query=assignee%3Atmarwah)|[Commits](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/graphs/contributors) (TMarwah - Tanmay)|[Profile](https://github.com/TMarwah)|
 ## Project Summary
 Project is a song browser, in which the user uploads their song requests and the website will deliver the lyrics to the piece as well as links to a youtube video, the spotify song, and a google search link of the song. Project will also serve as a means of storing our notes from college board and keeping up with the AP review
+## Individual Final Review
+### Link to [Scrum Team Videos](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/issues/39)
 ## WEEK 7 Modeling Checkpoint plus unit 7
 ### [Video Overview](https://www.youtube.com/watch?v=pXoBqpgow-w&ab_channel=Purplebears)
 ### [Review Ticket Week 7](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/projects/1#card-70273547)
