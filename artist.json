@@ -1,0 +1,38 @@
+{
+  "yoasobi": {
+    "name": "YOASOBI",
+    "image": "https://cdn.myanimelist.net/images/voiceactors/2/63392.jpg",
+    "songs": ["romance"],
+    "description": ""
+  },
+  "doja cat": {
+    "name": "Doja Cat",
+    "image": "https://static.wikia.nocookie.net/dojacat/images/b/b3/Doja_Cat_in_August_2020.jpg/revision/latest?cb=20200820200441",
+    "songs": ["Kiss Me More (feat SZA.)"],
+    "description": ""
+  },
+  "twice": {
+    "name": "TWICE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/180717_%EC%97%B4%EB%A6%B0%EC%9D%8C%EC%95%85%ED%9A%8C_%ED%8A%B8%EC%99%80%EC%9D%B4%EC%8A%A4_02.jpg",
+    "Songs": ["The Feels"],
+    "Description": ""
+  },
+  "bruno major": {
+    "name": "Bruno Major",
+    "image": "https://www.interviewmagazine.com/wp-content/uploads/2018/03/BRUNO_MAJOR_08_084.jpg",
+    "songs": ["Regent's Park"],
+    "description": ""
+  },
+  "iu": {
+    "name": "IU",
+    "image": "https://6.vikiplatform.com/image/a11230e2d98d4a73825a4c10c8c6feb0.jpg?x=b&a=0x0&s=460x268&e=t&f=t&cb=1",
+    "songs": ["Friday (feat.Jang Yi-jeong"],
+    "description": ""
+  },
+  "vulfpeck": {
+    "name": "Vulfpeck",
+    "image": "https://www.newuniversity.org/wp-content/uploads/2019/01/vulf.jpg",
+    "songs": ["Animal Spirits"],
+    "description": ""
+  }
+}
