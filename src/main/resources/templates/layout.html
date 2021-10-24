@@ -21,6 +21,7 @@
 </html>
 
 <style>
+    @import url('https://fonts.googleapis.com/css?family=Numans');
     :root{
         --yellow: #f1d483;
         --green: #9daf9b;
@@ -44,101 +45,64 @@
         color: var(--dblue);
         content: "";
         z-index: -1;
-        height: 1080px;
-        width: 1920px;
-        position: fixed;
         animation: unset;
         background: linear-gradient(rgba(103, 135, 211, .6), rgba(144, 25, 166, .6)), url("https://i.ytimg.com/vi/lTRiuFIWV54/maxresdefault.jpg") no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        font-family: 'Numans', sans-serif;
     }
+     header nav {
+         width: 100%;
+         display: flex;
+         flex-wrap: wrap;
+         align-items: center;
+         justify-content: space-around;
+     }
 
-    .dark-mode {
-        background-color: var(--white);
-        color: var(--black);
-    }
 
-    a {
+    header nav .logo a {
         color: #fff;
     }
 
-    .fa{
-        font-size: 3em;
-        letter-spacing: 1em;
-        transition: all .2s;
-        color: white;
-    }
-
-    .fa:hover{
-        transform: translateY(10px);
-    }
-
-    .fa-youtube-play:hover{
-        color: #cc0000;
-    }
-
-    .fa-twitter:hover{
-        color: #1da1f2;
-    }
-
-    .fa-github:hover{
-        color: #000000;
-    }
-
-    .btn:link,
-    .btn:visited {
-        text-transform: uppercase;
-        text-decoration: none;
-        padding: 15px 40px;
-        display: inline-block;
-        border-radius: 100px;
-        transition: all .2s;
-        position: absolute;
-        color: white;
-        font-size: 2.5em;
-    }
-
-    .btn:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 20px 40px rgba(255, 255, 255, 0.2);
-    }
-
-    .btn:active {
-        transform: translateY(-1px);
-        box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
-    }
-
-
-
-    .navbar-custom .navbar-brand,
-    .navbar-custom .navbar-text {
-        color: var(--pink);
-    }
-    articles {
-        color: var(--pink)
-    }
-    header {
-        width: 100vw;
-        height: 100vh;
+    header nav ul {
         display: flex;
-        position: absolute;
-        align-items: center;
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 
-    header:before {
-        content: "";
-        z-index: -1;
-        height: 1080px;
-        width: 1920px;
-        position: fixed;
-        animation: unset;
-        background: linear-gradient(rgba(103, 135, 211, .6), rgba(144, 25, 166, .6)), url("{{background}}") no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+    header nav li a {
+        color: #fff;
+        display: block;
+        position: relative;
+        padding: 20px 20px 10px;
     }
+
+    header nav li a:before,
+    header nav li a:after {
+        content: "";
+        bottom: 0;
+        width: 0px;
+        height: 2px;
+        display: block;
+        position: absolute;
+        background-color: #fff;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+
+    header nav li a:before {
+        right: 50%;
+    }
+
+    header nav li a:after {
+        left: 50%;
+    }
+
+    header nav li a:hover:before,
+    header nav li a:hover:after {
+        width: 50%;
+    }
+
+
 </style>
