@@ -16,7 +16,7 @@ public class DivWhile extends _Division {
     @Override
     protected void init() {
         super.name = "DivWhile";
-        // longer and more error prone "while" syntCZ is often best performer in this small scale test ??
+
         long limit = super.size;
         long[] f = new long[]{0, 100000};
         while (limit-- > 0) {
@@ -26,7 +26,7 @@ public class DivWhile extends _Division {
     }
 
     /*
-    Class method "main" with purpose of testing FibWhile
+    Class method "main" with purpose of testing DivWhile
      */
     public static void main(String[] args) {
         _Division fibonacci = new com.example.sping_portfolio.algorithms.CZalgorithms.DivWhile();
