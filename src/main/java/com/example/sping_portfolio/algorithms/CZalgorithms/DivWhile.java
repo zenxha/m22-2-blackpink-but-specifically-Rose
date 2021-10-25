@@ -17,7 +17,7 @@ public class DivWhile extends _Division {
     protected void init() {
         super.name = "DivWhile";
 
-        long limit = super.size;
+        long limit = super.size + 1;
         long[] f = new long[]{0, 100000};
         while (limit-- > 0) {
             super.setData(f[0]);

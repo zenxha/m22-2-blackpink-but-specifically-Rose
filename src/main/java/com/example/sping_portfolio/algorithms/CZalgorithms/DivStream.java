@@ -18,7 +18,7 @@ public class DivStream extends _Division {
         super.name = "DivStream";
 
         Stream.iterate(new long[]{0, 100000}, f -> new long[]{f[1], f[1]/2})
-                .limit(super.size)
+                .limit(super.size + 1)
                 .forEach(f -> super.setData(f[0]) );
     }
 
