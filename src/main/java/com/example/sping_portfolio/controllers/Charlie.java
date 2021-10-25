@@ -19,7 +19,7 @@ public class Charlie {
 
     @GetMapping("/directory")
     public String directory(Model model) {
-        String[][] teachers = {
+        String[][] songcontribute = {
                 {"Mr. Mortensen", "A101", "jmortensen@powayusd.com"},
                 {"Mrs. Craig", "E101", "cocraig@powayusd.com"},
                 {"Mr. Liao", "K105", "fliao@powayusd.com"},
@@ -28,34 +28,10 @@ public class Charlie {
                 {"Mrs. Dupas", "J102", "ddupas@powayusd.com"},
                 {"Mrs. Balderas", "D118", "mbalderas@powayusd.com"},
                 {"Mrs. Derksen", "G103", "mderksen@powayusd.com"},
-                {"Mr. Ozuna", "K103", "kozuna@powayusd.com"},
-                {"Mrs. Wong", "M116", "rwong@powayusd.com"},
-                {"Mrs. Buehler", "L103", "jbuehler@powayusd.com"},
-                {"Mrs. Volger", "L114", "ddupas@powayusd.com"},
-                {"Mrs. Darcey", "G115", "ddupas@powayusd.com"},
-                {"Mrs. Ayres", "L117", "eayres@powayusd.com"},
-                {"Mr. Strutton", "D117", "astrutton@powayusd.com"},
-                {"Mrs. Craig", "E101", "ccraig@powayusd.com"},
-                {"Mrs. Ross", "R501", "rross@powayusd.com"},
-                {"Mrs. Parmley", "L112", "@eparmleypowayusd.com"},
-                {"Mr. Swanson", "L116", "@tswansonpowayusd.com"},
-                {"Mr. Krenz", "J102", "@jkrenzpowayusd.com"},
-                {"Mrs. Nydam", "L102", "cnydam@powayusd.com"},
-                {"Mr. Bernabeo", "L101", "jbernabeo@powayusd.com"},
-                {"Mrs. Callicot", "K104", "acallicot@powayusd.com"},
-                {"Mrs. Lin", "D116", "clin@powayusd.com"},
-                {"Mrs. Giffin", "L111", "tgiffin@powayusd.com"},
-                {"Mrs. Alvarez", "D111", "malvarez@powayusd.com"},
-                {"Mrs. Smedley", "E104", "lsmedley@powayusd.com"},
-                {"Mrs. Cheskaty", "E106", "jcheskaty@powayusd.com"},
-                {"Mrs. Dafoe", "G101", "sdafoe@powayusd.com"},
-                {"Mrs. Jenkins", "G101", "cjenkins@powayusd.com"},
         };
-        //model.addAttribute("teacherName", "Mr.Mortensen");
-        //model.addAttribute("teacherName1", "Mrs.Craig");
-        //model.addAttribute("teacherName2", "Mr.Liao");
-        model.addAttribute("teachers", teachers);
-        return "teacherDirectory"; // returns HTML VIEW (greeting)
+
+        model.addAttribute("songcontribute", songcontribute);
+        return "Blackpinksong"; // returns HTML VIEW (greeting)
     }
 }
 
