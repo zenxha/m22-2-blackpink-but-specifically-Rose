@@ -20,14 +20,23 @@ public class Charlie {
     @GetMapping("/directory")
     public String directory(Model model) {
         String[][] songcontribute = {
-                {"Mr. Mortensen", "A101", "jmortensen@powayusd.com"},
-                {"Mrs. Craig", "E101", "cocraig@powayusd.com"},
-                {"Mr. Liao", "K105", "fliao@powayusd.com"},
-                {"Mrs. Lanzi-Sheaman", "G104", "mlanzi@powayusd.com"},
-                {"Mr. Millman", "K106", "rmillman@powayusd.com"},
-                {"Mrs. Dupas", "J102", "ddupas@powayusd.com"},
-                {"Mrs. Balderas", "D118", "mbalderas@powayusd.com"},
-                {"Mrs. Derksen", "G103", "mderksen@powayusd.com"},
+                {"Charlie Zhu", "Trophies", "Young Money, Drake"},
+                {"Tanmay Marwah", "MONEY", "LISA"},
+                {"Charlie Zhu", "God's Plan", "Drake"},
+                {"Komay Sugiyama", "配信", "Yorushika"},
+                {"Charlie Zhu", "SOMEBODY", "keshi"},
+                {"Komay Sugiyama", "Yesterday", "Official Hige Dandism"},
+                {"Allen Xu", "Danger, Danger", "My Little Pony"},
+                {"Komay Sugiyama", "Universe", "Official Hige Dandism"},
+                {"Tanmay Marwah", "LALISA", "LISA"},
+                {"Allen Xu", "Fit Right In", "My Little Pony"},
+                {"Tanmay Marwah", "Kill This Love", "BLACKPINK"},
+                {"Allen Xu", "Gonna Be My Day", "My Little Pony"},
+                {"Komay Sugiyama", "Friday", "IU, Jang Yi-jeong"},
+                {"Charlie Zhu", "Act Up", "Rich Brian, EARTHGANG"},
+                {"Tanmay Marwah", "Beep-Boop, Beep-Boop", "Meaningful Stone"},
+                {"Allen Xu", "Blue Bird", "Akano"},
+                {"Charlie Zhu", "Free Like Me", "Marc E. Bassy, Cory Henry"},
         };
 
         model.addAttribute("songcontribute", songcontribute);
