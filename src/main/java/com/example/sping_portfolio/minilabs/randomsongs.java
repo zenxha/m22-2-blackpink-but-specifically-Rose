@@ -18,12 +18,23 @@ public class randomsongs {
         System.out.println();
         HashMap<String, String> Pretender = new HashMap<String, String>();
 
-        Pretender.put("Youtube", " Link");
-        Pretender.put("Spotify", " Link");
-        Pretender.put("Amazon Music", " Link");
-        Pretender.put("Lyrics", " Link");
+        Pretender.put("Youtube", " https://www.youtube.com/watch?v=TQ8WlA2GXbk&ab_channel=Official%E9%AB%AD%E7%94%B7dism");
+        Pretender.put("Spotify", " https://open.spotify.com/track/15HNdxGKNCIO9pgaY4n7FU");
+        Pretender.put("Amazon Music", " https://www.amazon.com/Pretender-OFFICIAL-HIGE-DANDISM/dp/B07Q44XDZV");
+        Pretender.put("Lyrics", " https://genius.com/Genius-romanizations-official-hige-dandism-pretender-romanized-lyrics");
         for (String p : Pretender.keySet()) {
             System.out.println("Pretender: " + p + " Link: " + Pretender.get(p));
+
+            }
+        System.out.println();
+        HashMap<String, String> TheFeels = new HashMap<String, String>();
+
+        TheFeels.put("Youtube", " https://www.youtube.com/watch?v=f5_wn8mexmM&ab_channel=JYPEntertainment");
+        TheFeels.put("Spotify", " https://open.spotify.com/album/6bk3KlQjiXsRmGrzrNcS53");
+        TheFeels.put("Amazon Music", " https://www.amazon.com/Feels-TWICE/dp/B09F9RYJ2P");
+        TheFeels.put("Lyrics", " https://genius.com/Twice-the-feels-lyrics");
+        for (String p : TheFeels.keySet()) {
+            System.out.println("TheFeels: " + p + " Link: " + TheFeels.get(p));
 
             }
         }
