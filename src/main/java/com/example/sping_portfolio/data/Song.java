@@ -1,4 +1,4 @@
-package com.example.sping_portfolio.algorithms;
+package com.example.sping_portfolio.data;
 
 import lombok.Getter;
 

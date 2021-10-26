@@ -61,10 +61,6 @@ public class Komay {
         return "home/notes";
     }
 
-    @GetMapping("/songinput")
-    public String songinput() {
-        // model.addAttribute("date", date); // MODEL is passed to html
-        return "home/songinput";
-    }
+
 }
 
