@@ -32,11 +32,11 @@ public class inputController implements WebMvcConfigurer {
         return "home/songinput";
     }
 
-    @PostMapping("/songinput")
-    public String songSave(@Valid Song song, BindingResult bindingResult) {
-        if(bindingResult.hasErrors()) {
-            return "data/personcreate";
-        }
-        repository.save(song);
-    }
+//    @PostMapping("/songinput")
+//    public String songSave(@Valid Song song, BindingResult bindingResult) {
+//        if(bindingResult.hasErrors()) {
+//            return "data/personcreate";
+//        }
+//        repository.save(song);
+//    }
 }
