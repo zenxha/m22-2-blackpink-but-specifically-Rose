@@ -12,22 +12,18 @@ public class DivStream extends _Division {
         super(nth);
     }
 
-    /*
-    Abstract Polymorphic "init()" method using Stream and Lambda expressions hello
-    */
+
     @Override
     protected void init() {
         super.name = "DivStream";
-        // Stream iterates using lambda "->" syntCZ unil ".limit" is reached
-        // Streams and Lambda have been added to more recent versions of Java, this will NOT be on AP Test
-        // Streams are prevalent in Big Data, in this example it seems to perform the worst
+
         Stream.iterate(new long[]{0, 100000}, f -> new long[]{f[1], f[1]/2})
-                .limit(super.size)
+                .limit(super.size + 1)
                 .forEach(f -> super.setData(f[0]) );
     }
 
     /*
-    Class method "main" with purpose of testing FibStream
+    Class method "main" with purpose of testing DivStream
      */
     public static void main(String[] args) {
         _Division fibonacci = new com.example.sping_portfolio.algorithms.CZalgorithms.DivStream();

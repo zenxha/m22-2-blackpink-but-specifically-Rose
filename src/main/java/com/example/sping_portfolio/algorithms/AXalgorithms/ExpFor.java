@@ -20,7 +20,7 @@ public class ExpFor extends _Exponential {
     }
 
     /*
-    Class method "main" with purpose of testing FibFor
+    Testing mmethod
      */
     public static void main(String[] args) {
         _Exponential fibonacci = new ExpFor(); // "FibFor" is used as initializer for the "_Fibonacci fibonacci"  object
