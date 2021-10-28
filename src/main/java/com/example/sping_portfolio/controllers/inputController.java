@@ -24,19 +24,21 @@ public class inputController implements WebMvcConfigurer {
     private inputController repository;
 
     @GetMapping("/songinput")
-    public String songinput() {
+    public String songInput(Song song) {
         // model.addAttribute("date", date); // MODEL is passed to html
-        Song songToPutIntoDB = new Song("form.trackTitle", "form.artist", "form.lrics", new ArrayList<>(Arrays.asList("form.spotify", "form.youtube")));
         // db.push(songToPutIntoDB)'
         // db.commit
         return "home/songinput";
     }
 
-//    @PostMapping("/songinput")
-//    public String songSave(@Valid Song song, BindingResult bindingResult) {
-//        if(bindingResult.hasErrors()) {
-//            return "data/personcreate";
-//        }
-//        repository.save(song);
-//    }
+    @PostMapping("/songinput")
+    public String songSave(@Valid Song song, BindingResult bindingResult) {
+        if(bindingResult.hasErrors()) {
+            return "data/personcreate";
+        }
+        Song songToPutIntoDB = new Song("form.trackTitle", "form.artist", "form.lrics", "form.spotify", "form.youtube");
+
+       // repository.save(songToPutIntoDB);
+        return("redirect:https://google.com");
+    }
 }
