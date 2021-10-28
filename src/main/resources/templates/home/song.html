@@ -19,14 +19,14 @@
                     <h1 class="display-4" th:utext="${song.getTrackName()}"></h1>
                     <p class="lead" th:utext="${song.getArtist()}"></p>
                     <hr class="my-4">
-                    <p th:utext="${song.getLyrics()}"></p>
+                    <p th:utext="lol" id="lyrics"></p>
                     <p class="lead">
-                        <a class="btn btn-primary btn-lg" href="song" role="button">Reload</a>
+                        <a class="btn btn-primary btn-lg" onclick="change()" role="button">Load Lyrics</a>
                     </p>
                 </div>
                 <div class="col">
                     <h1 class="display-4">Song Data</h1>
-                    <div class="social-buttons mt-5"> <button class="neo-button"><a href="https://google.com"></a><i class="fa fa-google a-1x"></i> </button> <button class="neo-button"><i class="fa fa-spotify fa-1x"></i></button>  <button class="neo-button"><i class="fa fa-youtube fa-1x"></i> </button> </div>
+                    <div class="social-buttons mt-5"> <button  class="neo-button"><i class="fa fa-google a-1x"></i> </button> <a th:attr="href=${song.getSpotifyUrl}" class="neo-button"><i class="fa fa-spotify fa-1x"></i></a>  <a th:href="${song.getYoutubeUrl}" class="neo-button"><i class="fa fa-youtube fa-1x"></i> </a> </div>
                     <hr class="my-4">
                     <!-- 16:9 aspect ratio -->
                     <div class="embed-responsive embed-responsive-16by9">
@@ -45,6 +45,14 @@
     </div>
 
     <!-- End of body content specific to page -->
+
+
+    <script th:inline="javascript">
+        const change = () => {
+            document.getElementById("lyrics").innerHTML = [[${song.getFormattedLyrics}]];
+        }
+    </script>
+
 </div></body>
 
 </html>
@@ -69,12 +77,6 @@
 
 
 
-    .card {
-        border-radius: 20px;
-        background: #e3b8f5;
-        box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #e3b8f5;
-        border: none
-    }
 
     .card img {
         border-radius: 25%;
