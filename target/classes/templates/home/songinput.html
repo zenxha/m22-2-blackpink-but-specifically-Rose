@@ -515,21 +515,21 @@
             <div class="card-heading"></div>
             <div class="card-body">
                 <h2 class="title">Song Info</h2>
-                <form method="POST">
+                <form method="POST" th:action="@{/data/inputController}" th:object="${song}">
                     <div class="input-group">
-                        <input class="input--style-3" type="text" placeholder="Song Title" name="title">
+                        <input th:field="trackName" class="input--style-3" type="text" placeholder="Song Title" name="title">
+                    </div>
+                    <div class="in put-group">
+                        <input th:field="artist" class="input--style-3" type="text" placeholder="Artist name" name="artist">
                     </div>
                     <div class="input-group">
-                        <input class="input--style-3" type="text" placeholder="Artist name" name="artist">
+                        <input th:field="lyrics" class="input--style-3" type="textarea" placeholder="Lyrics" name="lyrics">
                     </div>
                     <div class="input-group">
-                        <input class="input--style-3" type="textarea" placeholder="Lyrics" name="lyrics">
+                        <input th:field="youtube" class="input--style-3" type="text" placeholder="Youtube Code" name="youtube">
                     </div>
                     <div class="input-group">
-                        <input class="input--style-3" type="text" placeholder="Youtube Code" name="youtube">
-                    </div>
-                    <div class="input-group">
-                        <input class="input--style-3" type="text" placeholder="Spotify Code" name="spotify">
+                        <input th:field="spotify"class="input--style-3" type="text" placeholder="Spotify Code" name="spotify">
                     </div>
 
                     <div class="p-t-10">
