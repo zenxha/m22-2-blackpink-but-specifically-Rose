@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<body><div layout:fragment="content" th:remove="tag">
+
+    <div class="container"style = "color: white">
+
+
+        <table class="table table-hover table-dark">
+            <thead>
+            <tr style = "color: white">
+                <th>Song Title</th>
+                <th>Artist Name</th>
+                <th>Lyrics</th>
+                <th>Youtube</th>
+                <th>Spotify</th>
+            </tr>
+            </thead>
+            <tbody style = "color: white">
+            <!--/*@thymesVar id="teachers" type=""*/-->
+            <th:block th:each="songadd: ${songadd}">
+                <tr>
+                    <td th:text="${songadd[0]}"></td>
+                    <td th:text="${songadd[1]}"></td>
+                    <td>
+                        <a th:href="@{${songadd[2]}}">Lyrics</a>
+                    </td>
+                    <td>
+                        <a th:href="@{${songadd[3]}}">Youtube</a>
+                    </td>
+                    <td>
+                        <a th:href="@{${songadd[4]}}">Spotify</a>
+                    </td>
+                </tr>
+            </th:block>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
+</div></body>
