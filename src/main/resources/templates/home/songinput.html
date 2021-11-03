@@ -517,13 +517,13 @@
                 <h2 class="title">Song Info</h2>
                 <form method="POST">
                     <div class="input-group">
-                        <input class="input--style-3" type="text" placeholder="Song Title" name="title">
+                        <input class="input--style-3" type="text" th:field="*{email}" placeholder="Song Title">
                     </div>
                     <div class="input-group">
-                        <input class="input--style-3" type="text" placeholder="Artist name" name="artist">
+                        <input class="input--style-3" type="text" th:field="*{name}" placeholder="Artist name" name="artist">
                     </div>
                     <div class="input-group">
-                        <input class="input--style-3" type="textarea" placeholder="Lyrics" name="lyrics">
+                        <input class="input--style-3" type="textarea" th:field="*{dob}" placeholder="Lyrics" name="lyrics">
                     </div>
                     <div class="input-group">
                         <input class="input--style-3" type="text" placeholder="Youtube Code" name="youtube">
@@ -558,5 +558,5 @@
     gtag('config', 'UA-23581568-13');
 </script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"69ffa85b1f2b04e3","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.9.0","si":100}'></script>
-
+`
 </html>

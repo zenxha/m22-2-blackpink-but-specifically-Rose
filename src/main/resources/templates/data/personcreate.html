@@ -1,0 +1,51 @@
+<!-- This page is illustrative and contains ideas about HTML formatting -->
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+  <title>Person Form</title>
+</div></head>
+
+<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+<body><div layout:fragment="content" th:remove="tag">
+  <div style="margin: 2%;">
+    <h3>Welcome, Enter The Persons Details</h3>
+    <!-- ThymeLeaf allows person abject of the Class Person to be acted upon by the form
+     This is known as a “bean-backed form” or "form-backing bean".
+        th:object - the backend form object (bean object)
+     There are fields in the Person bean,  Get started with dialiects in 5 minutes -- https://www.thymeleaf.org/doc/articles/standarddialect5minutes.html
+        th:field="*{name}"
+        th:field="*{age}"
+        th:field="*{dob}"
+     Each field has supporting line to show errors in validation
+        th:errors - form input errors added when validation errors occur
+     .-->
+    <form action="#" th:action="@{/data/personcreate}" th:object="${person}" method="POST">
+      <table>
+        <tr>
+          <td>Email:</td>
+          <td><input type="email" th:field="*{email}" /></td>
+          <td th:if="${#fields.hasErrors('email')}" th:errors="*{email}">EMail Error</td>
+        </tr>
+        <tr>
+          <td>Name:</td>
+          <td><input type="text" th:field="*{name}" /></td>
+          <td th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</td>
+        </tr>
+        <tr>
+          <td>Birth Date:</td>
+          <td><input type="date" th:field="*{dob}" /></td>
+          <td th:if="${#fields.hasErrors('dob')}" th:errors="*{dob}">Birth Date Error</td>
+
+        </tr>
+        <tr>
+          <td><button type="submit">Add</button></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</div></body>
+
+</html>
