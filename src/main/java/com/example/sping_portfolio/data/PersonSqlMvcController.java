@@ -112,20 +112,20 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
     /*
     POST Aa record by Requesting Parameters from URI
      */
-    @RequestMapping(value = "/api/person/post", method = RequestMethod.POST)
-    public ResponseEntity<Object> postPerson(@RequestParam("email") String email,
-                                             @RequestParam("name") String name,
-                                             @RequestParam("dob") String dobString) {
-        Date dob;
-        try {
-            dob = new SimpleDateFormat("MM-dd-yyyy").parse(dobString);
-        } catch (Exception e) {
-            return new ResponseEntity<>(dobString +" error; try MM-dd-yyyy", HttpStatus.BAD_REQUEST);
-        }
-        // A person object WITHOUT ID will create a new record
-        Person person = new Person(email, name, dob);
-        repository.save(person);
-        return new ResponseEntity<>(email +" is created successfully", HttpStatus.CREATED);
-    }
+//    @RequestMapping(value = "/api/person/post", method = RequestMethod.POST)
+//    public ResponseEntity<Object> postPerson(@RequestParam("email") String email,
+//                                             @RequestParam("name") String name,
+//                                             @RequestParam("dob") String dobString) {
+//        Date dob;
+//        try {
+//            dob = new SimpleDateFormat("MM-dd-yyyy").parse(dobString);
+//        } catch (Exception e) {
+//            return new ResponseEntity<>(dobString +" error; try MM-dd-yyyy", HttpStatus.BAD_REQUEST);
+//        }
+//        // A person object WITHOUT ID will create a new record
+//        Person person = new Person(song, artist, lyrics, youtube, spotify);
+//        repository.save(person);
+//        return new ResponseEntity<>(email +" is created successfully", HttpStatus.CREATED);
+//    }
 
 }

@@ -1,4 +1,3 @@
-<!-- This page is illustrative and contains ideas about HTML formatting -->
 <!DOCTYPE HTML>
 <!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
 <html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
@@ -10,8 +9,8 @@
 
 <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
 <body><div layout:fragment="content" th:remove="tag">
-  <div style="margin: 2%;">
-    <h3>Welcome, Enter The Persons Details</h3>
+  <div style="margin: 2%; color: white">
+    <h3>Welcome, Enter The Song Details</h3>
     <!-- ThymeLeaf allows person abject of the Class Person to be acted upon by the form
      This is known as a “bean-backed form” or "form-backing bean".
         th:object - the backend form object (bean object)
@@ -23,22 +22,31 @@
         th:errors - form input errors added when validation errors occur
      .-->
     <form action="#" th:action="@{/data/personcreate}" th:object="${person}" method="POST">
-      <table>
+      <table style="">
         <tr>
-          <td>Email:</td>
-          <td><input type="email" th:field="*{email}" /></td>
-          <td th:if="${#fields.hasErrors('email')}" th:errors="*{email}">EMail Error</td>
+          <td>Song:</td>
+          <td><input type="text" th:field="*{song}"/></td>
+          <td th:if="${#fields.hasErrors('song')}" th:errors="*{song}">song error</td>
         </tr>
         <tr>
-          <td>Name:</td>
-          <td><input type="text" th:field="*{name}" /></td>
-          <td th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</td>
+          <td>Artist:</td>
+          <td><input type="text" th:field="*{artist}" /></td>
+          <td th:if="${#fields.hasErrors('artist')}" th:errors="*{artist}">artist Error</td>
         </tr>
         <tr>
-          <td>Birth Date:</td>
-          <td><input type="date" th:field="*{dob}" /></td>
-          <td th:if="${#fields.hasErrors('dob')}" th:errors="*{dob}">Birth Date Error</td>
-
+          <td>Lyrics:</td>
+          <td><input type="text" th:field="*{lyrics}" /></td>
+          <td th:if="${#fields.hasErrors('lyrics')}" th:errors="*{lyrics}">lyrics Error</td>
+        </tr>
+        <tr>
+          <td>Youtube:</td>
+          <td><input type="text" th:field="*{youtube}" /></td>
+          <td th:if="${#fields.hasErrors('youtube')}" th:errors="*{youtube}">Youtube Error</td>
+        </tr>
+        <tr>
+          <td>Spotify:</td>
+          <td><input type="text" th:field="*{spotify}" /></td>
+          <td th:if="${#fields.hasErrors('spotify')}" th:errors="*{spotify}">Spotify Error</td>
         </tr>
         <tr>
           <td><button type="submit">Add</button></td>

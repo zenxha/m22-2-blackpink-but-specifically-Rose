@@ -29,9 +29,7 @@ public class Person {
     private Long id;
 
     @NotEmpty
-    @Size(min=5)
-    @Email
-    private String email;
+    private String song;
 
     /*
     @NonNull: Places this in @RequiredArgsConstructor
@@ -39,22 +37,26 @@ public class Person {
      */
     @NonNull
     @Size(min = 2, max = 30, message = "Name (2 to 30 chars)")
-    private String name;
+    private String artist;
 
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
-    private Date dob;
+    @NonNull
+    private String lyrics;
+
+    @NonNull
+    private String youtube;
+
+    @NonNull
+    private String spotify;
 
     /* Initializer used when setting data from an API */
-    public Person(String email, String name, Date dob) {
-        this.email = email;
-        this.name = name;
-        this.dob = dob;
+    public Person(String song, String artist, String lyrics, String youtube, String spotify) {
+        this.song = song;
+        this.artist = artist;
+        this.lyrics = lyrics;
+        this.youtube = youtube;
+        this.spotify = spotify;
     }
 
-    /* A custom getter to return age from dob calculation */
-    public int getAge() {
-        LocalDate birthDay = this.dob.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
-        return Period.between(birthDay, LocalDate.now()).getYears();
-    }
+
 
 }
