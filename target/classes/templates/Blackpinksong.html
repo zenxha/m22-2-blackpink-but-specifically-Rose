@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{birds}" lang="en">
+
+<body><div layout:fragment="content" th:remove="tag">
+    <div class="teacher-section"style = "color: white">
+        <h1>Songs From the Creators!</h1>
+        <p>Welcome!</p>
+    </div>
+    <div class="container"style = "color: white">
+
+
+        <table class="table table-bordered">
+            <thead>
+            <tr style = "color: white">
+                <th>Creator</th>
+                <th>Song Name</th>
+                <th>Artist(s)</th>
+            </tr>
+            </thead>
+            <tbody style = "color: white">
+            <!--/*@thymesVar id="teachers" type=""*/-->
+            <th:block th:each="songcontribute: ${songcontribute}">
+                <tr>
+                    <td th:text="${songcontribute[0]}"></td>
+                    <td th:text="${songcontribute[1]}"></td>
+                    <td th:text="${songcontribute[2]}"></td>
+                </tr>
+            </th:block>
+            </tbody>
+        </table>
+    </div>
+    <footer style = "color: white">
+        <p style="text-align: center">Soongle Incorporated</p>
+    </footer>
+</body>
+</html>
+</div></body>
+
