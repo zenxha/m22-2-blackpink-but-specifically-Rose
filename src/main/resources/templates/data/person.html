@@ -5,7 +5,7 @@
       layout:decorate="~{layout}" lang="en">
 
 <head><div layout:fragment="metadata" th:remove="tag">
-    <title>Person List</title>
+    <title>Song List</title>
 </div></head>
 
 <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
@@ -13,7 +13,7 @@
     <div style="margin: 2%; color: white;">
         <div align="center">
             <h1>SQL Song List</h1>
-            <a href="/data/personcreate/">Create Person</a>
+            <a href="/data/personcreate/">Submit Song</a>
             <br/><br/>
 
             <table border="1" cellpadding="10" style="color: white">
@@ -38,7 +38,6 @@
                     <td th:text="${person.spotify}">Spotify</td>
 
                     <td>
-                        <a th:href="@{/data/personupdate/{id}(id = ${person.id})}">Update</a>
                         <a th:href="@{/data/persondelete/{id}(id = ${person.id})}">Delete</a>
                     </td>
                 </tr>
