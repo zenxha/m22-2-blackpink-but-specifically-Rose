@@ -2,12 +2,15 @@ package com.example.sping_portfolio.data.SQL;
 
 import lombok.*;
 import org.springframework.format.annotation.DateTimeFormat;
+import java.util.ArrayList;
+
 
 import javax.persistence.*;
 import javax.validation.constraints.*;
 import java.time.LocalDate;
 import java.time.Period;
 import java.time.ZoneId;
+import java.util.ArrayList;
 import java.util.Date;
 
 /*
@@ -24,6 +27,7 @@ The last annotation connect to database
 @RequiredArgsConstructor
 @Entity
 public class Person {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -54,6 +58,23 @@ public class Person {
         this.lyrics = lyrics;
         this.youtube = youtube;
         this.spotify = spotify;
+    }
+    public String getSpotifyEmbed() { // Custom getter for built spotify embed url
+        return("https://open.spotify.com/embed/track/" + spotify);
+        // 0 --> go
+    }
+    public String getSpotifyUrl() {
+        return("https://open.spotify.com/track/" + spotify);
+    }
+    public String getFormattedLyrics() {
+        return(lyrics.replace("\n", "<br>"));
+    }
+    public String getYoutubeEmbed() { // Custom getter for built youtube embed url
+        return("https://youtube.com/embed/" + youtube);
+        // 0 --> go
+    }
+    public String getYoutubeUrl() {
+        return("https://youtu.be/" + youtube);
     }
 
 
