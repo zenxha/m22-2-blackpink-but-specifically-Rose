@@ -39,12 +39,18 @@ public class SongSqlMvcController implements WebMvcConfigurer {
         model.addAttribute("list", list);
         return "data/person";
     }
-    @GetMapping("/song")
+
+    @GetMapping("/song" )
     public String displaySong(Model model) throws IOException, ParseException {
+
         List<Song> list = repository.listAll();
-        Song displaySong = list.get((int) Math.floor(Math.random() * list.size()));
-        model.addAttribute("song", displaySong);
-        return "home/song";
+        if(list.isEmpty()) return "redirect:/data/person";
+ {
+            Song displaySong = list.get((int) Math.floor(Math.random() * list.size()));
+            model.addAttribute("song", displaySong);
+            return "home/song";
+        }
+
     }
     /*  The HTML template Forms and PersonForm attributes are bound
         @return - template for person form
@@ -69,6 +75,46 @@ public class SongSqlMvcController implements WebMvcConfigurer {
         // Redirect to next step
         return "redirect:/data/person";
     }
+
+
+
+    @GetMapping("/addsongstorepository")
+    public String addSongsToRepository(Model model) throws IOException, ParseException {
+        JSONParser parser = new JSONParser();
+        Object obj = parser.parse(new FileReader("songs.json"));
+
+        JSONObject jsonObject = (JSONObject) obj;
+
+        for(Iterator iterator = jsonObject.keySet().iterator(); iterator.hasNext();) {
+            String key = (String) iterator.next();
+
+            // Song song = new Song();
+            JSONObject SongJSON = (JSONObject) jsonObject.get(key);
+            repository.save(new Song((String)SongJSON.get("trackTitle"), (String)SongJSON.get("artist"), (String)SongJSON.get("lyrics"), (String)SongJSON.get("spotify"), (String)SongJSON.get("youtube")));
+
+        }
+        return "redirect:/data/person";
+    }
+    /*
+    POST Aa record by Requesting Parameters from URI
+     */
+//    @RequestMapping(value = "/api/person/post", method = RequestMethod.POST)
+//    public ResponseEntity<Object> postPerson(@RequestParam("email") String email,
+//                                             @RequestParam("name") String name,
+//                                             @RequestParam("dob") String dobString) {
+//        Date dob;
+//        try {
+//            dob = new SimpleDateFormat("MM-dd-yyyy").parse(dobString);
+//        } catch (Exception e) {
+//            return new ResponseEntity<>(dobString +" error; try MM-dd-yyyy", HttpStatus.BAD_REQUEST);
+//        }
+//        // A person object WITHOUT ID will create a new record
+//        Person person = new Person(song, artist, lyrics, youtube, spotify);
+//        repository.save(person);
+//        return new ResponseEntity<>(email +" is created successfully", HttpStatus.CREATED);
+//    }
+
+
 
     @GetMapping("/data/personupdate/{id}")
     public String personUpdate(@PathVariable("id") int id, Model model) {
@@ -122,41 +168,4 @@ public class SongSqlMvcController implements WebMvcConfigurer {
         repository.delete(id);
         return new ResponseEntity<>( ""+ id +" deleted", HttpStatus.OK);
     }
-
-    @GetMapping("/addsongstorepository")
-    public String addSongsToRepository(Model model) throws IOException, ParseException {
-        JSONParser parser = new JSONParser();
-        Object obj = parser.parse(new FileReader("songs.json"));
-
-        JSONObject jsonObject = (JSONObject) obj;
-
-        for(Iterator iterator = jsonObject.keySet().iterator(); iterator.hasNext();) {
-            String key = (String) iterator.next();
-
-            // Song song = new Song();
-            JSONObject SongJSON = (JSONObject) jsonObject.get(key);
-            repository.save(new Song((String)SongJSON.get("trackTitle"), (String)SongJSON.get("artist"), (String)SongJSON.get("lyrics"), (String)SongJSON.get("spotify"), (String)SongJSON.get("youtube")));
-
-        }
-        return "redirect:/data/person";
-    }
-    /*
-    POST Aa record by Requesting Parameters from URI
-     */
-//    @RequestMapping(value = "/api/person/post", method = RequestMethod.POST)
-//    public ResponseEntity<Object> postPerson(@RequestParam("email") String email,
-//                                             @RequestParam("name") String name,
-//                                             @RequestParam("dob") String dobString) {
-//        Date dob;
-//        try {
-//            dob = new SimpleDateFormat("MM-dd-yyyy").parse(dobString);
-//        } catch (Exception e) {
-//            return new ResponseEntity<>(dobString +" error; try MM-dd-yyyy", HttpStatus.BAD_REQUEST);
-//        }
-//        // A person object WITHOUT ID will create a new record
-//        Person person = new Person(song, artist, lyrics, youtube, spotify);
-//        repository.save(person);
-//        return new ResponseEntity<>(email +" is created successfully", HttpStatus.CREATED);
-//    }
-
 }
