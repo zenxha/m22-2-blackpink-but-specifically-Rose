@@ -34,4 +34,5 @@ public class SongSqlRepository {
     public void delete(long id) {
         jpa.deleteById(id);
     }
+    public void deleteAll() {jpa.deleteAll();}
 }

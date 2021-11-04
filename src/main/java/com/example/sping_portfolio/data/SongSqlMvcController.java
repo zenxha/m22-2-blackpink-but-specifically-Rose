@@ -106,6 +106,12 @@ public class SongSqlMvcController implements WebMvcConfigurer {
         }
         return "redirect:/data/person";
     }
+    @GetMapping("/deleteallsongsinrepository")
+    public String deleteAllSongsInRepository(Model model) throws IOException, ParseException {
+
+        repository.deleteAll();
+        return "redirect:/data/person";
+    }
     /*
     POST Aa record by Requesting Parameters from URI
      */
