@@ -1,40 +1,16 @@
-<!DOCTYPE HTML>
-<!DOCTYPE HTML>
-<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
-      layout:decorate="~{birds}" lang="en">
-
-<body><div layout:fragment="content" th:remove="tag">
-    <div class="teacher-section"style = "color: white">
-        <h1>Songs From the Creators!</h1>
-        <p>Welcome!</p>
+<tbody>
+<div class="container mx-auto mt-4">
+    <div  th:each="songcontribute: ${songcontribute}" class="row">
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcnBQA7tnDLXrgIDgxVSsWrNQKyk5bGtlbyg&usqp=CAU" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"th:text="${songcontribute[0]}"></h5>
+                    <h6 class="card-subtitle mb-2 text-muted"th:text="${songcontribute[1]}"></h6>
+                    <p class="card-text"th:text="${songcontribute[2]}">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="container"style = "color: white">
-
-
-        <table class="table table-bordered">
-            <thead>
-            <tr style = "color: white">
-                <th>Creator</th>
-                <th>Song Name</th>
-                <th>Artist(s)</th>
-            </tr>
-            </thead>
-            <tbody style = "color: white">
-            <!--/*@thymesVar id="teachers" type=""*/-->
-            <th:block th:each="songcontribute: ${songcontribute}">
-                <tr>
-                    <td th:text="${songcontribute[0]}"></td>
-                    <td th:text="${songcontribute[1]}"></td>
-                    <td th:text="${songcontribute[2]}"></td>
-                </tr>
-            </th:block>
-            </tbody>
-        </table>
-    </div>
-    <footer style = "color: white">
-        <p style="text-align: center">Soongle Incorporated</p>
-    </footer>
-</body>
-</html>
-</div></body>
-
+</div>
+</tbody>
