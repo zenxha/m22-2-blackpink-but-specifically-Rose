@@ -39,7 +39,7 @@
             <div class="card-heading"></div>
             <div class="card-body">
               <h2 class="title">Song Info</h2>
-              <form action="#" th:action="@{/data/personcreate}" th:object="${song}" method="POST">
+              <form action="#" th:action="@{/data/addsong}" th:object="${song}" method="POST">
                 <div class="input-group">
                   <input class="input--style-3" type="text" placeholder="Song Title" th:field="*{trackName}">
                 </div>

@@ -32,19 +32,19 @@ public class SongSqlMvcController implements WebMvcConfigurer {
     @Autowired
     private SongSqlRepository repository;
 
-    @GetMapping("/data/person")
+    @GetMapping("/data/songs")
     public String person(Model model) throws IOException, ParseException {
         List<Song> list = repository.listAll();
 
         model.addAttribute("list", list);
-        return "data/person";
+        return "data/songs";
     }
 
     @GetMapping("/song" )
     public String displaySong(Model model) throws IOException, ParseException {
 
         List<Song> list = repository.listAll();
-        if(list.isEmpty()) return "redirect:/data/person";
+        if(list.isEmpty()) return "redirect:/data/songs";
 
             Song displaySong = list.get((int) Math.floor(Math.random() * list.size()));
             model.addAttribute("song", displaySong);
@@ -57,7 +57,7 @@ public class SongSqlMvcController implements WebMvcConfigurer {
     public String displaySong(@PathVariable("id") int id, Model model) throws IOException, ParseException {
 
         List<Song> list = repository.listAll();
-        if(list.isEmpty()) return "redirect:/data/person";
+        if(list.isEmpty()) return "redirect:/data/songs";
 
         Song displaySong = repository.get(id);
         model.addAttribute("song", displaySong);
@@ -67,24 +67,24 @@ public class SongSqlMvcController implements WebMvcConfigurer {
     }
 
 
-    @GetMapping("/data/personcreate")
-    public String personAdd(Song song) {
-        return "data/personcreate";
+    @GetMapping("/data/addsong")
+    public String addSong(Song song) {
+        return "data/songs";
     }
 
     /* Gathers the attributes filled out in the form, tests for and retrieves validation error
     @param - Person object with @Valid
     @param - BindingResult object
      */
-    @PostMapping("/data/personcreate")
-    public String personSave(@Valid Song song, BindingResult bindingResult) {
+    @PostMapping("/data/addsong")
+    public String saveSong(@Valid Song song, BindingResult bindingResult) {
         // Validation of Decorated PersonForm attributes
         if (bindingResult.hasErrors()) {
             return "data/personcreate";
         }
         repository.save(song);
         // Redirect to next step
-        return "redirect:/data/person";
+        return "redirect:/data/songs";
     }
 
 
@@ -104,13 +104,13 @@ public class SongSqlMvcController implements WebMvcConfigurer {
             repository.save(new Song((String)SongJSON.get("trackTitle"), (String)SongJSON.get("artist"), (String)SongJSON.get("lyrics"), (String)SongJSON.get("spotify"), (String)SongJSON.get("youtube")));
 
         }
-        return "redirect:/data/person";
+        return "redirect:/data/songs";
     }
     @GetMapping("/deleteallsongsinrepository")
     public String deleteAllSongsInRepository(Model model) throws IOException, ParseException {
 
         repository.deleteAll();
-        return "redirect:/data/person";
+        return "redirect:/data/songs";
     }
     /*
     POST Aa record by Requesting Parameters from URI
