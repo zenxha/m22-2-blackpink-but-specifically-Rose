@@ -33,16 +33,19 @@ public class Person {
     private Long id;
 
     @NotEmpty
-    private String song;
+    private String trackName;
 
     /*
     @NonNull: Places this in @RequiredArgsConstructor
     @Size(min=2, max=30): Allows names between 2 and 30 characters long.
      */
+
     @NonNull
+    @Size(min=1, max = 10000)
     private String artist;
 
     @NonNull
+    @Column( length = 100000 )
     private String lyrics;
 
     @NonNull
@@ -52,8 +55,8 @@ public class Person {
     private String spotify;
 
     /* Initializer used when setting data from an API */
-    public Person(String song, String artist, String lyrics, String youtube, String spotify) {
-        this.song = song;
+    public Person(String trackName, String artist, String lyrics, String youtube, String spotify) {
+        this.trackName = trackName;
         this.artist = artist;
         this.lyrics = lyrics;
         this.youtube = youtube;
@@ -65,6 +68,9 @@ public class Person {
     }
     public String getSpotifyUrl() {
         return("https://open.spotify.com/track/" + spotify);
+    }
+    public String getGoogle() {
+        return("https://google.com/search?q=" + trackName+ "+" + artist.replace(" ", "+"));
     }
     public String getFormattedLyrics() {
         return(lyrics.replace("\n", "<br>"));

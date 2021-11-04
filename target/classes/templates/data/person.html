@@ -13,7 +13,8 @@
     <div style="margin: 2%; color: white;">
         <div align="center">
             <h1>SQL Song List</h1>
-            <a href="/data/personcreate/">Submit Song</a>
+            <a href="/data/personcreate/">Submit Song</a> <p>  || </p>
+            <a href="/addsongstorepository">Mass add preset songs</a>
             <br/><br/>
 
             <table border="1" cellpadding="10" style="color: white">
@@ -31,11 +32,11 @@
                 <tbody>
                 <tr th:each="person : ${list}">
                     <td th:text="${person.id}">ID</td>
-                    <td th:text="${person.song}">Song</td>
+                    <td th:text="${person.trackName}">Song</td>
                     <td th:text="${person.artist}">Artist</td>
                     <td th:text="${person.lyrics}">Lyrics</td>
                     <td th:text="${person.youtube}">Youtube</td>
-                    <td th:text="${person.spotify}">Spotify</td>
+                    <td th:text="${person.getSpotifyUrl}">Spotify</td>
 
                     <td>
                         <a th:href="@{/data/persondelete/{id}(id = ${person.id})}">Delete</a>
@@ -46,6 +47,12 @@
 
         </div>
     </div>
+
 </div></body>
 
 </html>
+<style>
+    body {
+        overflow-y: scroll; /* Show vertical scrollbar */
+    }
+</style>

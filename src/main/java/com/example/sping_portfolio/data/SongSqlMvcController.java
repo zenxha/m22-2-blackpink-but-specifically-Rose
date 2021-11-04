@@ -1,6 +1,9 @@
 package com.example.sping_portfolio.data;
 
 import com.example.sping_portfolio.data.SQL.*;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -10,33 +13,45 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import javax.validation.Valid;
+import java.io.FileReader;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Iterator;
 import java.util.List;
 
 // Built using article: https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/mvc.html
 // or similar: https://asbnotebook.com/2020/04/11/spring-boot-thymeleaf-form-validation-example/
 @Controller
-public class PersonSqlMvcController implements WebMvcConfigurer {
+public class SongSqlMvcController implements WebMvcConfigurer {
 
     // Autowired enables Control to connect HTML and POJO Object to Database easily for CRUD
     @Autowired
-    private PersonSqlRepository repository;
+    private SongSqlRepository repository;
 
     @GetMapping("/data/person")
-    public String person(Model model) {
-        List<Person> list = repository.listAll();
+    public String person(Model model) throws IOException, ParseException {
+        List<Song> list = repository.listAll();
+
         model.addAttribute("list", list);
         return "data/person";
     }
-
+    @GetMapping("/song")
+    public String displaySong(Model model) throws IOException, ParseException {
+        List<Song> list = repository.listAll();
+        Song displaySong = list.get((int) Math.floor(Math.random() * list.size()));
+        model.addAttribute("song", displaySong);
+        return "home/song";
+    }
     /*  The HTML template Forms and PersonForm attributes are bound
         @return - template for person form
         @param - Person Class
     */
     @GetMapping("/data/personcreate")
-    public String personAdd(Person person) {
+    public String personAdd(Song song) {
         return "data/personcreate";
     }
 
@@ -45,12 +60,12 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
     @param - BindingResult object
      */
     @PostMapping("/data/personcreate")
-    public String personSave(@Valid Person person, BindingResult bindingResult) {
+    public String personSave(@Valid Song song, BindingResult bindingResult) {
         // Validation of Decorated PersonForm attributes
         if (bindingResult.hasErrors()) {
             return "data/personcreate";
         }
-        repository.save(person);
+        repository.save(song);
         // Redirect to next step
         return "redirect:/data/person";
     }
@@ -62,12 +77,12 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
     }
 
     @PostMapping("/data/personupdate")
-    public String personUpdateSave(@Valid Person person, BindingResult bindingResult) {
+    public String personUpdateSave(@Valid Song song, BindingResult bindingResult) {
         // Validation of Decorated PersonForm attributes
         if (bindingResult.hasErrors()) {
             return "data/personupdate";
         }
-        repository.save(person);
+        repository.save(song);
         // Redirect to next step
         return "redirect:/data/person";
     }
@@ -87,7 +102,7 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
     GET List of People
      */
     @RequestMapping(value = "/api/people/get")
-    public ResponseEntity<List<Person>> getPeople() {
+    public ResponseEntity<List<Song>> getPeople() {
         return new ResponseEntity<>( repository.listAll(), HttpStatus.OK);
     }
 
@@ -95,7 +110,7 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
     GET individual Person using ID
      */
     @RequestMapping(value = "/api/person/get/{id}")
-    public ResponseEntity<Person> getPerson(@PathVariable long id) {
+    public ResponseEntity<Song> getPerson(@PathVariable long id) {
         return new ResponseEntity<>( repository.get(id), HttpStatus.OK);
     }
 
@@ -108,7 +123,23 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
         return new ResponseEntity<>( ""+ id +" deleted", HttpStatus.OK);
     }
 
+    @GetMapping("/addsongstorepository")
+    public String addSongsToRepository(Model model) throws IOException, ParseException {
+        JSONParser parser = new JSONParser();
+        Object obj = parser.parse(new FileReader("songs.json"));
 
+        JSONObject jsonObject = (JSONObject) obj;
+
+        for(Iterator iterator = jsonObject.keySet().iterator(); iterator.hasNext();) {
+            String key = (String) iterator.next();
+
+            // Song song = new Song();
+            JSONObject SongJSON = (JSONObject) jsonObject.get(key);
+            repository.save(new Song((String)SongJSON.get("trackTitle"), (String)SongJSON.get("artist"), (String)SongJSON.get("lyrics"), (String)SongJSON.get("spotify"), (String)SongJSON.get("youtube")));
+
+        }
+        return "redirect:/data/person";
+    }
     /*
     POST Aa record by Requesting Parameters from URI
      */

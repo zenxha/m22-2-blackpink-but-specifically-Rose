@@ -3,7 +3,7 @@ package com.example.sping_portfolio.data.SQL;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
+import com.example.sping_portfolio.data.Song;
 import java.util.List;
 
 /*
@@ -14,20 +14,20 @@ This class has an instance of Java Persistence API (JPA)
 */
 @Service
 @Transactional
-public class PersonSqlRepository {
+public class SongSqlRepository {
 
     @Autowired
-    private PersonJpaRepository jpa;
+    private SongJpaRepository jpa;
 
-    public  List<Person>listAll() {
+    public  List<Song>listAll() {
         return jpa.findAll();
     }
 
-    public void save(Person person) {
-        jpa.save(person);
+    public void save(Song song) {
+        jpa.save(song);
     }
 
-    public Person get(long id) {
+    public Song get(long id) {
         return jpa.findById(id).get();
     }
 

@@ -27,7 +27,7 @@
                 </div>
                 <div class="col">
                     <h1 class="display-4">Song Data</h1>
-                    <div class="social-buttons mt-5"> <button  class="neo-button"><i class="fa fa-google a-1x"></i> </button> <a th:attr="href=${song.getSpotifyUrl}" class="neo-button"><i class="fa fa-spotify fa-1x"></i></a>  <a th:href="${song.getYoutubeUrl}" class="neo-button"><i class="fa fa-youtube fa-1x"></i> </a> </div>
+                    <div class="social-buttons mt-5"> <a th:href="${song.getGoogle()}" class="neo-button"><i class="fa fa-google a-1x"></i> </a> <a th:attr="href=${song.getSpotifyUrl()}" class="neo-button"><i class="fa fa-spotify fa-1x"></i></a>  <a th:href="${song.getYoutubeUrl()}" class="neo-button"><i class="fa fa-youtube fa-1x"></i> </a> </div>
                     <hr class="my-4">
                     <!-- 16:9 aspect ratio -->
                     <div class="embed-responsive embed-responsive-16by9">
@@ -53,12 +53,12 @@
             crossorigin="anonymous"></script>
     <script th:inline="javascript">
         const change = () => {
-            document.getElementById("lyrics").innerHTML = [[${song.getFormattedLyrics}]];
+            document.getElementById("lyrics").innerHTML = [[${song.getFormattedLyrics()}]];
         }
         let counter = 0
         const precede = []
         const newLine = () => {
-            const lyricsArray = [[${song.getFormattedLyrics}]].split("<br>")
+            const lyricsArray = [[${song.getFormattedLyrics()}]].split("<br>")
 
             if(counter+1>lyricsArray.length) {
                 document.getElementById("lyrics").innerHTML = "That's the end of the song!"

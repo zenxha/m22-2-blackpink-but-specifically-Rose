@@ -13,7 +13,7 @@ import java.util.*;
 
 @Controller
 public class songController {
-    @GetMapping("/song")
+    @GetMapping("/songold")
     public String song(Model model) throws IOException, ParseException {
         //String web_server = "http://localhost:8080/";
 
