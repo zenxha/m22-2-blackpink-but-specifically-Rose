@@ -45,17 +45,28 @@ public class SongSqlMvcController implements WebMvcConfigurer {
 
         List<Song> list = repository.listAll();
         if(list.isEmpty()) return "redirect:/data/person";
- {
+
             Song displaySong = list.get((int) Math.floor(Math.random() * list.size()));
             model.addAttribute("song", displaySong);
             return "home/song";
-        }
+
 
     }
-    /*  The HTML template Forms and PersonForm attributes are bound
-        @return - template for person form
-        @param - Person Class
-    */
+
+    @GetMapping("/songbyid/{id}" )
+    public String displaySong(@PathVariable("id") int id, Model model) throws IOException, ParseException {
+
+        List<Song> list = repository.listAll();
+        if(list.isEmpty()) return "redirect:/data/person";
+
+        Song displaySong = repository.get(id);
+        model.addAttribute("song", displaySong);
+        return "home/song";
+
+
+    }
+
+
     @GetMapping("/data/personcreate")
     public String personAdd(Song song) {
         return "data/personcreate";
