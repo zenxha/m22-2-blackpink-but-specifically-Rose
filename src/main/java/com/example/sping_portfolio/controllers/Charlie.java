@@ -7,6 +7,8 @@ package com.example.sping_portfolio.controllers;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class Charlie {
@@ -41,6 +43,18 @@ public class Charlie {
 
         model.addAttribute("songcontribute", songcontribute);
         return "Blackpinksong"; // returns HTML VIEW (greeting)
+    }
+    
+    @RequestMapping(value = "admin", method = {RequestMethod.GET, RequestMethod.POST})
+    public String admin(@RequestParam(name = "password", required = true, defaultValue = "") String password) {
+        // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
+        System.out.println(password);
+        if (password.equals("monka")) {
+            return "home/songinput";
+        } else {
+            return "home/admin";
+        }
+
     }
 }
 
