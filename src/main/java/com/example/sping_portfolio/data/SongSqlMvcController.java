@@ -69,7 +69,7 @@ public class SongSqlMvcController implements WebMvcConfigurer {
 
     @GetMapping("/data/addsong")
     public String addSong(Song song) {
-        return "data/songs";
+        return "data/personcreate";
     }
 
     /* Gathers the attributes filled out in the form, tests for and retrieves validation error
@@ -80,7 +80,7 @@ public class SongSqlMvcController implements WebMvcConfigurer {
     public String saveSong(@Valid Song song, BindingResult bindingResult) {
         // Validation of Decorated PersonForm attributes
         if (bindingResult.hasErrors()) {
-            return "data/personcreate";
+            return "data/songs";
         }
         repository.save(song);
         // Redirect to next step
