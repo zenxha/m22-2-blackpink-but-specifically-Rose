@@ -17,7 +17,7 @@
 Project is a song browser, in which the user uploads their song requests and the website will deliver the lyrics to the piece as well as links to a youtube video, the spotify song, and a google search link of the song. Project will also serve as a means of storing our notes from college board and keeping up with the AP review
 ### How to Add Songs!
 Check out the Song Input page on the navbar, where you can add your favorite songs onto our database and a chance at seeing it displayed on the big jumbotron in the Song page!
-
+![alt text](https://cdn.discordapp.com/attachments/593331093130838016/905709835507601418/unknown.png)
 # Project History
 ## Individual Final Review
 ### Link to [Scrum Team Videos](https://github.com/zenxha/m22-2-blackpink-but-specifically-Rose/issues/39)
