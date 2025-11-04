@@ -1,4 +1,4 @@
-<img width="288" height="175" alt="image" src="https://github.com/user-attachments/assets/46fcc90e-319b-4aa1-98b8-82fcdff10b91" />
+<img width="1581" height="1054" alt="image" src="https://github.com/user-attachments/assets/5e7ed59b-da7e-4bd0-aa2a-1202157c6fe9" />
 
 # m22-2-blackpink-but-specifically-Rose
 ### Overview
