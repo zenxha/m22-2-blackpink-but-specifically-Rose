@@ -43,7 +43,7 @@ Check out the Song Input page on the navbar, where you can add your favorite son
 ## WEEK 4 Prototype Sprint End + Unit 4 
 ### [Video Overview](https://youtu.be/Vm8A72i6XSs)
 ### Individual Scores
-- Charlie 9.5/10
+- Charlie 10/10
 - Tanmay 10/10
 - Komay 10/10
 - Allen 10/10
